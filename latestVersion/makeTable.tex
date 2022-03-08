@@ -1,0 +1,82 @@
+\documentclass[aps, prx, onecolumn, superscriptaddress, notitlepage, longbibliography, floatfix]{revtex4-2}
+
+%some standard packages
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+
+%some less standard packages
+\usepackage{stix}			%for a ``fancy'' font
+\usepackage{siunitx}			%for numbers with units
+\usepackage{booktabs}		%for nice tables
+\newcounter{rowcount}		%for table row indexes
+\usepackage[table]{xcolor}	%for alternating row colors
+
+
+\rowcolors{2}{white}{gray!25}	%for alternating row colors
+\newcounter{subtable}		%the subtable counter
+
+%some unicode&iso conversions might be needed; in that case, uncomment
+%\ifdefined\DeclareUnicodeCharacter
+%  \DeclareUnicodeCharacter{2219}{$\cdot$}
+%    \DeclareUnicodeCharacter{2212}{$-$}
+%   \DeclareUnicodeCharacter{22C5}{$\cdot$}
+%    \DeclareUnicodeCharacter{03BC}{$\mu$} 
+%\fi
+
+
+%the text in captions might use these definitions; the table body does not use them
+\newcommand{\estimated}{\textit{(estimated) }}
+\newcommand{\derived}{\textit{(derived) }}
+\newcommand{\TRabi}{T_2^\mathrm{Rabi}}
+\newcommand{\TEcho}{T_2^\mathrm{Echo}}
+\newcommand{\TDynD}{T_2^\mathrm{DynD}}
+
+
+
+\begin{document}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%set the counters 'table' and 'subtable' to the desired values			%
+\setcounter{table}{1} 						%<--- AMEND HERE	%
+\setcounter{subtable}{1}					%<--- AMEND HERE	%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\addtocounter{table}{-1} 
+\renewcommand\thetable{\Roman{table}-\arabic{subtable}}
+%PLACEHOLDER
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%choose the input file by setting the table and subtable counters' values	%
+%the format is: 												%
+%\input{Table-tableNumber-subtableNumber.txt}					%
+\input{Table-I-1.txt}						%<--- AMEND HERE	%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%choose the desired format for the bibliography					%
+%by commenting / uncommenting the settings below	, or use your own	%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%to include all (even not cited) references uncomment the following line	%
+%\nocite{*}					<--- used in review				%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%choose a bibliography style; for documentation, see				% 
+%https://www.overleaf.com/learn/latex/Bibtex_bibliography_styles		%
+%\bibliographystyle{abbrv}		<--- used in review				%	
+\bibliographystyle{unsrtnat}									%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bibliography{spinReview-bibtex-Western.1.bib, spinReviewAdditional-bibtex-Western.2.bib}
+
+
+\end{document}
+

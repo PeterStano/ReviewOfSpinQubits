@@ -1,0 +1,24 @@
+\setcounter{rowcount}{-1}
+\begin{table}
+\begin{tabular}{@{}S[round-mode=places, round-precision=1, round-pad = false, table-alignment-mode = marker, table-number-alignment = center, table-align-text-after=false ]ccccccc@{ \stepcounter{rowcount} \tiny \therowcount }}
+\toprule
+{Quality factor} & {\#Qubits} & {Qubit} & {Material} & {Host} & {Date} & {Reference} & {Source}\\
+\midrule
+17\textsuperscript{a} & 1Q & LD/e\textsuperscript{b} & $\text{Si/}\text{SiO}_2$ & 2D & 2020-12 & \onlinecite{leon_coherent_2020} & {SM} Fig. 4c\\
+9.1\textsuperscript{c} & 1Q & LD/h & Ge/Si & 1D & 2018-12 & \onlinecite{watzinger_germanium_2018} & p4\\
+44\textsuperscript{d} & 1Q & LD/h & Ge/Si & 1D & 2020-06 & \onlinecite{wang_ultrafast_2020} & p11\\
+19\textsuperscript{e} & 1Q & LD/h\textsuperscript{f} & $\text{Si/}\text{SiO}_2$ & 1D & 2021-03 & \onlinecite{camenzind_spin_2021} & {SM} Fig. S11\\
+6\textsuperscript{g} & 1Q & ST/e & GaAs/AlGaAs & 2D & 2013-04 & \onlinecite{dial_charge_2013} & p3\\
+15\textsuperscript{h} & 1Q & ST/e & GaAs/AlGaAs & 2D & 2014-01 & \onlinecite{higginbotham_coherent_2014} & abstract and Fig. 4a\\
+14\textsuperscript{a} & 1Q & ST/e & GaAs/AlGaAs & 2D & 2020-12 & \onlinecite{jang_robust_2020} & p4\\
+20 & 1Q & ST/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2021-02 & \onlinecite{jock_silicon_2021} & p4 and Fig. 2g the rightmost point\\
+52 & 1Q & ST/h & Ge/SiGe & 2D & 2021-08 & \onlinecite{jirovec_singlet-triplet_2021} & p4 and {SM} Fig. 15c\\
+200\textsuperscript{i} & 2Q & LD/e & $\text{Si/}\text{SiO}_2$ & 2D & 2021-12 & \onlinecite{leon_bell-state_2021} & Fig. 2j the rightmost point\\
+19\textsuperscript{j} & 2Q & ST/e & GaAs/AlGaAs & 2D & 2018-12 & \onlinecite{noiri_fast_2018} & p4\\
+\bottomrule
+\end{tabular}
+\caption{Quality factors (qubit). Superscripts stand for the following. \textsuperscript{a}: The reference defines $Q=T_2^*/T_\mathrm{op}$. To convert to our definition, we divide by 2. \textsuperscript{b}: In a five-electron dot configuration. \textsuperscript{c}: The reference defines "the ratio $T_2^* / T_\mathrm{op}$", without using the term "quality factor" explicitly. To convert to our definition, we divide by 2 and use $f_\mathrm{R}=70$ {MHz} and $T_2^*=130$ ns. \textsuperscript{d}: \derived the reference defines $Q=2f_\mathrm{R} T_2^*$. To convert to our definition, we divide by 2 and use $f_\mathrm{R}=542$ {MHz} and $T_2^*=82$ ns. \textsuperscript{e}: The reference defines $Q^*=2 f_R T_2^*$ and reports up to $Q^*=37.6$ \estimated as the rightmost blue point in Fig.~S11. To convert to our definition, we divide by 2. \textsuperscript{f}: At 1.5 kelvin. \textsuperscript{g}: The reference defines $Q=\TEcho J/2\pi \hbar$, giving the maximal value $Q=600$ for $\TEcho = 9$ \unit{\micro\second}. Converting to our definition results in the quality factor at least hundred times smaller, since the maximal $T_2^*$ was 90 ns, see Fig. 4b. \textsuperscript{h}: The reference defines $Q=[J/2\pi \hbar]/\Gamma_\Sigma$ with $J/2\pi \hbar \approx 1.5$ {GHz} and $\Gamma_\Sigma \approx$ 100 {MHz} from Fig. 3d. \textsuperscript{i}: The reference defines $Q=J T_2^\mathrm{{CZ}}$, with $T_2^\mathrm{{CZ}}$ the decay time of the controlled-Z two-qubit gate. \textsuperscript{j}: The reference defines $Q=2J T_2^*/h$. To convert to our definition, we divide by 2.
+\label{qualityFactor}
+}
+\end{table}
+

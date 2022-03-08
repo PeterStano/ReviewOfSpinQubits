@@ -1,0 +1,42 @@
+\setcounter{rowcount}{-1}
+\begin{table}
+\begin{tabular}{@{}ccccccc@{ \stepcounter{rowcount} \tiny \therowcount }}
+\toprule
+{Dimensions} & {Functionality} & {Qubit} & {Material} & {Host} & {Date} & {Reference}\\
+\midrule
+$5$ & device & LD/e & Si/SiGe & 2D & 2020-02 & \onlinecite{lawrie_quantum_2020}\\
+$8$ & device & LD/e & GaAs/AlGaAs & 2D & 2019-12 & \onlinecite{volk_loading_2019}\\
+$9$ & device & LD/e & Si/SiGe & 2D & 2016-11 & \onlinecite{zajac_scalable_2016}\\
+$9$ & device & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2019-12 & \onlinecite{mills_shuttling_2019}\\
+$2 \times 2$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2020-03 & \onlinecite{dehollain_nagaoka_2020}\\
+$2$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2011-09 & \onlinecite{brunner_two-qubit_2011}\\
+$2$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2011-09 & \onlinecite{nowack_single-shot_2011}\\
+$2$ & simulator & ST/e & GaAs/AlGaAs & 2D & 2012-04 & \onlinecite{shulman_demonstration_2012}\\
+$2$ & simulator & ST/e & GaAs/AlGaAs & 2D & 2019-12 & \onlinecite{malinowski_fast_2019}\\
+$3$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2016-10 & \onlinecite{baart_coherent_2016}\\
+$3$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2018-12 & \onlinecite{noiri_fast_2018}\\
+$3$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2019-06 & \onlinecite{nakajima_quantum_2019}\\
+$3$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2020-03 & \onlinecite{nakajima_coherence_2020}\\
+$3$ & simulator & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2015-05 & \onlinecite{eng_isotopically_2015}\\
+$4$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2019-09 & \onlinecite{kandel_coherent_2019}\\
+$4$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2020-07 & \onlinecite{qiao_coherent_2020}\\
+$4$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2020-12 & \onlinecite{qiao_conditional_2020}\\
+$4$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2021-01 & \onlinecite{qiao_long-distance_2021}\\
+$4$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2021-11 & \onlinecite{van_diepen_quantum_2021}\\
+$4$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2021-12 & \onlinecite{kandel_adiabatic_2021}\\
+$4$ & simulator & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2019-06 & \onlinecite{sigillito_site-selective_2019}\\
+$2 \times 2$ & processor & LD/h & Ge/SiGe & 2D & 2021-03 & \onlinecite{hendrickx_four-qubit_2021}\\
+$2$ & processor & LD/e & Si/SiGe & 2D & 2018-01 & \onlinecite{zajac_resonantly_2018}\\
+$2$ & processor & LD/e & Si/SiGe & 2D & 2018-02 & \onlinecite{watson_programmable_2018}\\
+$2$ & processor & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2021-11 & \onlinecite{mills_two-qubit_2021}\\
+$2$ & processor & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2015-10 & \onlinecite{veldhorst_two-qubit_2015}\\
+$2$ & processor & LD/e & $\text{Si/}\text{SiO}_2$ & 2D & 2021-12 & \onlinecite{leon_bell-state_2021}\\
+$2$ & processor & LD/h & Ge/SiGe & 2D & 2020-01 & \onlinecite{hendrickx_fast_2020}\\
+$3$ & processor & LD/e & Si/SiGe & 2D & 2021-06 & \onlinecite{takeda_quantum_2021}\\
+\bottomrule
+\end{tabular}
+\caption{Qubit arrays (part 2).
+\label{qubitArray2}
+}
+\end{table}
+
