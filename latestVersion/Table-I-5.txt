@@ -12,7 +12,7 @@
 6.8 & \unit{\micro\second} & $T_2^*$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2021-03 & \onlinecite{kerckhoff_magnetic_2021} & Fig. 6 the blue point\\
 1.7 & \unit{\micro\second} & $T_2^*$ & LD/e & Si/SiGe & 2D & 2021-06 & \onlinecite{takeda_quantum_2021} & p1 for Q3\\
 0.12 & \unit{\micro\second}\textsuperscript{c} & $T_2^*$ & LD/e & GaAs/AlGaAs & 2D & 2021-08 & \onlinecite{mortemousque_enhanced_2021} & Fig. 5f the topmost point\\
-54 & \unit{\nano\second}\textsuperscript{d} & $T_2^*$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2021-08 & \onlinecite{harvey-collard_circuit_2021} & p2\\
+27 & \unit{\nano\second}\textsuperscript{d} & $T_2^*$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2021-08 & \onlinecite{harvey-collard_circuit_2021} & p3\\
 2 & \unit{\micro\second}\textsuperscript{e} & $T_2^*$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2021-11 & \onlinecite{mills_two-qubit_2021} & p1\\
 20 & \unit{\micro\second} & $T_2^*$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-01 & \onlinecite{xue_quantum_2022} & Fig. 3c\\
 7.4 & \unit{\micro\second} & $T_2^*$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-01 & \onlinecite{noiri_fast_2022} & {ED} Fig.2f the topmost trace\\
@@ -56,7 +56,7 @@
 80 & \unit{\nano\second}\textsuperscript{m} & $T_2^*$ & ST/e & GaAs/AlGaAs & 2D & 2015-08 & \onlinecite{bertrand_quantum_2015} & Fig. 4d\\
 \bottomrule
 \end{tabular}
-\caption{Spin coherence times (part 5). Superscripts stand for the following. \textsuperscript{a}: At 1 kelvin. \textsuperscript{b}: In a five-electron dot configuration. \textsuperscript{c}: The value of the point, 118 ns, is from T. Meunier, private communication. \textsuperscript{d}: From linewidth. \textsuperscript{e}: The average of the figure of merit for the two qubits measured. \textsuperscript{f}: From Landau-Zener interference. \textsuperscript{g}: At 1.5 kelvin. \textsuperscript{h}: We take the value for qubit 3 at 0.6 tesla. \textsuperscript{i}: Qubit defined in the rotating frame. \textsuperscript{j}: Carbon nanotube made from $^{13}$C isotope. \textsuperscript{k}: Without feedback. \textsuperscript{l}: With feedback. \textsuperscript{m}: \estimated from Fig. 4d.
+\caption{Spin coherence times (part 5). Superscripts stand for the following. \textsuperscript{a}: At 1 kelvin. \textsuperscript{b}: In a five-electron dot configuration. \textsuperscript{c}: The value of the point, 118 ns, is from T. Meunier, private communication. \textsuperscript{d}: From $f_\mathrm{FWHM} = 11.7$ {MHz}. \textsuperscript{e}: The average of the figure of merit for the two qubits measured. \textsuperscript{f}: From Landau-Zener interference. \textsuperscript{g}: At 1.5 kelvin. \textsuperscript{h}: We take the value for qubit 3 at 0.6 tesla. \textsuperscript{i}: Qubit defined in the rotating frame. \textsuperscript{j}: Carbon nanotube made from $^{13}$C isotope. \textsuperscript{k}: Without feedback. \textsuperscript{l}: With feedback. \textsuperscript{m}: \estimated from Fig. 4d.
 \label{spinCoherence5}
 }
 \end{table}
