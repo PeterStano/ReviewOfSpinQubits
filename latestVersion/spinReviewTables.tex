@@ -1,0 +1,870 @@
+\documentclass[aps, prx, showpacs, twocolumn, superscriptaddress, notitlepage, longbibliography, floatfix, nofootinbib]{revtex4-2}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{multirow}
+\usepackage[T1]{fontenc}
+
+\usepackage{stix}
+
+
+\usepackage[section]{placeins}
+
+\usepackage[table, dvipsnames]{xcolor}
+\definecolor{mygray}{gray}{0.7}
+
+\usepackage{dcolumn}
+
+\usepackage{siunitx}
+
+\usepackage{booktabs}
+
+\usepackage{enumitem}
+
+
+
+\ifdefined\DeclareUnicodeCharacter
+  \DeclareUnicodeCharacter{2219}{$\cdot$}
+    \DeclareUnicodeCharacter{2212}{$-$}
+   \DeclareUnicodeCharacter{22C5}{$\cdot$}
+    \DeclareUnicodeCharacter{03BC}{$\mu$} 
+\fi
+
+\makeatletter
+\newcommand*\labelcounter[2]{\begingroup
+  \protected@edef\@currentlabel{\csname p@#1\endcsname\csname the#1\endcsname}%
+  \label{#2}\endgroup}
+\newcommand*\refsetcounter[2]{\setcounter{#1}{#2}%
+  \protected@edef\@currentlabel{\csname p@#1\endcsname\csname the#1\endcsname}%
+  }
+\makeatother
+
+
+\newcommand{\mySection}[1]{\noindent \begin{center} \textbf{#1} \end{center} \noindent}
+\newcommand{\myKeyword}[1]{\noindent \textbf{#1}\\\noindent}
+
+\newcommand{\estimated}{\textit{(estimated) }}
+\newcommand{\derived}{\textit{(derived) }}
+
+\newcommand{\TRabi}{T_2^\mathrm{Rabi}}
+\newcommand{\TEcho}{T_2^\mathrm{Echo}}
+\newcommand{\TDynD}{T_2^\mathrm{DynD}}
+
+
+\newif\ifIncremental
+\newif\ifFirstTableOnly
+
+\Incrementalfalse
+
+\ifIncremental %
+
+\FirstTableOnlytrue
+\graphicspath{{./figuresAndTables/Added/}{./figuresAndTables/}} %
+\makeatletter
+\def\input@path{{./figuresAndTables/Added/}}
+\makeatother
+
+\else %
+\FirstTableOnlyfalse
+\graphicspath{{./figuresAndTables/}}
+\makeatletter
+\def\input@path{{./figuresAndTables/}}
+\makeatother
+
+\fi
+
+
+
+
+
+
+
+
+
+\newcommand{\myKey}[1]{$\whitearrowupfrombar$\textit{#1}}
+\renewcommand{\myKey}[1]{\textit{#1}}
+\renewcommand{\myKey}[1]{`{#1}'}
+
+
+\newcommand{\key}[1]{$\whitearrowupfrombar$\textit{#1}}
+\newcommand{\val}[1]{\rotatebox[origin=c]{180}{$\whitearrowupfrombar$}\textit{#1}}
+\renewcommand{\key}[1]{\myKey{#1}}
+\renewcommand{\val}[1]{\myKey{#1}}
+
+\newcommand{\recheck}[1]{{#1}}
+
+\newcommand{\separate}[1]
+{
+ #1
+}
+
+\newcounter{rowcount}
+
+
+
+
+
+\begin{document}
+\title{
+Review of performance metrics of spin qubits in gated semiconducting nanostructures
+}
+\author{Peter Stano}
+\affiliation{RIKEN Center for Emergent Matter Science (CEMS), Wako, Saitama 351-0198, Japan}
+\author{Daniel Loss}
+\affiliation{RIKEN Center for Emergent Matter Science (CEMS), Wako, Saitama 351-0198, Japan}
+\affiliation{RIKEN Center for Quantum Computing (RQC), Wako, Saitama 351-0198, Japan}
+\affiliation{Department of Physics, University of Basel, Klingelbergstrasse 82, CH-4056 Basel, Switzerland}
+\date{\today}
+\begin{abstract}
+This Technical Review collects values of selected performance characteristics of semiconductor spin qubits defined in electrically controlled nanostructures. The characteristics are envisioned to serve as a community source for the values of figures of merit with agreed-on definitions allowing the comparison of different spin qubit platforms. We include characteristics on the qubit coherence, speed, fidelity, and the qubit-size of multi-qubit devices. The focus is on collecting and curating the values of these characteristics as reported in the literature, rather than on their motivation or significance. 
+\end{abstract}
+
+\hypersetup{pageanchor=false}
+\maketitle
+\hypersetup{pageanchor=true}
+
+
+
+
+\section{Scope, format, and aim of this review}
+Spin qubits are among platforms pursued to serve as quantum computing hardware. In this Technical Review we focus on spin qubits hosted in semiconducting nanostructures controlled and probed electrically. Their prospect for scalability stems from their compatibility with modern silicon industrial fabrication. Even restricted to gated nanostructures, the field of spin qubits is vast. There is a host of variants on the sample material and structure, device design, or qubit encoding. Although this versatility in the qubit types is beneficial for overcoming possible roadblocks, it also makes comparison of different spin qubits difficult. The main motivation for this Technical Review is to provide a basis for such a comparison and for an assessment of the progress of various spin-qubit types over time. We believe that for such tasks, a reliable database of figures of merit normalized to common definitions is of primary importance, and this is what we provide here.
+
+The restriction to gated nanostructures suggests what is not covered in this Technical Review. We do not include other than solid-state qubits; within the solid-state, we do not include superconducting qubits and qubits based on optically-accessed impurities and self-assembled dots. We also skip qubits based on the spin of atomic nuclei, that is, hyperfine-spin qubits. Even though spin-related, we sacrifice these possible extensions to keep the review manageable in length and in the time of preparation. However, we include some characteristics of charge qubits, that is qubits with states encoded into the charge degree of freedom of a confined particle. One reason is that often the experimental devices are identical for both spin and charge qubit experiments. Another reason is that there are configurations where the spin and charge degrees of freedom are hybridized and tunable. With the character continuously tunable from fully spin- to fully charge-like, it would be difficult to decide objectively which cases to include and which ones not. Finally, we point out that this Technical Review is not meant as an overview of the physics of spin qubits, such as principles of their operation and measurements, the decoherence channels, and so on. The reader interested in these aspects can consult, for example, Refs.~\cite{oosterkamp_photon_1999, van_der_wiel_electron_2002, schliemann_electron_2003, hanson_spins_2007, kloeffel_prospects_2013, schreiber_quantum_2014, tahan_democratizing_2020, chatterjee_semiconductor_2021, gonzalez-zalba_scaling_2020, scappucci_germanium_2021, oiwa_conversion_2017, vandersypen_quantum_2019, kuemmeth_roadmap_2020, chatterjee_semiconductor_2021}. In particular, we point out the recent extensive review in Ref.~\cite{burkard_semiconductor_2021} as an excellent complement, covering the aspects intentionally omitted here.
+
+
+The core of this Technical Review are the plots and tables of selected qubit characteristics on qubit coherence, operation speed, operation fidelity, quality factors, and the size of multi-qubit arrays. The related quantities are defined, and their values collected from the literature given, in Sections \ref{sec:coherence}-\ref{sec:size}, respectively.
+
+
+We hope that this Technical Review will become useful and used as a database for spin-qubit characteristics. To this end, it is crucial that the database is up-to-date, error-free, and contains relevant quantities. These goals can hardly be met without an active participation of the spin-qubit community. We encourage the members of the community to provide us with feedback on any errors, omissions, or suggestions for changes. 
+
+\subsection{We present a database of values}
+
+Though not necessarily of a concern for the reader, we note that the presented collection reflects a formally defined database. This fact might be useful to understand certain nomenclature, details of the presentation, and requirements on the included values and possible extensions. Let us briefly explain these aspects.
+
+Every \myKey{value} given in this Technical Review belongs to a certain \myKey{attribute}. These two categories are the basic elements defining the database and constitute keywords with precise meaning. The \myKey{attributes} are used as headers in tables and axes labels in plots. \recheck{For example, the second line of Table I contains the value \myKey{LD/e} under the attribute \myKey{Qubit}.} It means that the corresponding experiment used a qubit encoded into the spin of an electron. Whereas most of the attributes are self-explanatory, they are additionally listed alphabetically, together with their definitions, in Appendix \ref{sec:vocabulary}. To draw attention to their special role, we mark the attributes with single quotation marks.
+This distinction is done only in the this (first) section and App.~\ref{sec:vocabulary}.
+
+\subsection{Spin-qubit types, device geometries, material choices}
+
+Before we discuss specific characteristics, we comment on their common aspects. These stem from the fact that each \myKey{value} inherits a set of characteristics from the publication it was reported in and the experimental device it was measured with. We describe these common aspects below.
+
+Every value given in this Technical Review (such as a coherence time of 10 ns) is a result of a measurement with a specific device and qubit type, reported in a published reference.\footnote{\recheck{Note that whereas we count arXiv preprints as `published references', the absolute majority of the entries are from peer-reviewed journal publications. The current bibliography contains 12 arXiv preprints, only two of which were uploaded before year 2021, see Refs.~\cite{hayes_lifetime_2009,cerfontaine_feedback-tuned_2016}.}} This means, first of all, that we include only numbers explicitly stated and directly measured. We do not include extrapolations to other conditions or materials. Also, we do not usually derive the values ourselves even if it would be possible. For example, if the reference gives the operation time and the dephasing time, but does not state the quality factor, we do not evaluate the latter ourselves. However, if a quantity is discussed and presented as a figure (for example, the operation time implied from oscillations displayed by a resonantly driven qubit), we might include a value read-off from the figure. In such cases, the table entry contains a \myKey{Note} with keywords $\derived$\! or $\estimated$\!, which are explained in Appendix \ref{sec:vocabulary}. With this requirement, every value given in this Technical Review should be easy to find using the reference, given under the attribute \myKey{Reference}, and within the reference as described by the attribute \myKey{Source}. An example of the latter is say ``page 4 and Fig.~1b''. One possible difference between the value given here and in the original work is normalization. In that case, a \myKey{Note} explains how the value was converted. Any additional information, for example, alerting on an unusual configuration or a specific method used in the experiment, is also given as a \myKey{Note}. 
+
+
+The second group of common characteristics concerns the details of the qubit. We found it useful to categorize the following: the sample material, the geometry of the host, and the qubit type. They belong to the attributes \myKey{Material}, \myKey{Host}, and \myKey{Qubit}, respectively. Whereas the value for material, for example, \myKey{Si/SiGe}, is self-explanatory,\footnote{Qubits based on silicon-oxide structures is one case which needs a comment. A unique identification in this Technical Review for such structures is the value \myKey{Si/SiO$_2$} of the attribute \myKey{Material}. The attribute \myKey{Host} is typically also straightforward to assign, being either \myKey{2D}, for example for an epilayer, or \myKey{1D} for finFETs or structures denoted as nanowires by their authors. One can often find further specifications for such devices, such as: [complementary-]metal-oxide-semiconductor([C]MOS), silicon-on-insulator(SOI), field-effect-transistor(FET), foundry-compatible, and similar, including their combinations. These specifications hint to the fabrication details and the degree of compatibility with the industrial silicon technology. However, they are sometimes used interchangeably, even within one laboratory. Since the fabrication details are not our focus, we do not include such additional specifications even if given in the original work.}
+ in some figures we group several different materials under a common tag, such as \myKey{Si}. Concerning the host geometry, we discriminate qubits based on gating the structures which are (quasi-)\myKey{2D}, for example, a 2D electron gas (2DEG), (quasi-)\myKey{1D}, for example a nanowire, and quasi-zero-dimensional, denoted by \myKey{imp}, an example being an implanted impurity. Some of these are not clear-cut cases, for example the hut-wires with a flat cross-section \cite{watzinger_heavy-hole_2016}, or some variants of CMOS devices \cite{voisin_electrical_2016}; nevertheless, we assign both to \myKey{1D}. Finally, perhaps the largest variation exists among the qubit types. We distinguish the charge carrier: conduction electron, valence hole, and atomic impurity; and the spin-encoding: spin-1/2 (\myKey{LD}), singlet-triplet (\myKey{ST}), and hybrid (\myKey{HY}) qubits. We have not found beneficial to subdivide further the hybrid qubits: everything which is not a spin-1/2 or a singlet-triplet is assigned the value hybrid here. A note might give additional information on the qubit type. The reader would benefit from consulting Appendix \ref{sec:vocabulary} now, to understand the database organization through attributes and values.
+
+\subsection{The choice of values to collect is subjective}
+
+A disclaimer is in order here: assigning a single specific value for each characteristic is necessary for a meta-analysis such as done here. However, converting an experimental investigation into a single number is inevitably a drastic compression. The choice of the value to quote requires subjective judgement: in a typical experiment, the value of a given figure of merit is seldom a unique value, but rather spans a range, sometimes a very large range, such as several orders of magnitude. We tend to take the most beneficial values, but it does not mean we simply take the largest one. Especially when an experiment presents a set of values for different characteristics, we try to choose a representative set measured at a common setting. For example, in an experiment with three qubits, where each is measured for relaxation, dephasing, and the echo coherence time, we do not simply take the largest value seen among all experiments. We choose a qubit and quote the three numbers for this particular qubit. We proceed similarly when several characteristics are measured under various conditions. Our overall approach is to adopt values which are mutually consistent (such as the coherence time and the operation speed) as much as possible. Nevertheless, we warn the reader that all such choices are largely subjective. The final authority to judge the value meaning and importance is the original reference itself. 
+
+\subsection{What we do and what we do not}
+
+We would like to reiterate our goals, since this work is not a standard review. Our primary target is to provide a database of figures of merit and make its content accessible. This includes downloadable tables and figures, including interface to produce figures and tables according to user's design, and a public repository including the environment for feedback and discussions. This content is accessible through a public data depository (see the Code Availability Statement at the end). The repository includes detailed instructions on how to provide feedback, though writing an email directly to the corresponding author is also encouraged. However, giving subjective view of the spin-qubit field in the form of qubit-suitability judgements, interpretations, outlooks, summaries, recommendations, predictions, and similar, is not our target and the reader will not find much of such type of content here.
+
+
+
+\separate{
+After these preliminaries, we will now present the spin-qubit figures of merit published until \recheck{the end of year 2021}.
+}
+
+\section{Coherence times}
+
+\label{sec:coherence}
+
+\begin{figure}
+\centering
+  \includegraphics[width=0.49\linewidth]{dephasing.pdf} \hfill
+  \includegraphics[width=0.49\linewidth]{relaxation.pdf} \hfill\\
+  \includegraphics[width=0.99\linewidth]{decayComparison.pdf} \hfill
+  \caption{\label{fig:envelopes} Typical decay-curve envelopes. (a) Oscillations with a Gaussian decay envelope, typically appearing in Ramsey experiments measuring the inhomogeneous dephasing time $T_2^*$ in the time domain. (b) Exponential decay typical for relaxation processes, reflecting the relaxation time $T_1$. (c) Three curves are plotted for comparison. They are normalized to a common value at their parameter equal 0 and 1. The Gaussian and Lorentzian, the Fourier transforms of the two envelopes given in (a) and (b), arise in probing the decay in the frequency domain. In that case, the horizontal axis on the figure is the frequency $\omega$, see Eq.~\eqref{eq:timeAndFreq}.}
+\end{figure}
+
+The largest amount of published data on spin qubits refers to their coherence times. Qualitatively, a coherence time extracted in an experiment has the meaning of a time during which state oscillations stemming from quantum mechanical superpositions can be observed. 
+
+\subsection{Definition and meaning of experimentally-extracted coherence times}
+
+Additional specifications of the conditions under which such a superposition decay is observed lead to several variants of the coherence time. The inhomogeneous dephasing time $T_2^*$ implies a Ramsey experiment, meaning the following sequence: the qubit is initialized to a state polarized within the equatorial plane of the Bloch sphere, for example along the $x$ axis, and is left to precess freely for time $t$ after which the in-plane polarization is measured; the evolution time $t$ is varied, and for each value of $t$ the sequence is repeated to gather enough statistics. A typical time-trace of the averaged signal fits a cosine with a Gaussian decay envelope $f(t)$,
+\begin{equation}
+P_x(t) = f(t)\frac{1+\cos \omega t}{2} = \exp\left[-(t / T_2^*)^2\right] \frac{1+\cos \omega t}{2},
+\label{eq:dephasing}
+\end{equation}
+where $\omega$ is the precession frequency. This curve is plotted in Fig.~\ref{fig:envelopes}(a). 
+
+The decay of a spin qubit in a Ramsey experiment described by Eq.~\eqref{eq:dephasing} is often due to fluctuating nuclear spins. The strong effect of nuclei on the spin coherence was predicted in Refs.~\cite{khaetskii_electron_2002, merkulov_electron_2002} and confirmed experimentally in Ref.~\cite{petta_coherent_2005}. Because the dynamics of nuclear spins is slow, one can protect the spin-qubit coherence using the spin-echo techniques developed in the field of Nuclear Magnetic Resonance \cite{slichter_principles_1996}. The simplest protecting protocol is the Hahn echo\cite{hahn_spin_1950}. It means that the spin is flipped (rotated around an in-plane axis by angle $\pi$) in the middle of the free evolution, at time $t/2$, of the described Ramsey sequence. The coherence time measured under a Hahn echo is denoted in this Technical Review as $ \TEcho$. Already in Ref.~\cite{petta_coherent_2005}, the Hahn echo prolonged the spin qubit coherence by a factor of a hundred. There are more elaborate protocols, applying more echo pulses, which prolong the coherence further. Although there are several different variants of such protocols \cite{alvarez_performance_2010}, here we assign any sequence containing more than a single echo under a common category, denoting the coherence time as $ \TDynD$. A typical member of this family is the Carr-Purcell-Meiboom-Gill (CPMG) protocol, with which the coherence of a singlet-triplet spin-qubit was prolonged to almost a millisecond in Ref.~\cite{malinowski_notch_2016}. 
+
+All these protocols aim at prolonging the coherence of an idling spin qubit. The decay of a driven spin, meaning the decay of coherent Rabi oscillations, is another important time scale which is often reported. It is denoted here as $ \TRabi$. The understanding that the decay of coherence of a driven and idling spins can strongly differ goes back to Alfred Redfield (Ref.~\cite{redfield_nuclear_1955}) and has been demonstrated with a spin qubit \cite{laucht_dressed_2016}. Finally, we include also the time $T_1$, called the relaxation time, to denote the decay of qubit energy. That it is a different type of process is denoted by its subscript `1' as opposed to `2' for the times describing the decay of phase. These subscripts refer to the notation usual in Bloch equations, where these two processes with distinct physical origin are called the `longitudinal' and `transverse' relaxation, respectively \cite{bloch_nuclear_1946}. See App.~\ref{app:notation} for the notation of various decay times. 
+
+
+Whereas we attributed the Gaussian decay in Eq.~\eqref{eq:dephasing} to nuclei as an example, the coherence-times nomenclature applies in the same way, irrespective of the noise source. Low-frequency charge and high-frequency phonon noise, influencing the spins through spin-orbit interactions, are most relevant. More importantly for the coherence-time measurement, the functional form of the envelope $f(t)$ in Eq.~\eqref{eq:dephasing} is often different from the Gaussian. Another typical case is an exponential,
+\begin{equation}
+f(t) = \exp(-t / T_1).
+\label{eq:relaxation}
+\end{equation}
+We have suggestively used $T_1$ for the time scale, as the energy relaxation is often described by such an envelope. The function is plotted in Fig.~\ref{fig:envelopes}b. Because of the superimposed oscillations in Eq.~\eqref{eq:dephasing}, it is not easy to discriminate between the exponential and Gaussian decay envelopes. Although the functions differ strongly in their exponential tails, these tails are basically never resolvable, due to measurement errors and statistical fluctuations. If the discrimination is possible, it is based on the different shape of the two functions at small times: linear versus quadratic.
+
+The discrimination becomes even more difficult in experiments where the qubit is probed in the frequency domain. A typical example is recording the amplitude and phase response of a resonant electrical circuit which the qubit is a part of. Both of these quantities are parametrized by the circuit reflection coefficient, a complex number. A standard result for it reads\footnote{
+We copy Eq.~(A15) from Ref.~\cite{ezzouch_dispersively_2021}. Ref.~\cite{cottet_cavity_2017} gives an analogous result in its Eq.~(57).
+}
+\begin{equation}
+r(\omega_\mathrm{p})=\frac{\omega_\mathrm{r}-\omega_\mathrm{p}+i\kappa/2+\chi(\omega_\mathrm{p})}{\omega_\mathrm{r}-\omega_\mathrm{p}-i\kappa/2+\chi(\omega_\mathrm{p})}.
+\label{eq:circuitResponse}
+\end{equation}
+Here, $\omega_\mathrm{p}$ is the frequency of the signal probing the circuit, $\omega_\mathrm{r}$ is the circuit resonant frequency, 
+$\kappa$ is the circuit-field decay rate, 
+and $\chi$ is the qubit response function, proportional to the Fourier transform of the decay envelope $-i f(t)$. For a qubit described by an exponential decay, the latter becomes\cite{cottet_cavity_2017,ezzouch_dispersively_2021}
+\begin{equation}
+\chi(\omega_\mathrm{p}) = -\frac{g^2}{\omega_\mathrm{q}-\omega_\mathrm{p}-i\Gamma_2}D,
+\label{eq:susceptibility}
+\end{equation}
+with $\hbar \omega_\mathrm{q}$ the energy difference of the qubit excited and ground states, $g$ the qubit--circuit coupling, $D$ the difference of the population probability of the qubit ground and excited state, and $\Gamma_2 = \Gamma_1/2 +\Gamma_\varphi$ is defined in App.~\ref{app:notation}. These formulas are also valid when the qubit itself is driven, the so-called two-tone spectroscopy\cite{scarlino_all-microwave_2019}. In that case, all parameters on the right hand side of Eq.~\eqref{eq:susceptibility} should be replaced by the corresponding quantities in the rotating reference frame \cite{ithier_decoherence_2005}.
+From Eq.~\eqref{eq:circuitResponse}, one can express the fraction of the reflected power, $|r|^2$, through the following formula
+\begin{equation}
+\label{eq:r1}
+|r(\omega_\mathrm{p})|^2 -1 = \frac{2\kappa\mathrm{Im}\{\chi\}}{\left(\frac{\kappa}{2} -\mathrm{Im}\{\chi\}\right)^2 + \left(\mathrm{Re}\{\chi \} -\omega_\mathrm{p} + \omega_\mathrm{r}\right)^2}.
+\end{equation}
+In the dispersive regime where $|\omega_\mathrm{p}-\omega_\mathrm{r}|$ is the largest frequency, the denominator can be approximated by a constant and Eq.~\eqref{eq:r1} reduces to 
+a constant times $\mathrm{Im}\{\chi\}$. 
+Scanning the probe frequency $\omega_\mathrm{p}$ around the resonance $\omega_\mathrm{p}=\omega_\mathrm{q}$, one observes a dip in the circuit steady-state response\footnote{Since normally $D>0$. However, the population inversion, $D<0$, is also possible, see Ref.~\cite{hauss_single-qubit_2008}. It would give a peak in $|r(\omega_\mathrm{p})|$, instead of a dip.}, and the width of the dip gives $2\Gamma_2$. The articles give the dip width as either the full or half width at half maximum (FWHM or HWHM) in frequency (and not angular frequency) units, or, in more general scenarios, $\Gamma_2$ as one of the fit parameters in fitting the data to Eq.~\eqref{eq:r1} or its analogs. In these cases, we evaluate the inhomogeneous dephasing time using
+\begin{equation}
+T_2^* = (\Gamma_2)^{-1}= \left( 2 \pi \Delta\! f_\mathrm{HWHM} \right)^{-1}.
+\label{eq:HWHM}
+\end{equation}
+
+
+
+Coming back to the possibility of discriminating between the decay envelopes, we now consider the Fourier transforms $\chi(\omega)$ for the above two examples. Whereas the Fourier transform of a Gaussian is a Gaussian, the exponential transforms into a complex function with both the real and imaginary parts Lorentzian,
+\begin{subequations}
+\begin{align}
+\textrm{Gaussian}\,f(t) &\overset{\mathrm{F.T.}}{\to}  \chi(\omega) = -i \exp( - \omega^2 T^2/4),\\
+\nonumber\\
+\textrm{Exponential}\,f(t) &\overset{\mathrm{F.T.}}{\to}   \chi(\omega) = \frac{- \omega T-i}{\omega^2 T^2 + 1},\\
+\nonumber
+\end{align}
+\label{eq:timeAndFreq}
+\end{subequations}
+In  these equations, we Fourier transformed (F.T.) Eqs.~\eqref{eq:dephasing} and \eqref{eq:relaxation} multiplied by $-i$, normalized the results to the same value at zero frequency, and dropped the time-scale subscripts. To discriminate the two cases given in Eq.~\eqref{eq:timeAndFreq} in the frequency domain is even more difficult than in the time domain, since both Gaussian and Lorentzian are quadratic at small frequencies. Compared to the time domain, now the two functions differ more strongly at their tails (that is, for large $\omega$), with algebraic and exponential decay, respectively. However, as already stated, these tails are seldom accessible with the required precision. The three envelope functions discussed so far are plotted in Fig.~\ref{fig:envelopes}(c) for comparison.
+
+The reason for discussing the discrimination between different functional forms of the decay envelopes is that it hints to the origin of the noise causing the decay. A minimal description of noise is to give its autocorrelation function, either in the time or frequency domain. If it is the latter, the function is called the noise spectrum. The form of the noise spectrum decides what will be the decay envelope. Noises with different physical origins, for example nuclear spins versus charge impurities, will have different spectra. The functional form of the decay envelope then can serve as an alternative to obtaining the noise spectrum, in hinting on the possible origin of the dominant noise affecting the qubit. Finally, we note that the above three possibilities, Gaussian, exponential, and Lorentzian, are not the only ones. For example, going to the next order in the calculation reveals that algebraic tails in the decay exist \cite{ithier_decoherence_2005}. Algebraic tails were also obtained in calculations considering the backaction of the qubit on its environment giving rise to non-Markovian behavior \cite{fischer_dealing_2009}. 
+
+To sum up the discussion, the coherence times are typically extracted from fits to simple functional forms. Some are given above, and there are more, such as the  `stretched exponential' used to fit data from dynamical-decoupling sequences.\footnote{The standard result is Ref.~\cite{cywinski_how_2008}, which derived $\log f(t) \sim (t/T_2)^{1+\alpha}$ as the envelope for decay under a generic dynamical-decoupling sequence assuming noise spectrum $1/f^\alpha$. In fitting the experimental data in GaAs, Ref.~\cite{medford_scaling_2012} found that a more robust way is to fit the observed decay time to $T_2 \propto n^\gamma$, where $n$ is the number of echos and, for the CPMG sequence, the noise-spectrum exponent is related to the fit parameter $\gamma$ by $\alpha=\gamma/(1-\gamma$).} The true decay envelope is a complicated function, which can hardly be parameterized by a single number. A typical fit returns the time scale over which the envelope decays to a fraction of its initial value, for example, $1/e$. This operational definition should be the first guess on the meaning of a coherence time in the tables we give. Not much is implied about the functional form itself, let alone the decay long-time tails. 
+
+\separate{The data on coherence times are listed in 
+Table \ref{tab:spinCoherence}. 
+We additionally present it here in figures, discussing them shortly. We split the figures to two groups, separating the charge qubits, the states of which do not rely on the spin degree of freedom in any way, from qubits which rely on spin at least to some degree. We start with the latter group.}
+
+\subsection{Measured coherence times of spin qubits}
+
+\begin{figure}
+  \includegraphics[width=\linewidth]{plot-spinCoherence-Date.pdf}
+  \caption{
+  \label{fig:spinPhaseCoherenceAll}
+  Spin coherence times according to the publication date. The color shows the device material and the symbol indicates the coherence type as given in the legend. The plotted data are values from Table \ref{tab:spinCoherence} excluding the data on the relaxation time $T_1$. 
+  }
+\end{figure}
+
+The coherence times of spin qubits are given in Fig.~\ref{fig:spinPhaseCoherenceAll}. The values had started at around 10 ns inhomogeneous dephasing time in early experiments with qubits in GaAs. Echo techniques can extend the coherence by orders of magnitudes, as can a different material choice. \recheck{The coherence times published during the year 2021 span six orders of magnitude, depending on the qubit type, material, and protection measures.}
+
+\begin{figure}
+  \includegraphics[width=0.79\linewidth]{plot-spinCoherence-Type-2.pdf}
+  \includegraphics[width=0.79\linewidth]{plot-spinCoherence-Type-3.pdf}\hfill \\
+  \includegraphics[width=0.79\linewidth]{plot-spinCoherence-Type-4.pdf} \hfill
+  \includegraphics[width=0.79\linewidth]{plot-spinCoherence-Type-5.pdf}
+  \caption{
+  \label{fig:spinPhaseCoherenceSubplots}
+  Spin coherence times. The panels display the data from Fig.~\ref{fig:spinPhaseCoherenceAll} split to the four panels according to the coherence type, denoted in the legend, from the set: inhomogeneous dephasing $T_2^*$, Hahn echo $\TEcho$, dynamical decoupling $\TDynD$, and Rabi decay $\TRabi$. In each panel, the horizontal axis uses the qubit type as a discrete category, displacing the points according to their publication date: more recent data are shifted to the right within the non-shaded area which is \recheck{normalized to the year span 2003-2021}. All vertical-axes ranges are the same and the point colors show the material.
+  }
+\end{figure}
+
+
+
+To examine the influence of some of these factors, we plotted separately each type of coherence in Fig.~\ref{fig:spinPhaseCoherenceSubplots}. The separation allows us to group additionally the values according to the qubit type, being the discrete category on the horizontal axis. To reflect the publication date for an easier comparison, we displace the data within each category horizontally. \recheck{For example, Fig.~\ref{fig:spinPhaseCoherenceSubplots}(a) shows that the most recent electron spin-1/2 qubits implemented in purified silicon reach longer coherence times than singlet-triplet qubits, in turn longer than hole qubits}. \recheck{Impurity spins hold record coherence times in each category where data for them exist.} 
+
+
+
+
+\begin{figure}
+  \includegraphics[width=0.99\linewidth]{plot-spinRelaxation-Date.pdf} \hfill\\
+  \includegraphics[width=0.99\linewidth]{plot-spinCoherence-Type-1.pdf} \hfill
+  \caption{
+  \label{fig:spinRelaxation}
+  Relaxation times of spin qubits. Both panels show the same data, the relaxation times from Table \ref{tab:spinCoherence}. The datapoint color shows the material. In (a), the horizontal axis shows the publication date and the datapoint symbol shows the qubit type. In (b), the qubit type is on the horizontal axis as a discrete category, whereas the publication date is reflected by shifting the points laterally, similarly as in Fig. ~\ref{fig:spinPhaseCoherenceSubplots}.}
+\end{figure}
+
+
+We next turn to the energy relaxation time. For a spin qubit, this time can be made very long by: isolating the qubit from reservoirs, so that the electron does not escape the dot; minimizing its dipole moment, so that the qubit couples weakly to phonons; and decreasing the transition energy, typically using a lower magnetic field, so that the available phase space for the process is reduced \cite{shrivastava_theory_1983,khaetskii_spin-flip_2001}. Under these conditions, relaxation times have reached seconds and can be considered not of concern for quantum computing. However, the relaxation times remain of concern if these conditions are not met: for example, a finite relaxation time of a two-electron singlet and triplet states is the main limitation for the spin measurement fidelities \cite{barthel_rapid_2009,nakajima_robust_2017,broome_high-fidelity_2017}. 
+Because of this crucial role, there are numerous values on the relaxation time for (mostly the triplet states of) singlet-triplet qubits, either explicitly reported or implicitly implied in many experiments using Pauli spin blockade for the spin measurement. As the relaxation time in this setting is a by-product of the maximization of the measurement fidelity, rather than a figure of merit maximized itself, we normally do not include singlet-triplet relaxation rates in this Technical Review. We do include a few values, from either early experiments, or when they are the article's main topic.
+
+The reported relaxation times are shown in Fig.~\ref{fig:spinRelaxation}, plotting the same set of data in two different ways. Figure \ref{fig:spinRelaxation}(a) gives them according to the publication date. One can see how the longest-reached times developed: in the first decade, electron one-half spin-qubits were in the lead. Since 2010, impurities took over. \recheck{Currently, the record is back with a single electron in GaAs, with the relaxation time of one minute \cite{camenzind_hyperfine-phonon_2018}.} As already noted, while reaching such long times is not directly improving other figures of merit of the qubit, the increase of the record time illustrates the experimental progress with the given qubit platform. Figure \ref{fig:spinRelaxation}(b) groups the times according to qubit types, making it easier to judge the progress over the years within each group. 
+
+
+
+
+\subsection{Measured coherence times of charge qubits}
+
+\begin{figure}
+  \includegraphics[width=0.99\linewidth]{plot-chargeCoherence-Date.pdf} \hfill \\
+  \includegraphics[width=0.99\linewidth]{plot-chargeCoherence-Material.pdf} \hfill \\
+  \includegraphics[width=0.99\linewidth]{plot-chargeCoherence-Type.pdf}\\
+  \caption{
+ \label{fig:chargeCoherence}
+  Charge coherence. Every panel plots the same data, the values from Table \ref{tab:chargeCoherence}. The panels differ by their horizontal axis, plotting the data according to the quantity given as the horizontal-axis label. Concerning the datapoint symbols and colors, (a) is analogous to Fig.~\ref{fig:spinPhaseCoherenceAll}. In (b) and (c), the role of the datapoint colors and the horizontal axis is swapped. 
+  }
+\end{figure}
+
+We end the overview of the coherence times by looking at charge qubits. As already mentioned, we include them even though they implement qubits which do not rely on spin. The reason is a close relation of the devices where the two type of experiments are typically done and of used techniques: for example, the measurement of spin is done indirectly, converting different spin states to different charge states, which are then detected. 
+
+All types of coherence times of charge qubits, including the relaxation time, are gathered in Fig.~\ref{fig:chargeCoherence}. In the three panels of the figure, the same data are shown according to the publication date, the device material, and the coherence type, respectively. One can see several differences compared to spin qubits. \recheck{
+First, the relaxation times are often comparable to coherence times, unlike for most spin-qubits where they can be pushed to be by far the longest scale.} 
+Therefore, the relaxation is a bigger issue for charge qubits even in single-qubit experiments. \recheck{Second, unlike for spin qubits, the echo techniques do not prolong coherence substantially.} \recheck{Third, there is much less variation among the data:} 
+\recheck{Despite an upward trend in $T_2^*$ over time, the increase is not dramatic. Since the charge-qubit dephasing time $T_2^*$ is related to charge noise directly, a clear trend would indicate} an overall improvement of the available samples and devices concerning the level of charge noise.
+\recheck{Finally, as one would expect based on the nuclear-spin noise being irrelevant for charge qubits, there is no apparent difference between devices made in Si and III-V materials concerning charge-qubit coherence.}
+
+\section{Operation times}
+
+\label{sec:operations}
+
+The second most abundant data exist on characteristics of spin-qubit operations. We consider the qubit gates, measurements, and initializations as three operation types, treated on equal footing.
+We are motivated by their actual physical realizations which are similar: all three types of operations are typically implemented by pulsing the system to a specific configuration, or driving it resonantly, for a fixed time. Another reason is that whereas the algorithms considering logical qubits might assign initializations to the beginning and measurements to the end of the algorithm only, physical qubits will need error correction. In this case, the initializations and measurements are used heavily, interspersing the application of gates.
+
+
+There is an additional attribute introduced in this section, the number of qubits that a given operation involves, \myKey{\#Qubits}. \recheck{The typical cases are one-qubit (1Q) and two-qubit (2Q) gates, even though the first three-qubit gate has been already used in an error-correction demonstration \cite{takeda_quantum_2022}. 
+}
+
+Finally, let us list the operation characteristics. In the next three sections, we discuss, respectively, operation times, a quantitative measure, and operation fidelities and quality factors, two related qualitative measures. 
+
+
+\subsection{The definition of experimentally extracted gate times}
+
+The advantage of looking at gate times is that they reveal the natural time-scale for working with a given qubit and that they can be compared to the coherence times. However, they also have a shortcoming which arises if they are not compared to any coherence time: a fast qubit does not automatically mean a good qubit, since the judgement largely depends also on the coherence time. Conversely, a qubit with extremely long coherence becomes less appealing if the corresponding gates are also extremely slow. This shortcoming, namely a dimensionful quantity having a limited meaning without comparison to other dimensionful quantities, also applies to the coherence times presented in the previous section. 
+
+
+Let us specify the normalization for the operation times. For the measurements and initialization, the definition is straightforward, even though one should also count the preparation if it is a necessary part of the measurement or initialization sequence. However, more ambiguity exists for gates, since gates are realized as unitary evolutions induced by certain Hamiltonians. A typical signal which is interpreted as a gate being applied looks as in Fig.~\ref{fig:envelopes}(a). Neglecting for now the decay and taking a single-qubit case, the oscillating signal is due to a unitary evolution such as
+\begin{equation}
+U(t) = \exp\left( -i \omega t s_z \right) \equiv \exp \left( -i 2\pi f t s_z \right).
+\label{eq:gateU}
+\end{equation}
+Here, we used $f = \omega / 2\pi$ for the signal frequency and $s_z = \sigma_z/2$ for the rotation generator, with $\sigma_z$ being the Pauli matrix.
+At various times, various gates are carried out on the qubit: for $f t=1/2$, one gets a $Z$ gate, for $f t=1$ an identity, whereas $f t=1/4$ gives a $\pi/2$ rotation, often used to prepare coherent superpositions such as $|0\rangle +|1\rangle$. If such a continuous signal is presented, we define the operation time to be one half of the signal period,
+\begin{equation}
+T_\mathrm{op} \equiv \frac{1}{2f}.
+\label{eq:gateTime}
+\end{equation}
+In the case of Eq.~\eqref{eq:gateU}, the value $t=1/2f$ would be taken as the operation time, and it would correspond to the $Z$ gate, that is a spin rotation by $\pi$. Note that this definition is different to the one adopted for the quality factor (see below).
+
+\begin{figure}[t!]
+  \includegraphics[width=0.89\linewidth]{plot-operationTime-1.pdf} \hfill\\
+  \includegraphics[width=0.89\linewidth]{plot-operationTime-2.pdf} \hfill\\
+  \includegraphics[width=0.89\linewidth]{plot-operationTime-3.pdf}\\
+  \caption{
+  \label{fig:operationTime}
+    Operation times: (a) gates, (b) measurements, (c) initializations. In all panels the horizontal axis shows the qubit type, restricting to those for which values exist. Within each type, the publication date is reflected by shifting the points laterally, similarly as in Fig. ~\ref{fig:spinPhaseCoherenceSubplots}. The vertical axis shows the operation time in nanoseconds. The datapoint color indicates the material and its symbol the number of qubits involved in the operation, according to the panel legend. 
+  }
+\end{figure}
+
+\subsection{Measured values of gate times}
+
+Let us now look at the reported values plotted in Fig.~\ref{fig:operationTime}(a). Since the set of operations is diverse, we present the data with the qubit type as the primary category on the horizontal axis. The data are additionally tagged according to the device material and the number of qubits. \recheck{The shortest in the set are the times of single-qubit gates on charge qubits, being below $0.1$ ns.} One can deduce more instances of such short times in the literature than those shown on the figure. The reason is that these values are perhaps not claimed explicitly in the experiments: for charge qubits, the gate speed is limited by the experiment electronics, rather than the qubit itself \footnote{Instead of quoting the gate speed, the qubits are often judged by how strongly they couple to a microwave cavity field, using the charge-photon coupling strength. However, at the moment that figure of merit is not included in this Technical Review.}. \recheck{The hybrid qubits can reach similar speeds,} since they can be tuned into a configuration where they resemble a charge qubit. Arguably, this tunability is their biggest advantage. When they are tuned into a spin-like configuration, their gate (and coherence) times go up. Similarly, a strong direct coupling to the electric field can be exploited also for \recheck{holes, with gate speeds in hundreds of megahertz seen}. Such electric-dipole spin resonance (EDSR) driving is less efficient for electron spin-1/2 qubits, for which \recheck{the highest speeds were reached using design-optimized micromagnets providing large magnetic-field gradients, or materials with strong spin-orbit interaction (for example, InAs).} As seen from the times in the singlet-triplet column of the figure, the singlet-triplet oscillations can reach gigahertz frequencies. Fast exchange-based gates were demonstrated for both one and two-qubit operations of spin-1/2 qubits and singlet-triplet qubits, and for two-qubit operations of hole and impurity qubits. Finally, we would like to note that the exchange-based gate for, first, a pair of one-half spins and, second, the singlet and triplet two-electron states, is an identical process. Whether such a process should be interpreted as a one-qubit gate or two-qubit gate depends on additional functionalities implemented, or implementable, in the given experiment. The boundary between the two cases is blurry. 
+
+\subsection{The definition and values of measurement times}
+
+We do not review the measurement times of charge qubits because the task of measuring a charge qubit is the task of detecting a charge---typically an elementary charge---in a nanodevice. First, this task is separable from, and not exclusive to, spin qubits, and thus not our focus. Second, the analysis of methods and results of this task is a topic rich enough for a review in its own right. For our purposes, it will be enough to give the following minimum. The charge detection is typically characterized through the detection sensitivity $s$ with a typical number being\footnote
+{
+Here a few numbers that one can find in the literature: 
+$10$ in Ref.~\cite{reilly_fast_2007},
+$10$ in Ref.~\cite{wang_graphene_2010},
+$30$ in Ref.~\cite{fringes_charge_2011}, 
+$63$ in Ref.~\cite{colless_dispersive_2013},
+$0.8$ in Ref.~\cite{stehlik_fast_2015},
+$0.37$ in Ref.~\cite{gonzalez-zalba_probing_2015},
+$8.2$ in Ref.~\cite{zajac_scalable_2016},
+$4.1$ in Ref.~\cite{zheng_rapid_2019},
+$21$ in Ref.~\cite{chanrion_charge_2020},
+$0.60$ in Ref.~\cite{schupp_sensitive_2020};
+all in $10^{-4} \times e/\surd{\mathrm{Hz}}$.
+} 
+\begin{equation}
+s = \mathrm{a\,few}\, \times 10^{-4}\mathrm{e}\, / \sqrt{\mathrm{Hz}}.  
+\label{eq:chargeSensitivity}
+\end{equation}
+This parameter quantifies the reliability of the output of a charge-meter signal if integrated for time $T_\mathrm{M}$, through the variance
+\begin{equation}
+\textrm{var}[q] = s^2 / T_\mathrm{M}.
+\end{equation}
+Assuming that one aims to distinguish a signal of one elementary charge, $q_1=e$, from the signal of zero charge, $q_2=0$, where `to distinguish' means to make the signal error, $\sqrt{\textrm{var}[q]}$, as small as the signal magnitude, $|q_1-q_2|=e$, would give the required time
+\begin{equation}
+T_\mathrm{M} = s^2 / e^2 \sim 100\, \mathrm{ns}.
+\label{eq:detectionLimit}
+\end{equation}
+Although higher sensitivity\cite{schaal_fast_2020} and shorter times\cite{keith_single-shot_2019} for elementary charge detection were reported, let us take this value for the measurement time $T_\mathrm{M}$ as a lower limit 
+realistic  for many experimental configurations. 
+
+With 100 ns for the time required to detect an event involving elementary charge, we now look at the spin qubit measurements times shown in Fig.~\ref{fig:operationTime}(b). \recheck{We see that whereas the times start at about the elementary charge-detection limit of Eq.~\eqref{eq:detectionLimit}, they might become orders of magnitude longer.} The variance reflects the fact that the spin is detected indirectly, by first converting it to a charge event, which is in turn resolved by a charge sensor. The time required for the spin-to-charge conversion can vary a lot, depending on the process details. One example for a spin-to-charge conversion is spin-dependent tunneling: an electron with spin down can tunnel out a quantum dot, whereas the one with spin up can not, the difference originating in their Zeeman energies \cite{hanson_zeeman_2003}. Since the quantum dot has to be well isolated for the qubit to keep its coherence, the tunneling out of the dot is slow. As a second example, the spin singlet and triplet can be discriminated according to being allowed or not allowed to traverse a double dot (the Pauli Spin Blockade invented by Ono et al., see Ref.~\cite{ono_current_2002}). Although in this case the charge reconfiguration can be very fast, following the gate-voltage pulses on a nanosecond scale, the two charge configurations being discriminated differ only by a dot-size shift of an elementary charge. The discrimination of such states requires a longer time compared to those differing by the presence, rather than the displacement, of an elementary charge. A different class of measurements, called rf-based detection, relies on probing the above described spin-dependent charge reconfigurations by an oscillatory (radio-frequency) electric field. \recheck{The shortest measurement times seen on Fig.~\ref{fig:operationTime}(b) were obtained using rf-sensors.}
+
+\subsection{The values of initialization times}
+
+The initialization times are shown in Fig.~\ref{fig:operationTime}(c). \recheck{Only a few values are present.} The reason might be that the most typical experimental scenario is to repeat a cycle: initialization -- operation -- measurement, where the measurement part plays the role of the initialization, and, therefore, the latter is not reported separately and explicitly. \recheck{There are more values published on the initialization fidelities, see below.}
+
+\section{Operation fidelity}
+
+
+The operation fidelity is a dimensionless figure of merit allowing the comparison of diverse qubits. Using randomized benchmarking \cite{epstein_investigating_2014}, one can extract the gate errors independently of the measurement errors, even if the former are orders of magnitude smaller than the latter. Although it is not strictly correct, the fidelity is used to judge the progress towards error-correction thresholds required for fault-tolerant quantum computing.\footnote{The problem is that the fidelity, as defined below, is not the error parameter entering the threshold theorem. The two parameters can differ by orders of magnitude, in the unfavorable way: whereas the fidelity extracted by the randomized benchmarking can be low, the error rate can remain much larger \cite{sanders_bounding_2015,blume-kohout_demonstration_2017}. } For all these reasons, evaluating the gate fidelities is popular and impressive values have been reached. 
+
+\subsection{The definition and meaning of experimentally extracted fidelities}
+
+\label{sec:fidelityDefinition}
+
+The fidelity characterizes how close the actual operation is to the desired one. Although the fidelity of 1 means that the two operations are the same, the quantification of a measure when they are not the same is less straightforward. The usual definitions derive from the fidelity $\mathcal{F}$, in the sense of the distance between two quantum states described by their respective density matrices $\rho$ and $\rho^\prime$,
+\begin{equation}
+\mathcal{F} = \left( \mathrm{tr}\sqrt{\sqrt{\rho}\rho^\prime \sqrt{\rho}} \right)^2.
+\label{eq:fidelity1}
+\end{equation}
+If one of the two states is pure, say $\rho^\prime = |\Psi\rangle \langle \Psi|$, the formula simplifies to
+\begin{equation}
+\mathcal{F} = \mathrm{tr} \left(  \rho |\Psi\rangle\langle \Psi| \right).
+\label{eq:fidelity2}
+\end{equation}
+If the second state $\rho$ is also pure, $\mathcal{F}^{1/2}$ is closely related to an unambiguous discrimination of the two pure states \cite{heinosaari_guide_2008}, whereas $\arccos \mathcal{F}^{1/2}$ is a measure of their statistical distinguishability \cite{wootters_statistical_1981}.\footnote{What is the best measure to quantify distance of two operations is discussed at length in Ref.~\cite{gilchrist_distance_2005}. We thank Andrea Morello for pointing this reference to us.}
+
+We use the definition of Eq.~\eqref{eq:fidelity1} leading to Eq.~\eqref{eq:fidelity2} because of its connection to the randomized benchmarking. Namely, the essence of the latter is to prepare a pure state $|\Psi\rangle \langle \Psi|$, apply to it a sequence of gates, and then evaluate the overlap of the resulting density matrix $\rho$ with the original state $|\Psi\rangle$ using Eq.~\ref{eq:fidelity2}. In the sequence, the gates are randomly chosen from a discrete set, the Clifford group \cite{gottesman_theory_1998}, except for the last gate which is such that the whole sequence reduces to the identity if all gates are perfect. The resulting fidelity, called also the probability of the survival of the initial state, falls off exponentially with the sequence length $m$,
+\begin{equation}
+\mathcal{F}(m) \approx A p^m + B.
+\label{eq:fidelityFit}
+\end{equation}
+Experimentally, the three coefficients $A$, $B$, and $p$ are fitted.\footnote{Even though Ref.~\cite{magesan_characterizing_2012} stresses that one should always use a more refined decay model, adding a term proportional to $(m-1)p^m$ to the right hand side of Eq.~\eqref{eq:fidelityFit}, this piece of advice does not seem to be followed in practice.} The first two parameters absorb the errors of the state preparation and measurement, so that the infidelity $1-\mathcal{F}$ can be found from the parameter $p$ using the formula\footnote{Some comments are in order: The exponential decay reflected by Eq.~\eqref{eq:fidelityFit} happens under broad conditions investigated in detail in Refs.~\cite{magesan_characterizing_2012,epstein_investigating_2014}. The fidelity extracted in this way is the average of $\mathcal{F}$ in Eq.~\eqref{eq:fidelity2} over all pure input states $|\Psi\rangle\langle \Psi|$ and also the average over the gates in the Clifford group. There is an extension procedure called interleaved randomized benchmarking \cite{magesan_efficient_2012} which can assign a fidelity---still averaged over all pure states---to a single specific gate from the Clifford group.}\footnote{Ref.~\cite{gilchrist_distance_2005} presents further arguments against using the average fidelity $\mathcal{F}$, as extracted from randomized benchmarking, Eq.~\eqref{eq:fidelityParameter}, and advocates entanglement fidelity $\mathcal{F}_e$ instead. The two measures are related by $(d+1)\mathcal{F}=d\mathcal{F}_e+1$. Since the majority of the spin-qubit publications give $\mathcal{F}$, we stick to $\mathcal{F}$ as the reported figure of merit.}
+\begin{equation}
+1-\mathcal{F} = (1-p) \frac{d-1}{d}.
+\label{eq:fidelityParameter}
+\end{equation}
+Here, $d=2^n$ with $n$ the number qubits; $d=2$ for a single-qubit gate benchmarking. Although the exponential decay form displayed by Eq.~\eqref{eq:fidelityFit} relies on the discrete set being the Clifford group, many articles convert $\mathcal{F}$ to fidelities of experiment-specific `elementary' or `primitive' gates, such as $\pi/2$ and $\pi$ rotations around various axes. Even though such a conversion is questionable \cite{magesan_characterizing_2012}, we follow the prevailing practice and in figures and tables we give the infidelity for the elementary-gate set (and not for the Clifford-gate set). For one-qubit or two-qubit gates, one Clifford gate requires typically a few elementary gates. Therefore, the infidelity of a Clifford gate would be around a factor of 2--3 larger than the infidelity of an elementary gate \footnote{Ref.~\cite{epstein_investigating_2014} gives one list of elementary gates for a single-qubit case, resulting in the ratio of 1.875. For the two-qubit case, Refs.~\cite{huang_fidelity_2019, petit_universal_2020} used elementary-gate sets with the ratio of 2.57. However, larger ratios also appear: for example, 9.75 in Ref.~\cite{xue_benchmarking_2019}.}, the value quoted in this Topical Review. 
+
+\begin{figure}
+  \includegraphics[width=0.99\linewidth]{measurementFidelitySchemeInverted.png} \hfill
+  \caption{\label{fig:measurementScheme}
+  Probabilities describing a two-outcome qubit measurement. The two mutually orthogonal pure states are on the left, the two measurement outcomes on the right. A perfect measurement would have unit probabilities $p_{ii}$ with $i=0,1$ denoted by horizontal lines. Due to imperfections, diagonal lines appear with non-zero probabilities. The infidelity defined by Eq.~\eqref{eq:fidelityMeasurement} gives for this diagram $1-\mathcal{F} =\frac{1}{2} (p_{01}+p_{10})$.}
+\end{figure}
+
+The fidelities of initialization and measurement are less ambiguous to define as they can be based on Eq.~\eqref{eq:fidelity2} which is more intuitive than Eq.~\eqref{eq:fidelity1}. Let us start with the measurement. The probability to get an outcome $p$ in measuring the state described by a density matrix $\rho$ is given by Eq.~\eqref{eq:fidelity2} upon replacing the pure state $|\Psi\rangle\langle\Psi|$ by a positive semi-definite operator $A$. 
+The most general measurement with possible outcomes labeled by index $i$ is specified by a set $\{A_i\}_i$ of such operators summing to identity, $\sum_i A_i = 1$. In experiments, these operators are approximations of a set of mutually orthogonal projectors spanning the qubit basis $A_i \approx |\Psi_i\rangle \langle \Psi_i|$. Due to experimental imperfections, these approximations are not exact. The probability of the measurement outcome $j$ upon measuring the pure state $\rho=|\Psi_i\rangle\langle\Psi_i|$ follows as
+\begin{equation}
+p_{ij} = \mathrm{tr} \left(  |\Psi_i\rangle\langle \Psi_i| A_j \right).
+\end{equation}
+Due to the normalization of $A_i$, the probabilities fulfill
+\begin{equation}
+\sum_j p_{ij}=1.
+\label{eq:sumRule}
+\end{equation}
+Were the measurement perfect, all non-diagonal probabilities would be zero. The infidelity of the measurement can be quantified through the off-diagonal probabilities. For example,
+\begin{equation}
+1-\mathcal{F} = 1 - \frac{1}{d} \sum_i p_{ii} = \frac{1}{d} \sum_i \sum_{j\neq i} p_{ij}.
+\label{eq:fidelityMeasurement}
+\end{equation}
+Here, the first equality sign is a definition, the second one follows from the sum rule, Eq.~\eqref{eq:sumRule}. Also, the number of outcomes is assumed to be equal to the size of the Hilbert space $d$: For example, $d=2$ for a two-outcome measurement of a two-level system (a qubit). In this most common case, the measurement probabilities are quantified by two error probabilities, $p_{01}$ and $p_{10}$, as depicted in Fig.~\ref{fig:measurementScheme}. The resulting measurement infidelity according to the definition in Eq.~\eqref{eq:fidelityMeasurement} is $(p_{01}+p_{10})/2$.
+
+Finally, let us consider the fidelity of the initialization. Typically, one is interested in an initialization into a single pure state $|\Psi\rangle$. In this case, we can use Eq.~\eqref{eq:fidelity2} to define the initialization fidelity with $\rho$ the actual, perhaps imperfectly prepared, state. 
+
+
+\begin{figure}[ht!]
+  \includegraphics[width=0.89\linewidth]{plot-operationFidelity-1.pdf} \hfill\\
+  \includegraphics[width=0.89\linewidth]{plot-operationFidelity-2.pdf} \hfill\\
+  \includegraphics[width=0.89\linewidth]{plot-operationFidelity-3.pdf} \hfill\\
+  \caption{
+    \label{fig:operationInfidelities}
+  Operation fidelities: (a) gates, (b) measurements, (c) initializations. In all panels the horizontal axis shows the qubit type, restricting to those for which infidelity values exist. Within each type, the publication date is reflected by shifting the points laterally, similarly as in Fig. ~\ref{fig:spinPhaseCoherenceSubplots}. The vertical axis shows the fidelity $\mathcal{F}$ in percent. The datapoint color indicates the material and its symbol the number of qubits involved in the operation, according to the individual panel legend.
+  }
+\end{figure}
+
+\subsection{Measured values of fidelities}
+
+The three panels of Fig.~\ref{fig:operationInfidelities} show the published fidelities of the gates, measurements, and initializations, respectively. For the gates, Fig.~\ref{fig:operationInfidelities}(a), \recheck{the electron spin-1/2 qubits used to reach the highest fidelities, well above 99.9 \%. Using silicon, both natural and isotopically purified, was crucial for this achievement. Recently, these values were overcome and a new record at 99.99 \% has been set by a hole in germanium \cite{lawrie_simultaneous_2021}.} \recheck{There is notable progress in almost very qubit category} and increasing the fidelity of single-qubit gates is one of the most impressive achievements within the whole spin-qubit field. 
+
+Figure \ref{fig:operationInfidelities}(b) shows the fidelities of measurements. \recheck{Until recently, the infidelities remained above few percent.} \recheck{Relying on a `latched' readout in the Pauli spin blockade \cite{nakajima_robust_2017,broome_high-fidelity_2017}, the fidelities above 99 \% were achieved with singlet-triplet qubits. Comparable high-fidelity results for impurity spins rely on their exceedingly long lifetimes.}
+
+We conclude with a remark on two-qubit fidelities. \recheck{In all categories, meaning gates, measurements, and initializations, their infidelities remain one to two orders of magnitude above the single-qubit ones. There is less data published for the two-qubit versions.} \recheck{Concerning initializations, the more-qubit infidelities that we list are initializations into a nontrivial state achieved through some simple quantum algorithm.} For example, initializing all individual qubits into single-qubit fiducial states, and then entangling them with gates into the desired entangled multi-qubit state, such as one of the two-qubit Bell states or the three-qubit Greenberger–Horne–Zeilinger (GHZ) state. 
+
+
+\section{Quality factor $Q$}
+
+\label{sec:qualityFactor}
+
+The quality factor is another dimensionless measure allowing for the comparison of diverse qubits, similar to the gate fidelity. The quality factor is a product of a gate frequency and a characteristic time scale. We denote the former by $f_\mathrm{R}$, with the subscript suggesting the most typical case where the gate is implemented by Rabi oscillations. There are two usual choices for the characteristic time, resulting in two groups of quality factors reported in the literature. 
+
+The first choice is using the inhomogeneous dephasing time. We call the resulting metric the qubit quality-factor,
+\begin{equation}
+Q = f_\mathrm{R} T_2^*.
+\label{eq:qualityFactorQubit}
+\end{equation}
+This $Q$ counts the number of operations which can be performed on a given qubit before other qubits, waiting idly, lose their coherence. With the possibility of applying dynamical decoupling, one might consider using other coherence times instead of $T_2^*$, as the time for which the other qubits can wait before losing coherence. However, we know only a single case where a different choice was made for this type of the quality factor, $ \TEcho$ in Ref.~\cite{dial_charge_2013}, and therefore stick to Eq.~\eqref{eq:qualityFactorQubit}. 
+
+The second choice is using the gate-signal decay time. Though it is not exclusive to Rabi-induced gates, we denote it using the symbol $ \TRabi$ introduced in Sec.~\ref{sec:coherence}, again as the most typical scenario. We call the resulting quantity the gate quality-factor,
+\begin{equation}
+Q = f_\mathrm{R}  \TRabi.
+\label{eq:qualityFactorGate}
+\end{equation}
+In this form, $Q$ gives the number of oscillations at frequency $f_\mathrm{R}$ during the decay time $ \TRabi$. Loosely speaking, it gives the number of discernible oscillations on a plot showing the Rabi oscillation signal.\footnote{Indeed, Ref.~\cite{veldhorst_two-qubit_2015} calls $Q$ defined in Eq.~\eqref{eq:qualityFactorGate} a `number of gate oscillations', which might have been a better name than a `quality factor'.} We note that many references reporting the gate quality-factors use Eq.~\eqref{eq:qualityFactorGate} with the right-hand side multiplied by a factor of two. Whereas such a factor is understandable looking at Eq.\eqref{eq:gateTime}, we adopt Eq.~\eqref{eq:qualityFactorGate} to make it more directly comparable to Eq.~\ref{eq:qualityFactorQubit}. As a consequence, we have to divide several of the reported values for the gate quality-factors by two. Finally, we note that the gate quality-factor is related to the gate fidelity, both being a qualitative measure of the gate imperfections. In App.~\ref{app:fidelity-quality} we derive $1-\mathcal{F} \approx 1/4Q$ valid for a large $Q$ in a toy model with exponential dephasing.
+
+
+Figure \ref{fig:qualityFactor}(a) shows the published data on quality factors, both gate and qubit ones. \recheck{The majority of the values is within the range of few to about a hundred. There are some exceptions which crawl toward a thousand.} Figure \ref{fig:qualityFactor}(b) makes it easier to compare different qubit types and discriminate the gate and qubit quality-factors. 
+Since among the two dephasing times it is typically $T_2^*$ being smaller than $ \TRabi$, \recheck{one expects that the gate quality-factors reach higher values  than qubit quality-factors.
+There is some evidence in favor of this expectation, but more data is needed to decide on its generality.}
+
+
+\section{Size of qubit arrays}
+
+\begin{figure}
+  \includegraphics[width=0.99\linewidth]{plot-qualityFactorMerged-Date.pdf}\\
+    \includegraphics[width=0.99\linewidth]{plot-qualityFactorMerged-Type.pdf}
+ \caption{
+  \label{fig:qualityFactor}
+Quality factors. The two panels show the same data. In (a), according to the publication date, with the color indicating the material and the symbol the qubit type, according to the panel legend. In (b), the qubit type is on the horizontal axis, the publication date is reflected by shifting the points laterally, similarly as in Fig. ~\ref{fig:spinPhaseCoherenceSubplots}. The datapoint color indicates the material and its symbol discriminates the qubit and the gate quality-factor as defined in Eq.~\eqref{eq:qualityFactorQubit} and Eq.~\eqref{eq:qualityFactorGate}, respectively.
+  }
+\end{figure}
+
+
+
+\label{sec:size}
+
+Scaling up devices to many qubits is the biggest current challenge of the field. The statement applies to all qubit platforms, not only to semiconducting qubits. For serious applications, being able to build large two-dimensional arrays seems necessary since the fault-tolerant thresholds for error-correction in one-dimensional arrays remain too low (see Table VIII in Ref.~\cite{devitt_quantum_2013}). 
+
+\subsection{The definition of qubit-array functionality levels}
+
+\label{sec:arrayFunctionality}
+
+Although it is possible to fabricate relatively large gated arrays with semiconductors, making them functional is a different story. Therefore, we discriminate several functionality levels. We note that the assignment of the levels as defined below to a specific experiment is often difficult. This assignment is perhaps the most subjective of all made in this Technical Review. The reader is advised to consult the original work to judge the details of the achievements. 
+
+
+We define the following values, in ascending order according to the device functionality:
+\separate{
+\textbf{\\$N$-qubit device.} A structure capable of hosting $N$ qubits has been fabricated. The gating and charge sensing work, so that all qubit hosts can be brought into the required charge configuration. On top of this minimal requirement, the articles assigned to this category report a large variation of additional features: single EDSR gates, tunable interdot tunneling or coupling, controllable charge shuffling, spin detection based on Pauli spin blockade, estimations of qubit-qubit interaction strength, and so on. 
+\textbf{\\$N$-qubit simulator.} First of all, the device is stable and tunable enough to search large regions in the high-dimensional charge diagram. For example, aiming at single-electron LD qubits, the structure can be brought into the 1-1-1-$\cdots$-1 charge state, or the (11)-(11)-$\cdots$-(11) state for ST qubits. In such a configuration, qubits can interact pair-wisely and all $N$ qubits are connected by an interaction path. The interactions are tunable. Either one qubit can be measured and manipulated at the single-qubit level, or at least qubit-qubit (being spin-spin) correlations can be measured.
+\textbf{\\$N$-qubit processor.} Every qubit (or most of them) has a two-axis control and can be measured. Qubits can interact pair-wisely through tunable interactions. The structure can perform $N$-qubit algorithms. 
+}
+
+
+To cast more light on the ambiguities that we met and decisions we made to deal with them, let us make a few additional comments.
+
+First, we do not include many-qubit structures which were fabricated, but no functionality was demonstrated, no matter what their size was. We do not include experiments where multiple-dot structure was involved without any intention towards using it for qubits (for example, it was used in a transport experiment).
+
+Second, the vast majority of the experiments within the spin-qubit field until now was done with a single dot implementing spin-1/2 qubit or a double dot implementing a singlet-triplet qubit. Therefore, we normally do not include these two cases into our tables and figures. One exception is if the experiment is somewhat outstanding, perhaps pioneering a spin qubit in a new material or platform. We included some of these. 
+
+Third, the number of qubits is not the same as the number of dots. For example, a double-dot with two-electrons can be viewed both as one singlet-triplet qubit as well as two qubits of spin-1/2 with a limited functionality. In these cases, we follow the primary intention of the experiment as we understood it from the reference. For example, a triple dot implementing a resonant-exchange qubit is counted as a single-qubit structure implementing a fully functional resonant-exchange qubit (that is, a hybrid qubit in our nomenclature), and not as a structure implementing three spin-1/2 qubits with a limited functionality.
+
+Finally, in Refs.~\cite{van_diepen_quantum_2021,dehollain_nagaoka_2020} there is no single-qubit gate nor measurement available. Still, we assign it to the quantum-simulator category, as in these experiments a simulation was the primary target and controllable spin-spin interactions played a critical role.
+
+\subsection{Sizes of qubit arrays achieved experimentally}
+
+
+\begin{figure}[t!]
+  \includegraphics[width=0.89\linewidth]{plot-qubitArrays-Date.pdf}\\ 
+    \includegraphics[width=0.89\linewidth]{plot-qubitArrays-1.pdf}
+  \caption{
+  \label{fig:arraySize}
+  Size of qubit arrays. The two panels show the same data: in (a) according to the publication date, with the color indicating the material and the symbol the array functionality (see the text for the definitions), according to the panel legend. In (b), the array functionality is on the horizontal axis, the publication date is reflected by shifting the points laterally, similarly as in Fig.~\ref{fig:spinPhaseCoherenceSubplots}. The datapoint color indicates the material and its symbol the host geometry, according to the panel legend.
+  }
+\end{figure}
+
+The sizes of qubit arrays appearing in publications on experiments are displayed in Fig.~\ref{fig:arraySize}. The panel (a) shows the progress over time. A lot of effort goes into scaling up the spin-qubit structures, with slow, but nevertheless steady progress.
+It took about ten to fifteen years to bring the most basic structure of the spin-qubit field, the double dot, up to the functionality of a quantum processor, as defined in the above list: With the experiments starting \cite{petta_coherent_2005} around 2005, Refs.~\cite{veldhorst_two-qubit_2015,zajac_resonantly_2017,watson_programmable_2018} could be acknowledged to have reached the `processor' level, and only in the most recent one the fidelities where high enough to run the most elementary quantum circuits. We assign the accomplishment of the first fully-functional `processor' beyond the double dot to the year 2021, with Ref.~\cite{takeda_quantum_2021} using electrons in silicon and Ref.~\cite{hendrickx_four-qubit_2021} using holes in germanium. 
+In Fig.~\ref{fig:arraySize}(b) one can see that the recent couple of years have brought a surge of results demonstrating progress in building spin-qubit arrays with advanced functionality. The fact that these recent breakthroughs come from many groups and happen in diverse materials and geometries gives excellent reasons for optimism on the scaling-up finally taking off.
+
+
+
+\section{Acknowledgments}
+
+We thank Takashi Nakajima, Akito Noiri, Kenta Takeda, and other members of Seigo Tarucha laboratory in RIKEN, for numerous discussions that were invaluable for preparing this review. We also thank Leon Camenzind, Matthieu Delbecq, Georgios Katsaros, Benedikt Kratochwil, Ferdinand Kuemmeth, Tristan Meunier, Andrea Morello, Takashi Nakajima,  Akito Noiri, Matthew Reed, and Menno Veldhorst for providing feedback on early versions of the review. Finally, we would like to acknowledge the financial support from CREST JST (JPMJCR1675) and Swiss National Science Foundation (SNSF) and NCCR SPIN.
+
+
+
+
+
+
+
+\appendix
+
+\section{Relaxation time notations}
+
+\label{app:notation}
+
+To define the notation and give an example of the simplest dephasing form, we state here the result of Markovian (or exponential) decay displayed by the Bloch equations. Let us consider the following two parametrizations of the density matrix of a spin-1/2
+\begin{equation}
+\rho =\left( 
+\begin{tabular}{cc}
+ $\rho_{\uparrow\uparrow}$ &  $\rho_{\uparrow\downarrow}$\\
+  $\rho_{\downarrow\uparrow}$&  $\rho_{\downarrow\downarrow}$
+\end{tabular}
+\right)
+=\frac{1}{2} \left( 
+\begin{tabular}{cc}
+ $1+s_z$ & $s_x-i s_y$\\
+ $s_x+i s_y$&$1-s_z$
+\end{tabular}
+\right) \equiv \frac{1}{2}\left( 1 + \mathbf{s} \cdot \boldsymbol{\sigma} \right).
+\label{eq:densityMatrix}
+\end{equation}
+The defining and normalization conditions of a density matrix (trace one, Hermitivity, and positive semi-definiteness), require that the vector $\mathbf{s}$ is real and its length is not larger than one.
+
+The Bloch equations \cite{bloch_nuclear_1946}, describing the exponential decay of the density-matrix components, read
+\begin{subequations}
+\begin{eqnarray}
+\partial_t s_x &=&  -\frac{s_x}{T_2},\\
+\partial_t s_y &=& -\frac{s_y}{T_2},\\
+\partial_t s_z &=& -\frac{s_z-s_{0z}}{T_1},
+\end{eqnarray}
+\label{eq:Bloch}
+\end{subequations}
+with
+$s_{0z}$ being the equilibrium spin polarization. The spin decay is described by two parameters, $T_1$ and $T_2$, called, respectively, the longitudinal and transverse relaxation time in the original work of Bloch. We denote the inverse of these times as rates, $\Gamma_1=1/T_1$ and $\Gamma_2=1/T_2$, that is, with the indexes corresponding.
+
+We now use the alternative parameterization of the density matrix, where the exponential decay reads
+\begin{subequations}
+\begin{eqnarray}
+\partial_t \rho_{\uparrow\uparrow} &=&-\Gamma_{ex} \rho_{\uparrow\uparrow} + \Gamma_{rel} \rho_{\downarrow\downarrow} ,\\
+\partial_t \rho_{\uparrow\downarrow} &=&-\left( \frac{\Gamma_{ex}+\Gamma_{rel}}{2} + \Gamma_\varphi \right) \rho_{\uparrow\downarrow},
+\end{eqnarray}
+\label{eq:drhodt}
+\end{subequations}
+and the remaining matrix elements evolution is fixed by the requirements $\rho_{\uparrow\uparrow}+\rho_{\downarrow\downarrow} =1$ and $\rho_{\uparrow\downarrow} = \rho_{\downarrow\uparrow}^*$. Here, we use the notation of Ref.~\cite{ithier_decoherence_2005}, which originates in the assumption that the spin-up state is the energy ground state and the equations contain $\Gamma_{ex}$, the rate of excitations from the ground state, $\Gamma_{rel}$ the rate of relaxation into the ground state, and $\Gamma_\varphi$, the ``pure-dephasing'' rate. With the following relations,
+\begin{subequations}
+\begin{eqnarray}
+\frac{1}{T_1} &=&\Gamma_{ex} + \Gamma_{rel},\\
+\frac{1}{T_2} &=&\frac{\Gamma_{ex} + \Gamma_{rel}}{2} + \Gamma_\varphi,\\
+s_{0z} &=& \frac{\Gamma_{rel} - \Gamma_{ex}}{\Gamma_{rel} + \Gamma_{ex}},
+\end{eqnarray}
+\end{subequations}
+the two sets of equations, \eqref{eq:Bloch} and \eqref{eq:drhodt}, correspond to each other.
+
+In the above equations for the density matrix evolution, we dropped the coherent part, which would read $\partial_t \mathbf{s} = (g \mu_B / \hbar) \mathbf{s} \times \mathbf{B}$, with $g$ being the electron g-factor and $\mathbf{B}$ the magnetic field. Equations \eqref{eq:Bloch} are derived in Ref.~\cite{fabian_semiconductor_2007} in a simple model on p.~707-712. The same reference derives also Eq.~\eqref{eq:drhodt} on p.~759-765, considering a spin qubit coupled to phonons as the decay source, following the standard methods of Ref.~\cite{blum_density_1996}.
+
+\section{Relation of the gate fidelity and the gate quality factor}
+
+\label{app:fidelity-quality}
+
+The gate quality-factor is closely related to the gate fidelity, as we now illustrate. Let us consider a Rabi-oscillations experiment with a qubit. In the rotating frame, we describe it using a density matrix parameterized by vector $\mathbf{s}$. The Rabi oscillations induced by a resonant drive result in a time dependence of this vector. In an ideal scenario without errors or decoherence, the qubit rotates at a fixed frequency $f$ around certain axis, set by the driving pulse phase. The time evolution is 
+\begin{equation}
+\rho_{ideal}(t) = \frac{1}{2}\Big(1+\mathbf{s}(t) \cdot \boldsymbol{\sigma}\Big).
+\end{equation}
+The ideal state at certain specific times corresponds to $|\Psi(t)\rangle\langle\Psi(t)|$. For example, with the initial state along $z$, $\mathbf{s}(0)=(0,0,1)$ and a rotation axis $x$, at time $t=1/2f$ an ideal $\pi$ rotation is performed. 
+
+Let us now consider the coherence decay given by Eq.~\eqref{eq:Bloch}. Assuming, for simplicity, that either the rotation is in the plane of the Bloch sphere perpendicular to the energy-quantization axis, or taking $T_2=T_1$ and $s_{0z}=0$, the actual density matrix is described by $\mathbf{s}(t) \exp(-t/T_2)$. The amplitude of the oscillating polarization measured as a function of time will decay exponentially, as $\exp(-t/T_2)$. The fitted time-scale of the decay is called the ``gate decay time'' $ \TRabi$ entering Eq.~\eqref{eq:qualityFactorGate}. Evaluating the fidelity with Eq.~\eqref{eq:fidelity2} gives
+\begin{equation}
+\mathcal{F} = \frac{1}{2}\big(1+\exp(-t/T_2) \big).
+\end{equation}
+For a $\pi$-rotation gate, implemented imperfectly at time $t=1/2f$, it finally gives
+\begin{equation}
+\mathcal{F} = \frac{1}{2}\big(1+\exp(-1/2Q) \big) \approx 1 - \frac{1}{4Q},
+\label{eq:fidelityQualityRelation}
+\end{equation}
+where the approximation is valid for small infidelity or large quality factor. 
+
+In this toy model, the gate infidelity and the gate quality-factor are in a simple one-to-one correspondence. In reality, the relation is complicated by two facts. First, the dephasing might be more complicated than the Markovian decay described by the Bloch equations. More importantly, the signal decay and the fidelity are influenced differently by unitary gate-errors. The latter are deviations from the desired gate which do not originate in dephasing: for example, if the rotation axis is not exactly along $x$ or the rotation angle is below the target value $\pi$. By definition of the name, the unitary errors are systematic, that is they do not change in time. If known, they could be corrected by additional unitary rotations. Nevertheless, if they are not known, for example due to insufficient calibration, or they could not be corrected, they do diminish the gate fidelity. On the other hand, they do not lead to the gate-signal decay $ \TRabi$ as extracted experimentally. At most, they diminish the overall signal magnitude, called the visibility.  To conclude, because of the unitary errors diminishing the fidelity but not the gate quality-factor, the right hand side in Eq.~\eqref{eq:fidelityQualityRelation} becomes only the upper limit for the left hand side. 
+
+
+
+\begin{widetext}
+
+\rowcolors{2}{white}{gray!25}
+
+
+\section{List of tables}
+
+\label{app:tables}
+
+\vspace{3cm}
+
+\begin{table}[h!]
+\Large
+\begin{center}
+\begin{tabular}{l@{\quad}ll}
+\toprule
+Content & Table & Page\\
+\midrule
+Spin coherence & Table \ref{tab:spinCoherence} & \pageref{spinCoherence1}-\pageref{spinCoherence4}\\
+Charge coherence & Table \ref{tab:chargeCoherence} & \pageref{chargeCoherence}\\
+Operation times & Table \ref{tab:operationTimes} & \pageref{operationTime1}-\pageref{operationTime2}\\
+Operation fidelities & Table \ref{tab:operationFidelities} & \pageref{operationFidelity1}-\pageref{operationFidelity2}\\
+Quality factors & Table \ref{tab:qualityFactors} & \pageref{qualityFactor}\\
+Qubit arrays & Table \ref{tab:qubitArrays} & \pageref{qubitArray1}-\pageref{qubitArray2}\\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+
+\vspace{3cm}
+
+
+
+
+\newcounter{subtable}
+
+\refstepcounter{table}\addtocounter{table}{-1}\label{tab:spinCoherence}
+\renewcommand\thetable{\Roman{table}-\arabic{subtable}}
+\setcounter{subtable}{1}
+
+\input{table-spinCoherence-1.txt}
+\addtocounter{table}{-1}
+\addtocounter{subtable}{+1}
+
+\ifFirstTableOnly \else
+\input{table-spinCoherence-2.txt}
+\addtocounter{table}{-1}
+\addtocounter{subtable}{+1}
+
+\input{table-spinCoherence-3.txt}
+\addtocounter{table}{-1}
+\addtocounter{subtable}{+1}
+
+\input{table-spinCoherence-4.txt}
+\addtocounter{table}{-1}
+\addtocounter{subtable}{+1}
+
+\input{table-spinCoherence-5.txt}
+\addtocounter{table}{-1}
+\addtocounter{subtable}{+1}
+
+\input{table-spinCoherence-6.txt}
+\addtocounter{table}{-1}
+\addtocounter{subtable}{+1}
+\fi
+
+\addtocounter{table}{+1}
+
+
+
+\renewcommand\thetable{\Roman{table}}
+\refstepcounter{table}\addtocounter{table}{-1}\label{tab:chargeCoherence}
+\input{table-chargeCoherence-1.txt}
+
+
+
+\refstepcounter{table}\addtocounter{table}{-1}\label{tab:operationTimes}
+\renewcommand\thetable{\Roman{table}-\arabic{subtable}}
+\setcounter{subtable}{1}
+
+\input{table-operationTime-1.txt}
+\addtocounter{table}{-1}
+\addtocounter{subtable}{+1}
+
+\ifFirstTableOnly \else
+\input{table-operationTime-2.txt}
+\addtocounter{table}{-1}
+\addtocounter{subtable}{+1}
+
+\input{table-operationTime-3.txt}
+\addtocounter{table}{-1}
+\addtocounter{subtable}{+1}
+\fi
+
+\addtocounter{table}{+1}
+
+
+
+\renewcommand\thetable{\Roman{table}}
+\refstepcounter{table}\addtocounter{table}{-1}\label{tab:operationFidelities}
+
+\renewcommand\thetable{\Roman{table}-\arabic{subtable}}
+\setcounter{subtable}{1}
+
+\input{table-operationFidelity-1.txt}
+\addtocounter{table}{-1}
+\addtocounter{subtable}{+1}
+
+\ifFirstTableOnly \else
+\input{table-operationFidelity-2.txt}
+\addtocounter{table}{-1}
+\addtocounter{subtable}{+1}
+
+\input{table-operationFidelity-3.txt}
+\addtocounter{table}{-1}
+\addtocounter{subtable}{+1}
+\fi
+
+\addtocounter{table}{+1}
+
+
+
+\renewcommand\thetable{\Roman{table}}
+\refstepcounter{table}\addtocounter{table}{-1}\label{tab:qualityFactors}
+
+\renewcommand\thetable{\Roman{table}-\arabic{subtable}}
+\setcounter{subtable}{1}
+
+\input{table-qualityFactor-1.txt}
+\addtocounter{table}{-1}
+\addtocounter{subtable}{+1}
+
+\input{table-oscillationCount-1.txt}
+\addtocounter{table}{-1}
+\addtocounter{subtable}{+1}
+
+\addtocounter{table}{+1}
+
+
+
+\renewcommand\thetable{\Roman{table}}
+\refstepcounter{table}\addtocounter{table}{-1}\label{tab:qubitArrays}
+
+\renewcommand\thetable{\Roman{table}-\arabic{subtable}}
+\setcounter{subtable}{1}
+
+\input{table-qubitArrays-1.txt}
+\addtocounter{table}{-1}
+\addtocounter{subtable}{+1}
+
+\ifFirstTableOnly \else
+\input{table-qubitArrays-2.txt}
+\addtocounter{table}{-1}
+\addtocounter{subtable}{+1}
+\fi
+
+\addtocounter{table}{+1}
+
+\renewcommand\thetable{\Roman{table}}
+
+\phantom{x}
+
+\end{widetext}
+
+\renewcommand{\separate}[1]
+{
+ \vspace{0.5cm}
+  \vspace{0.5cm}
+  \noindent 
+ #1
+ \vspace{0.5cm}
+  \vspace{0.5cm}
+}
+
+\section{Glossary}
+
+\label{sec:vocabulary}
+
+\newcommand{\keyword}[2]{\myKey{#1}. #2\\}
+
+This section defines keywords with specific meaning used in plots and tables. Some are defined in the text, some are defined only here. 
+
+\separate{First, we define the following special keywords.}
+
+\begin{description}[leftmargin=5mm, topsep=0mm]
+\item[\val{\derived}] The value is not stated in the reference.  We derived it as described in the \val{note}.
+\item[\val{\estimated}] The value is not stated in the reference. We estimated it from available information, most often from a figure. The estimate is only rough, with a typical error of order one.
+\item[\key{attribute}] A generic attribute. Several \val{value}s belong under it.
+\item[\key{value}] A generic value. It belongs under a unique \val{attribute}.
+\end{description}
+
+\separate{The list of the \val{attribute}s and \val{value}s, the latter for the case when the allowed values are from a small set of enumerated alternatives.}
+
+\begin{description}[leftmargin=5mm, topsep=0mm]
+\input{vocabulary.txt}
+\end{description}
+
+
+\nocite{*}
+
+\bibliographystyle{abbrv}
+\ifIncremental
+\bibliography{../Added-bibtex-Western.bib}
+\else
+\bibliography{spinReview-bibtex-Western.1,spinReview-bibtex-Western.2}
+\fi
+
+\end{document}
