@@ -36,27 +36,27 @@
 70 & \unit{\micro\second} & $T_2^*$ & LD/e\textsuperscript{m} & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2015-11 & \onlinecite{veldhorst_spin-orbit_2015} & p2 and Fig. 2b\\
 1.8 & \unit{\micro\second} & $T_2^*$ & LD/e & Si/SiGe & 2D & 2016-08 & \onlinecite{takeda_fault-tolerant_2016} & p3 and Fig. 2c\\
 1 & \unit{\micro\second}\textsuperscript{k} & $T_2^*$ & LD/e & Si/SiGe & 2D & 2016-10 & \onlinecite{kawakami_gate_2016} & p3\\
-0.11 & \unit{\micro\second}\textsuperscript{k} & $T_2^*$ & LD/e & Si/SiGe & 2D & 2017-04 & \onlinecite{scarlino_dressed_2017} & Fig. 3a\\
+0.11 & \unit{\micro\second}\textsuperscript{k,n} & $T_2^*$ & LD/e & Si/SiGe & 2D & 2017-04 & \onlinecite{scarlino_dressed_2017} & Fig. 3a\\
 1 & \unit{\micro\second}\textsuperscript{k} & $T_2^*$ & LD/e & Si/SiGe & 2D & 2017-04 & \onlinecite{scarlino_dressed_2017} & p2\\
 20 & \unit{\micro\second} & $T_2^*$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2017-12 & \onlinecite{yoneda_quantum-dot_2017} & p3 and Fig. 3a\\
-88 & \unit{\nano\second}\textsuperscript{n} & $T_2^*$ & LD/e & Si/SiGe & 2D & 2018-01 & \onlinecite{samkharadze_strong_2018} & p1\\
+88 & \unit{\nano\second}\textsuperscript{o} & $T_2^*$ & LD/e & Si/SiGe & 2D & 2018-01 & \onlinecite{samkharadze_strong_2018} & p1\\
 1 & \unit{\micro\second} & $T_2^*$ & LD/e & Si/SiGe & 2D & 2018-02 & \onlinecite{watson_programmable_2018} & p1 and {ED} Fig. 3d\\
-66 & \unit{\nano\second}\textsuperscript{o} & $T_2^*$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2018-02 & \onlinecite{mi_coherent_2018} & p3 and Fig. 3b\\
+66 & \unit{\nano\second}\textsuperscript{p} & $T_2^*$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2018-02 & \onlinecite{mi_coherent_2018} & p3 and Fig. 3b\\
 33 & \unit{\micro\second} & $T_2^*$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2018-10 & \onlinecite{chan_assessment_2018} & p2\\
 0.21 & \unit{\micro\second} & $T_2^*$ & LD/e & GaAs/AlGaAs & 2D & 2019-04 & \onlinecite{nakajima_quantum_2019} & Fig. 2\\
 24 & \unit{\micro\second} & $T_2^*$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2019-05 & \onlinecite{huang_fidelity_2019} & p3 and {ExtData} Fig. 1a\\
 3.4 & \unit{\micro\second} & $T_2^*$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2019-05 & \onlinecite{harvey-collard_spin-orbit_2019} & p2\\
 8.2 & \unit{\micro\second} & $T_2^*$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2019-05 & \onlinecite{tanttu_controlling_2019} & p5 and Fig. 3b\\
 9.4 & \unit{\micro\second} & $T_2^*$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2019-06 & \onlinecite{sigillito_site-selective_2019} & Tab.1\\
-0.64 & \unit{\micro\second}\textsuperscript{p} & $T_2^*$ & LD/e & CNT & 1D & 2019-07 & \onlinecite{cubaynes_highly_2019} & p2 and Fig. 3d\\
+0.64 & \unit{\micro\second}\textsuperscript{q} & $T_2^*$ & LD/e & CNT & 1D & 2019-07 & \onlinecite{cubaynes_highly_2019} & p2 and Fig. 3d\\
 10 & \unit{\micro\second} & $T_2^*$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2019-11 & \onlinecite{sigillito_coherent_2019} & p4\\
-34 & \unit{\nano\second}\textsuperscript{q} & $T_2^*$ & LD/e & Si/SiGe & 2D & 2019-12 & \onlinecite{borjans_resonant_2019} & p1\\
+34 & \unit{\nano\second}\textsuperscript{r} & $T_2^*$ & LD/e & Si/SiGe & 2D & 2019-12 & \onlinecite{borjans_resonant_2019} & p1\\
 3.3 & \unit{\micro\second} & $T_2^*$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2019-12 & \onlinecite{zhao_single-spin_2019} & Tab. 1\\
-16 & \unit{\micro\second} & $T_2^*$ & LD/e\textsuperscript{r} & $\text{Si/}\text{SiO}_2$ & 2D & 2020-02 & \onlinecite{leon_coherent_2020} & {SM} Tab. I\\
-0.77 & \unit{\micro\second}\textsuperscript{s} & $T_2^*$ & LD/e & GaAs/AlGaAs & 2D & 2020-03 & \onlinecite{nakajima_coherence_2020} & p3 and Fig. 3b\\
+16 & \unit{\micro\second} & $T_2^*$ & LD/e\textsuperscript{s} & $\text{Si/}\text{SiO}_2$ & 2D & 2020-02 & \onlinecite{leon_coherent_2020} & {SM} Tab. I\\
+0.77 & \unit{\micro\second}\textsuperscript{t} & $T_2^*$ & LD/e & GaAs/AlGaAs & 2D & 2020-03 & \onlinecite{nakajima_coherence_2020} & p3 and Fig. 3b\\
 \bottomrule
 \end{tabular}
-\caption{Spin coherence times (part 4). Superscripts stand for the following. \textsuperscript{a}: The Rabi decay time $\TRabi = 100$ \unit{\micro\second} is obtained by fitting the Rabi decay data to a function with two parameters, $\TRabi$ and $T_2^*$. \textsuperscript{b}: \derived from $T = h N_\mathrm{R} / J$ with $J/h=160$ {MHz} and $N_\mathrm{R}=44$. \textsuperscript{c}: From interference of Landau-Zener transitions. \textsuperscript{d}: {EO} qubit. \textsuperscript{e}: Hybrid qubit with three electrons in two dots. \textsuperscript{f}: Tunable between spin- and charge- qubit. \textsuperscript{g}: From $\Gamma_2/2\pi = 19.6$ {MHz}. \textsuperscript{h}: {RX} qubit. \textsuperscript{i}: \estimated from Fig. S2a as the signal decay by factor $1/e$. \textsuperscript{j}: From $\Gamma_2/2\pi = 11$ {MHz}. \textsuperscript{k}: From {EDSR} linewidth. \textsuperscript{l}: From $\Gamma_2/2\pi = 2.5$ {MHz}. \textsuperscript{m}: A three-electron qubit. \textsuperscript{n}: From $\Gamma_2/2\pi = 1.8$ {MHz}. \textsuperscript{o}: From $\Gamma_2/2\pi = 2.4$ {MHz}. \textsuperscript{p}: From $f_\mathrm{FWHM}= 498$ {kHz}. \textsuperscript{q}: From $\Gamma_2/2\pi = 4.7$ {MHz}. \textsuperscript{r}: In a five-electron dot configuration. \textsuperscript{s}: With feedback.
+\caption{Spin coherence times (part 4). Superscripts stand for the following. \textsuperscript{a}: The Rabi decay time $\TRabi = 100$ \unit{\micro\second} is obtained by fitting the Rabi decay data to a function with two parameters, $\TRabi$ and $T_2^*$. \textsuperscript{b}: \derived from $T = h N_\mathrm{R} / J$ with $J/h=160$ {MHz} and $N_\mathrm{R}=44$. \textsuperscript{c}: From interference of Landau-Zener transitions. \textsuperscript{d}: {EO} qubit. \textsuperscript{e}: Hybrid qubit with three electrons in two dots. \textsuperscript{f}: Tunable between spin- and charge- qubit. \textsuperscript{g}: From $\Gamma_2/2\pi = 19.6$ {MHz}. \textsuperscript{h}: {RX} qubit. \textsuperscript{i}: \estimated from Fig. S2a as the signal decay by factor $1/e$. \textsuperscript{j}: From $\Gamma_2/2\pi = 11$ {MHz}. \textsuperscript{k}: From {EDSR} linewidth. \textsuperscript{l}: From $\Gamma_2/2\pi = 2.5$ {MHz}. \textsuperscript{m}: A three-electron qubit. \textsuperscript{n}: Valley and spin flip. \textsuperscript{o}: From $\Gamma_2/2\pi = 1.8$ {MHz}. \textsuperscript{p}: From $\Gamma_2/2\pi = 2.4$ {MHz}. \textsuperscript{q}: From $f_\mathrm{FWHM}= 498$ {kHz}. \textsuperscript{r}: From $\Gamma_2/2\pi = 4.7$ {MHz}. \textsuperscript{s}: In a five-electron dot configuration. \textsuperscript{t}: With feedback.
 \label{spinCoherence4}
 }
 \end{table}
