@@ -56,7 +56,7 @@
 3.4 & \unit{\second} & $T_1$ & LD/i & $\, ^{28}\text{Si:P}$ & imp & 2021-01 & \onlinecite{madzik_conditional_2021} & p6 and {SFig}. 3c\\
 \bottomrule
 \end{tabular}
-\caption{Spin coherence times (part 1). Superscripts stand for the following. \textsuperscript{a}: {EO} qubit. \textsuperscript{b}: \estimated Fig. 5 the lowest point. \textsuperscript{c}: At 0.1 kelvin. \textsuperscript{d}: At 1.1 kelvin. \textsuperscript{e}: With micromagnet. \textsuperscript{f}: No micromagnet. \textsuperscript{g}: At 1 kelvin. \textsuperscript{h}: The reference states ``...the relaxation time is on the order of milliseconds''. We use 3 ms as a representative value, as it corresponds to the ``load phase'' in the measurement cycle. \textsuperscript{i}: Qubit defined in the rotating frame.
+\caption{Spin coherence times (part 1). Superscripts stand for the following. \textsuperscript{a}: {EO} qubit. \textsuperscript{b}: \estimated Fig. 5 the lowest point. \textsuperscript{c}: At 0.1 kelvin. \textsuperscript{d}: At 1.1 kelvin. \textsuperscript{e}: With micromagnet. \textsuperscript{f}: No micromagnet. \textsuperscript{g}: At 1 kelvin. \textsuperscript{h}: The reference states `...the relaxation time is on the order of milliseconds'. We use 3 ms as a representative value, as it corresponds to the `load phase' in the measurement cycle. \textsuperscript{i}: Qubit defined in the rotating frame.
 \label{spinCoherence1}
 }
 \end{table}
