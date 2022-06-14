@@ -34,7 +34,7 @@ if [ -z "$tableName" ]; then
   exit
 fi
 
-if [ -f "latestVersion/${tableName}.txt" ]; then
+if [ -f "reviewSources/${tableName}.txt" ]; then
     #echo "file '${tableName}.txt' found."
     :
   else
@@ -47,8 +47,8 @@ fi
 
 
 ########### amend the latex file  ##########
-cd latestVersion
-cp makeTable.tex  tmp.tex
+cd reviewSources
+cp ../makeTable.tex  tmp.tex
 sed -i '' 's/\\Roman{table}-\\arabic{subtable}/'"${tableName:6}"'/g' tmp.tex 
 #sed -i 's/%PLACEHOLDER/\\renewcommand\\thetable{'"${tableName:6}}"'/g' tmp.tex
 sed -i '' 's/\\input{Table-I-1/\\input{'"${tableName}"'/g' tmp.tex

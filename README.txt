@@ -15,20 +15,19 @@ A. How the review database is stored; versioning, copyright
 -----------------------------------------------------------
 
 
-The review database is provided in github project
-https://github.project.com/
-It contains the review tables as text files in latex format. These tables include all data used in review figures.
-
-The most recent version is in folder "latestVersion".
-Previous versions are in folders with the following name format:
-"previousVersion-YYYY-MM-DD-arxiv-vAA",
-where "YYYY-MM-DD" is the version date and "vAA" is the corresponding arxiv version.
-
-These directories contain the latex input files used to create the review article as text files named "Table-I-1.txt" and similar. It also contains the bibtex files with all references cited in the review, named "2021-spin-review-bibtex-Western.bib" and "Selected-bibtex-Western.bib". Here, bibtex is the format (e.g. the files are not in the biblatex format) and Western is the font encoding.
+The review database is provided in GitHub project
+https://github.com/PeterStano/ReviewOfSpinQubits
+It contains the article body and its tables as text files. The tables include all data shown in review figures. The repository versions are controlled by GitHub commits, using Tags to highlight article arXiv or published versions.
 
 
-Upon giving proper credit to the source, you can download the data files from github and change them, for example, to produce stand-alone tables and similar.
-PLEASE INSERT MORE ON COPYRIGHT (FOR EDITOR).
+The directory "reviewSources" contains the tables as latex-format text files named "Table-I-1.txt" and similar. It also includes the bibtex files with all references cited in the review, named "spinReview-bibtex-Western.1.bib" and "spinReview-bibtex-Western.2.bib". Here, bibtex is the format (that is, the files are NOT in the biblatex format) and Western is the font encoding. Finally, there is the arXiv-version of the main latex source file, spinReviewTables.tex, and its separately stored part Glossary.txt. The main file is included so that incremental changes to the review text can be inspected using GitHub.
+
+
+This GitHub project is licensed under CC-BY-4.0. In short, it means that you can freely use the material upon giving proper credit to the source. Especially, you can download the data files and change them, for example, to produce stand-alone tables and similar.
+Giving credit means acknowledging, in a form reasonable for your document, the following as the source:
+P. Stano, D. Loss, Review of performance metrics of spin qubits in gated semiconducting nanostructures, arxiv:2107.06485.
+
+
 
 
 
@@ -38,9 +37,9 @@ B. How to report an error in the review
 
 
 1. The preferred way is to create a git pull request directly on the text file which contains the wrong entry: 
- - locate the Table-X-Y.txt file containing the error in the github directory "latestVersion"
+ - locate the Table-X-Y.txt file containing the error in the GitHub directory "reviewSources"
  - edit the file, correcting the error
- - create a new Pull request in github, explaining why a change is needed in the Pull request Comment.
+ - create a new Pull request in GitHub, explaining why a change is needed in the Pull request Comment.
 
 
 2. The alternative way is to send an email to the corresponding author identifying the coordinates (table number, subtable number, table row, table column) of the wrong entry and explaining what and why needs a change. For example:
@@ -55,7 +54,7 @@ C. How to produce your own table
 --------------------------------
 
 
-The simplest way is to use the script makeTable-script.txt in the parent directory.
+The simplest way is to use the script makeTable-script.txt in the GitHub project parent directory.
 The result of running the script for "Table-I-1.txt", by 
 makeTable-script.txt --tableName=Table-I-1
 is the file "Table-I-1.pdf".
