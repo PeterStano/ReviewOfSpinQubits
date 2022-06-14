@@ -6,22 +6,22 @@
 \midrule
 0.2 & \unit{\second} & measure & 1Q & LD/e & Si/SiGe & 2D & 2011-04 & \onlinecite{simmons_tunable_2011} & Fig. 2 caption\\
 4 & \unit{\milli\second} & measure & 1Q & LD/e & Si/SiGe & 2D & 2014-08 & \onlinecite{kawakami_electrical_2014} & p1\\
-0.7 & \unit{\milli\second} & measure & 1Q & LD/e & GaAs/AlGaAs & 2D & 2019-06 & \onlinecite{nakajima_quantum_2019} & Fig. 1f\\
+0.7 & \unit{\milli\second} & measure & 1Q & LD/e & GaAs/AlGaAs & 2D & 2019-04 & \onlinecite{nakajima_quantum_2019} & Fig. 1f\\
 24 & \unit{\micro\second}\textsuperscript{a} & measure & 1Q & LD/e & Si/SiGe & 2D & 2019-08 & \onlinecite{volk_fast_2019} & p7\\
 49 & \unit{\milli\second}\textsuperscript{b} & measure & 1Q & LD/e & Si/SiGe & 2D & 2020-04 & \onlinecite{xue_repetitive_2020} & p3\\
 1 & \unit{\milli\second} & measure & 1Q & LD/e & $\text{Si/}\text{SiO}_2$ & 1D & 2021-09 & \onlinecite{spence_spin-valley_2021} & p2\\
 10 & \unit{\micro\second} & measure & 1Q & LD/h & Ge/SiGe & 2D & 2021-09 & \onlinecite{lawrie_simultaneous_2021} & p1\\
-40 & \unit{\milli\second} & measure & 1Q & LD/i & Si:P & imp & 2013-10 & \onlinecite{buch_spin_2013} & Fig. 2b caption\\
+40 & \unit{\milli\second} & measure & 1Q & LD/i & Si:P & imp & 2013-06 & \onlinecite{buch_spin_2013} & Fig. 2b caption\\
 0.15 & \unit{\second}\textsuperscript{c} & measure & 1Q & LD/i & Si:P & imp & 2015-10 & \onlinecite{watson_high-fidelity_2015} & Fig. 2b-c\\
 3 & \unit{\milli\second} & measure & 1Q & LD/i & Si:P & imp & 2015-10 & \onlinecite{watson_high-fidelity_2015} & p4\\
 0.2 & \unit{\second} & measure & 1Q & LD/i & Si:P & imp & 2017-03 & \onlinecite{watson_atomically_2017} & p3\\
-50 & \unit{\milli\second}\textsuperscript{d} & measure & 1Q & LD/i & Si:P & imp & 2018-12 & \onlinecite{broome_two-electron_2018} & {SFig}. 2d\\
+50 & \unit{\milli\second}\textsuperscript{d} & measure & 1Q & LD/i & Si:P & imp & 2018-03 & \onlinecite{broome_two-electron_2018} & {SFig}. 2d\\
 1.5 & \unit{\micro\second} & measure & 1Q & LD/i & Si:P & imp & 2019-10 & \onlinecite{keith_single-shot_2019} & p4\\
 10 & \unit{\micro\second} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2005-09 & \onlinecite{petta_coherent_2005} & p2\\
 20 & \unit{\micro\second} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2006-11 & \onlinecite{meunier_nondestructive_2006} & p2\\
 6 & \unit{\micro\second} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2009-10 & \onlinecite{barthel_rapid_2009} & p3\\
 0.1 & \unit{\micro\second}\textsuperscript{e} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2010-04 & \onlinecite{barthel_fast_2010} & p3 and Fig. 3\\
-4 & \unit{\milli\second}\textsuperscript{f} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2010-08 & \onlinecite{petersson_charge_2010} & p4\\
+4 & \unit{\milli\second}\textsuperscript{f} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2010-07 & \onlinecite{petersson_charge_2010} & p4\\
 1 & \unit{\micro\second} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2012-04 & \onlinecite{shulman_demonstration_2012} & p1\\
 0.2 & \unit{\micro\second}\textsuperscript{g} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2014-01 & \onlinecite{higginbotham_coherent_2014} & {SM} Fig. S1d\\
 1 & \unit{\micro\second} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2014-10 & \onlinecite{shulman_suppressing_2014} & p2\\
@@ -30,19 +30,19 @@
 4 & \unit{\micro\second} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2017-07 & \onlinecite{nakajima_robust_2017} & p2 and {SM} p1\\
 0.8 & \unit{\micro\second} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2018-04 & \onlinecite{mukhopadhyay_2x2_2018} & p4\\
 2 & \unit{\micro\second} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2018-09 & \onlinecite{orona_readout_2018} & Fig. 4b the rightmost point\\
+0.5 & \unit{\milli\second} & measure & 1Q & ST/e & $\text{Si/}\text{SiO}_2$ & 1D & 2019-05 & \onlinecite{urdampilleta_gate-based_2019} & abstract\\
 13 & \unit{\micro\second}\textsuperscript{h} & measure & 1Q & ST/e & Si/SiGe & 2D & 2019-07 & \onlinecite{jones_spin-blockade_2019} & p3 and p6\\
 6 & \unit{\micro\second} & measure & 1Q & ST/e & Si/SiGe & 2D & 2019-08 & \onlinecite{zheng_rapid_2019} & p3 and Fig. 3f\\
-0.5 & \unit{\milli\second} & measure & 1Q & ST/e & $\text{Si/}\text{SiO}_2$ & 1D & 2019-08 & \onlinecite{urdampilleta_gate-based_2019} & abstract\\
 0.8 & \unit{\micro\second}\textsuperscript{i} & measure & 1Q & ST/e & Si/SiGe & 2D & 2020-01 & \onlinecite{noiri_radio-frequency-detected_2020} & Fig. 3c\\
 0.8 & \unit{\micro\second} & measure & 1Q & ST/e & Si/SiGe & 2D & 2020-02 & \onlinecite{connors_rapid_2020} & Fig. 5b\\
 1.7 & \unit{\micro\second} & measure & 1Q & ST/e & Si/SiGe & 2D & 2020-02 & \onlinecite{connors_rapid_2020} & p6\\
 33 & \unit{\micro\second}\textsuperscript{j} & measure & 1Q & ST/e & $\text{Si/}\text{SiO}_2$ & 1D & 2020-12 & \onlinecite{bohuslavskyi_reflectometry_2020} & p6 and Fig. 7e\\
+0.22 & \unit{\milli\second} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2021-02 & \onlinecite{jadot_distant_2021} & Fig. 2a caption\\
 0.1 & \unit{\milli\second} & measure & 1Q & ST/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2021-04 & \onlinecite{borjans_spin_2021} & p5\\
-0.22 & \unit{\milli\second} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2021-05 & \onlinecite{jadot_distant_2021} & Fig. 2a caption\\
 50 & \unit{\nano\second}\textsuperscript{k} & measure & 1Q & ST/e & $\text{Si/}\text{SiO}_2$ & 1D & 2021-05 & \onlinecite{ibberson_large_2021} & p5 and Fig. 3\\
 10 & \unit{\micro\second}\textsuperscript{l} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2021-10 & \onlinecite{fedele_simultaneous_2021} & p3\\
 2.6 & \unit{\milli\second} & measure & 2Q & ST/e & $\text{Si/}\text{SiO}_2$ & 2D & 2019-03 & \onlinecite{west_gate-based_2019} & p3\\
-6 & \unit{\micro\second} & measure & 1Q & ST/h & Ge/SiGe & 2D & 2020-12 & \onlinecite{hendrickx_single-hole_2020} & p4\\
+6 & \unit{\micro\second} & measure & 1Q & ST/h & Ge/SiGe & 2D & 2020-07 & \onlinecite{hendrickx_single-hole_2020} & p4\\
 18 & \unit{\milli\second}\textsuperscript{m} & measure & 1Q & ST/i & Si:P & imp & 2017-07 & \onlinecite{broome_high-fidelity_2017} & p3\\
 0.15 & \unit{\milli\second} & measure & 1Q & ST/i\textsuperscript{n} & Si:P & imp & 2018-05 & \onlinecite{harvey-collard_high-fidelity_2018} & Tab. {II}\\
 65 & \unit{\micro\second}\textsuperscript{o} & measure & 1Q & ST/i\textsuperscript{n} & Si:P & imp & 2018-05 & \onlinecite{harvey-collard_high-fidelity_2018} & Tab. {II}\\
@@ -52,7 +52,7 @@
 10 & \unit{\milli\second} & initialize & 1Q & LD/i & $\, ^{28}\text{Si:P}$ & imp & 2021-10 & \onlinecite{johnson_beating_2021} & p5\\
 50 & \unit{\nano\second} & initialize & 1Q & ST/e & GaAs/AlGaAs & 2D & 2012-04 & \onlinecite{shulman_demonstration_2012} & p1\\
 20 & \unit{\nano\second}\textsuperscript{q} & initialize & 1Q & ST/e & GaAs/AlGaAs & 2D & 2014-10 & \onlinecite{shulman_suppressing_2014} & p2\\
-20 & \unit{\milli\second}\textsuperscript{r} & initialize & 1Q & ST/e & $\text{Si/}\text{SiO}_2$ & 1D & 2019-08 & \onlinecite{urdampilleta_gate-based_2019} & Fig. 3\\
+20 & \unit{\milli\second}\textsuperscript{r} & initialize & 1Q & ST/e & $\text{Si/}\text{SiO}_2$ & 1D & 2019-05 & \onlinecite{urdampilleta_gate-based_2019} & Fig. 3\\
 \bottomrule
 \end{tabular}
 \caption{Operation times (part 3). Superscripts stand for the following. \textsuperscript{a}: $\mathrm{{SNR}}=3.4$. \textsuperscript{b}: 15 {QND} measurements, each taking 3.263 ms. \textsuperscript{c}: \estimated from Fig. 2b-c. \textsuperscript{d}: \estimated as the duration of phase 3 in {SFig}. 2d. \textsuperscript{e}: $\mathrm{{SNR}}\sim$3. \textsuperscript{f}: The reference estimates this time as required for $\mathrm{{SNR}}=1$. \textsuperscript{g}: $\mathrm{{SNR}}=4.1$. \textsuperscript{h}: $\mathrm{{SNR}}=6.5$. \textsuperscript{i}: $\mathrm{{SNR}}=6$. \textsuperscript{j}: Detecting single electron transfer between neighboring dots. \textsuperscript{k}: $\mathrm{{SNR}}=3.3$ for an interdot charge transition ``mimicking the singlet-triplet readout scheme''. \textsuperscript{l}: $\mathrm{{SNR}}=5$. \textsuperscript{m}: Latched readout; $\mathrm{{SNR}}=6.4$. \textsuperscript{n}: Hybrid {ST} qubit: impurity -- gated dot. \textsuperscript{o}: Latched readout. \textsuperscript{p}: Using spin hot-spot. \textsuperscript{q}: Into singlet. \textsuperscript{r}: Into triplet.

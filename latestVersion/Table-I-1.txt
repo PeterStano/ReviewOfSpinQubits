@@ -18,14 +18,14 @@
 0.17 & \unit{\second} & $T_1$ & LD/e & Si/SiGe & 2D & 2016-11 & \onlinecite{zajac_scalable_2016} & Fig. 6\\
 10 & \unit{\second} & $T_1$ & LD/e & GaAs/AlGaAs & 2D & 2017-10 & \onlinecite{hofmann_anisotropy_2017} & Fig. 2 the lowest green point\\
 50 & \unit{\milli\second} & $T_1$ & LD/e & Si/SiGe & 2D & 2018-02 & \onlinecite{watson_programmable_2018} & p1 and {ED} Fig. 3b\\
+57 & \unit{\second} & $T_1$ & LD/e & GaAs/AlGaAs & 2D & 2018-08 & \onlinecite{camenzind_hyperfine-phonon_2018} & p3 and Fig. 4a\\
 0.15 & \unit{\second}\textsuperscript{c} & $T_1$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2018-08 & \onlinecite{petit_spin_2018} & p2 and p4\\
 2.8 & \unit{\milli\second}\textsuperscript{d} & $T_1$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2018-08 & \onlinecite{petit_spin_2018} & p4 and Fig. 3a\\
 1 & \unit{\second} & $T_1$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2018-10 & \onlinecite{chan_assessment_2018} & p2\\
-57 & \unit{\second} & $T_1$ & LD/e & GaAs/AlGaAs & 2D & 2018-12 & \onlinecite{camenzind_hyperfine-phonon_2018} & p3 and Fig. 4a\\
+1.5 & \unit{\milli\second} & $T_1$ & LD/e & GaAs/AlGaAs & 2D & 2019-04 & \onlinecite{nakajima_quantum_2019} & Fig. 2\\
 0.16 & \unit{\second}\textsuperscript{e} & $T_1$ & LD/e & Si/SiGe & 2D & 2019-04 & \onlinecite{borjans_single-spin_2019} & Fig. 2\\
 5 & \unit{\second}\textsuperscript{f} & $T_1$ & LD/e & Si/SiGe & 2D & 2019-04 & \onlinecite{borjans_single-spin_2019} & p4\\
-1.5 & \unit{\milli\second} & $T_1$ & LD/e & GaAs/AlGaAs & 2D & 2019-06 & \onlinecite{nakajima_quantum_2019} & Fig. 2\\
-0.13 & \unit{\second} & $T_1$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2019-12 & \onlinecite{sigillito_coherent_2019} & p4\\
+0.13 & \unit{\second} & $T_1$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2019-11 & \onlinecite{sigillito_coherent_2019} & p4\\
 1 & \unit{\second} & $T_1$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2020-03 & \onlinecite{hollmann_large_2020} & p6 and Fig. 4a\\
 3.7 & \unit{\milli\second} & $T_1$ & LD/e\textsuperscript{g} & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2020-04 & \onlinecite{petit_universal_2020} & p2\\
 90 & \unit{\milli\second} & $T_1$ & LD/e & $\text{Si/}\text{SiO}_2$ & 2D & 2020-06 & \onlinecite{zhang_giant_2020} & Fig. 1c\\
@@ -33,27 +33,27 @@
 1.3 & \unit{\milli\second} & $T_1$ & LD/e & Si/SiGe & 2D & 2021-06 & \onlinecite{takeda_quantum_2021} & p1 for Q3\\
 10 & \unit{\milli\second} & $T_1$ & LD/e & $\text{Si/}\text{SiO}_2$ & 1D & 2021-09 & \onlinecite{spence_spin-valley_2021} & p2 and Fig. 2a\\
 1.6 & \unit{\second} & $T_1$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2022-03 & \onlinecite{zwerver_qubits_2022} & p4 and Fig. 3c\\
-5 & \unit{\nano\second} & $T_1$ & LD/h & GaAs/AlGaAs & 1D & 2016-12 & \onlinecite{wang_anisotropic_2016} & p4 and {SM} {pS}5\\
-86 & \unit{\micro\second} & $T_1$ & LD/h & Ge/Si & 1D & 2018-11 & \onlinecite{vukusic_single-shot_2018} & p3 and Fig. 3c the leftmost point\\
-60 & \unit{\micro\second} & $T_1$ & LD/h & GaAs/AlGaAs & 2D & 2019-12 & \onlinecite{bogan_single_2019} & abstract and Fig. 4\\
+5 & \unit{\nano\second} & $T_1$ & LD/h & GaAs/AlGaAs & 1D & 2016-11 & \onlinecite{wang_anisotropic_2016} & p4 and {SM} {pS}5\\
+86 & \unit{\micro\second} & $T_1$ & LD/h & Ge/Si & 1D & 2018-10 & \onlinecite{vukusic_single-shot_2018} & p3 and Fig. 3c the leftmost point\\
+60 & \unit{\micro\second} & $T_1$ & LD/h & GaAs/AlGaAs & 2D & 2019-02 & \onlinecite{bogan_single_2019} & abstract and Fig. 4\\
 9 & \unit{\micro\second} & $T_1$ & LD/h & Ge/SiGe & 2D & 2020-01 & \onlinecite{hendrickx_fast_2020} & p3 and Fig. 2f\\
+1.2 & \unit{\milli\second} & $T_1$ & LD/h & Ge/SiGe & 2D & 2020-07 & \onlinecite{hendrickx_single-hole_2020} & p4 and Fig. 3a\\
 32 & \unit{\milli\second} & $T_1$ & LD/h & Ge/SiGe & 2D & 2020-08 & \onlinecite{lawrie_spin_2020} & p3\\
-1.2 & \unit{\milli\second} & $T_1$ & LD/h & Ge/SiGe & 2D & 2020-12 & \onlinecite{hendrickx_single-hole_2020} & p4 and Fig. 3a\\
 16 & \unit{\milli\second} & $T_1$ & LD/h & Ge/SiGe & 2D & 2021-03 & \onlinecite{hendrickx_four-qubit_2021} & Fig. S5 dot 3\\
 3 & \unit{\milli\second}\textsuperscript{h} & $T_1$ & LD/h & BLG & 2D & 2021-12 & \onlinecite{gachter_single-shot_2021} & p5\\
-3.7 & \unit{\micro\second} & $T_1$ & LD/h & Ge/Si & 1D & 2022-12 & \onlinecite{wang_ultrafast_2022} & {SM} p13 and {SFig}. 7.1d\\
-6 & \unit{\second} & $T_1$ & LD/i & Si:P & imp & 2010-10 & \onlinecite{morello_single-shot_2010} & p2\\
+3.7 & \unit{\micro\second} & $T_1$ & LD/h & Ge/Si & 1D & 2022-01 & \onlinecite{wang_ultrafast_2022} & {SM} p13 and {SFig}. 7.1d\\
+6 & \unit{\second} & $T_1$ & LD/i & Si:P & imp & 2010-09 & \onlinecite{morello_single-shot_2010} & p2\\
 0.7 & \unit{\second} & $T_1$ & LD/i & Si:P & imp & 2012-09 & \onlinecite{pla_single-atom_2012} & p3\\
-1.8 & \unit{\second} & $T_1$ & LD/i & Si:P & imp & 2013-10 & \onlinecite{buch_spin_2013} & Fig. 3\\
+1.8 & \unit{\second} & $T_1$ & LD/i & Si:P & imp & 2013-06 & \onlinecite{buch_spin_2013} & Fig. 3\\
 1.3 & \unit{\second} & $T_1$ & LD/i\textsuperscript{i} & $\, ^{28}\text{Si:P}$ & imp & 2016-10 & \onlinecite{laucht_dressed_2016} & p4\\
 3 & \unit{\second} & $T_1$ & LD/i & $\, ^{28}\text{Si:P}$ & imp & 2016-10 & \onlinecite{dehollain_optimization_2016} & p3\\
 30 & \unit{\second} & $T_1$ & LD/i & Si:P & imp & 2017-03 & \onlinecite{watson_atomically_2017} & Fig. 2b the lowest point\\
-1.3 & \unit{\second} & $T_1$ & LD/i & Si:P & imp & 2018-12 & \onlinecite{weber_spinorbit_2018} & p3 and Fig. 2b\\
-9.3 & \unit{\second} & $T_1$ & LD/i & Si:P & imp & 2018-12 & \onlinecite{broome_two-electron_2018} & p3 and Fig. 1f\\
-4.2 & \unit{\second} & $T_1$ & LD/i & Si:P & imp & 2019-02 & \onlinecite{koch_spin_2019} & p3\\
+9.3 & \unit{\second} & $T_1$ & LD/i & Si:P & imp & 2018-03 & \onlinecite{broome_two-electron_2018} & p3 and Fig. 1f\\
+1.3 & \unit{\second} & $T_1$ & LD/i & Si:P & imp & 2018-11 & \onlinecite{weber_spinorbit_2018} & p3 and Fig. 2b\\
+4.2 & \unit{\second} & $T_1$ & LD/i & Si:P & imp & 2019-01 & \onlinecite{koch_spin_2019} & p3\\
 9.8 & \unit{\second} & $T_1$ & LD/i & Si:P & imp & 2019-05 & \onlinecite{tenberg_electron_2019} & Fig. 2c\\
-5 & \unit{\milli\second} & $T_1$ & LD/i & $\, ^{28}\text{Si:B}$ & imp & 2021-01 & \onlinecite{kobayashi_engineering_2021} & p3 and Fig. 3b\\
-3.4 & \unit{\second} & $T_1$ & LD/i & $\, ^{28}\text{Si:P}$ & imp & 2021-12 & \onlinecite{madzik_conditional_2021} & p6 and {SFig}. 3c\\
+5 & \unit{\milli\second} & $T_1$ & LD/i & $\, ^{28}\text{Si:B}$ & imp & 2020-07 & \onlinecite{kobayashi_engineering_2020} & p3 and Fig. 3b\\
+3.4 & \unit{\second} & $T_1$ & LD/i & $\, ^{28}\text{Si:P}$ & imp & 2021-01 & \onlinecite{madzik_conditional_2021} & p6 and {SFig}. 3c\\
 \bottomrule
 \end{tabular}
 \caption{Spin coherence times (part 1). Superscripts stand for the following. \textsuperscript{a}: {EO} qubit. \textsuperscript{b}: \estimated Fig. 5 the lowest point. \textsuperscript{c}: At 0.1 kelvin. \textsuperscript{d}: At 1.1 kelvin. \textsuperscript{e}: With micromagnet. \textsuperscript{f}: No micromagnet. \textsuperscript{g}: At 1 kelvin. \textsuperscript{h}: The reference states ``...the relaxation time is on the order of milliseconds''. We use 3 ms as a representative value, as it corresponds to the ``load phase'' in the measurement cycle. \textsuperscript{i}: Qubit defined in the rotating frame.

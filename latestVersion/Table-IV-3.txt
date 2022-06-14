@@ -6,18 +6,18 @@
 \midrule
 96 \unit{\percent} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2018-04 & \onlinecite{mukhopadhyay_2x2_2018} & p4\\
 80 \unit{\percent} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2018-09 & \onlinecite{orona_readout_2018} & p4\\
-99 \unit{\percent} & measure & 1Q & ST/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2018-12 & \onlinecite{fogarty_integrated_2018} & p2\\
+99 \unit{\percent} & measure & 1Q & ST/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2018-10 & \onlinecite{fogarty_integrated_2018} & p2\\
+98.45 \unit{\percent}\textsuperscript{a} & measure & 1Q & ST/e & $\text{Si/}\text{SiO}_2$ & 1D & 2019-05 & \onlinecite{urdampilleta_gate-based_2019} & abstract and p2\\
 98 \unit{\percent} & measure & 1Q & ST/e & Si/SiGe & 2D & 2019-08 & \onlinecite{zheng_rapid_2019} & p3 and Fig. 3f\\
-98.45 \unit{\percent}\textsuperscript{a} & measure & 1Q & ST/e & $\text{Si/}\text{SiO}_2$ & 1D & 2019-08 & \onlinecite{urdampilleta_gate-based_2019} & abstract and p2\\
 99.3 \unit{\percent} & measure & 1Q & ST/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2019-12 & \onlinecite{zhao_single-spin_2019} & p2\\
 98.2 \unit{\percent} & measure & 1Q & ST/e & Si/SiGe & 2D & 2020-02 & \onlinecite{connors_rapid_2020} & Fig. 5b\\
 99 \unit{\percent} & measure & 1Q & ST/e & Si/SiGe & 2D & 2020-02 & \onlinecite{connors_rapid_2020} & p6\\
-90 \unit{\percent} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2020-12 & \onlinecite{jang_robust_2020} & p4\\
-93 \unit{\percent} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2020-12 & \onlinecite{qiao_conditional_2020} & p5 and {SM} Fig. 11\\
+93 \unit{\percent} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2020-06 & \onlinecite{qiao_conditional_2020} & p5 and {SM} Fig. 11\\
+90 \unit{\percent} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2020-07 & \onlinecite{jang_robust_2020} & p4\\
+95 \unit{\percent} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2021-02 & \onlinecite{jadot_distant_2021} & p1\\
 99.2 \unit{\percent} & measure & 1Q & ST/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2021-04 & \onlinecite{borjans_spin_2021} & p5\\
-95 \unit{\percent} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2021-05 & \onlinecite{jadot_distant_2021} & p1\\
-80 \unit{\percent} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2021-12 & \onlinecite{kojima_probabilistic_2021} & p2 and p3\\
-78 \unit{\percent}\textsuperscript{b} & measure & 1Q & ST/h & Ge/SiGe & 2D & 2020-12 & \onlinecite{hendrickx_single-hole_2020} & p4\\
+80 \unit{\percent} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2021-05 & \onlinecite{kojima_probabilistic_2021} & p2 and p3\\
+78 \unit{\percent}\textsuperscript{b} & measure & 1Q & ST/h & Ge/SiGe & 2D & 2020-07 & \onlinecite{hendrickx_single-hole_2020} & p4\\
 95 \unit{\percent} & measure & 1Q & ST/i & Si:P & imp & 2014-06 & \onlinecite{dehollain_single-shot_2014} & p3\\
 98.4 \unit{\percent}\textsuperscript{c} & measure & 1Q & ST/i & Si:P & imp & 2017-07 & \onlinecite{broome_high-fidelity_2017} & p3 and abstract\\
 99.3 \unit{\percent} & measure & 1Q & ST/i\textsuperscript{d} & Si:P & imp & 2018-05 & \onlinecite{harvey-collard_high-fidelity_2018} & Tab. {II}\\
@@ -28,21 +28,21 @@
 95 \unit{\percent} & initialize & 1Q & LD/e & Si/SiGe & 2D & 2014-08 & \onlinecite{kawakami_electrical_2014} & p1\\
 92 \unit{\percent} & initialize & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2014-10 & \onlinecite{veldhorst_addressable_2014} & p2\\
 99 \unit{\percent}\textsuperscript{g} & initialize & 1Q & LD/e & Si/SiGe & 2D & 2018-02 & \onlinecite{watson_programmable_2018} & p1\\
-95 \unit{\percent} & initialize & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2019-12 & \onlinecite{sigillito_coherent_2019} & p1\\
-99 \unit{\percent} & initialize & 1Q & LD/e & Si/SiGe & 2D & 2020-12 & \onlinecite{yoneda_quantum_2020} & p5\\
+95 \unit{\percent} & initialize & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2019-11 & \onlinecite{sigillito_coherent_2019} & p1\\
+99 \unit{\percent} & initialize & 1Q & LD/e & Si/SiGe & 2D & 2020-03 & \onlinecite{yoneda_quantum_2020} & p5\\
 99 \unit{\percent} & initialize & 1Q & LD/e & Si/SiGe & 2D & 2021-06 & \onlinecite{takeda_quantum_2021} & p1\\
 98.4 \unit{\percent}\textsuperscript{h} & initialize & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2021-11 & \onlinecite{mills_two-qubit_2021} & p1\\
 98.9 \unit{\percent} & initialize & 1Q & LD/i & $\, ^{28}\text{Si:P}$ & imp & 2021-10 & \onlinecite{johnson_beating_2021} & p5 and Fig. 3\\
-98.5 \unit{\percent}\textsuperscript{i} & initialize & 1Q & ST/e & $\text{Si/}\text{SiO}_2$ & 1D & 2019-08 & \onlinecite{urdampilleta_gate-based_2019} & p3\\
-89 \unit{\percent} & initialize & 1Q & ST/e & GaAs/AlGaAs & 2D & 2020-12 & \onlinecite{qiao_conditional_2020} & p5\\
-95 \unit{\percent} & initialize & 1Q & ST/e & GaAs/AlGaAs & 2D & 2021-05 & \onlinecite{jadot_distant_2021} & p1\\
+98.5 \unit{\percent}\textsuperscript{i} & initialize & 1Q & ST/e & $\text{Si/}\text{SiO}_2$ & 1D & 2019-05 & \onlinecite{urdampilleta_gate-based_2019} & p3\\
+89 \unit{\percent} & initialize & 1Q & ST/e & GaAs/AlGaAs & 2D & 2020-06 & \onlinecite{qiao_conditional_2020} & p5\\
+95 \unit{\percent} & initialize & 1Q & ST/e & GaAs/AlGaAs & 2D & 2021-02 & \onlinecite{jadot_distant_2021} & p1\\
 89 \unit{\percent}\textsuperscript{j} & initialize & 2Q & LD/e & Si/SiGe & 2D & 2018-02 & \onlinecite{watson_programmable_2018} & p3\\
 89 \unit{\percent}\textsuperscript{j} & initialize & 2Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2019-05 & \onlinecite{huang_fidelity_2019} & p3\\
+90 \unit{\percent}\textsuperscript{j} & initialize & 2Q & LD/e & $\text{Si/}\text{SiO}_2$ & 2D & 2021-05 & \onlinecite{leon_bell-state_2021} & Fig. 3 caption\\
 94.1 \unit{\percent}\textsuperscript{j} & initialize & 2Q & LD/e & Si/SiGe & 2D & 2021-06 & \onlinecite{takeda_quantum_2021} & p2\\
 96.6 \unit{\percent}\textsuperscript{h} & initialize & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2021-11 & \onlinecite{mills_two-qubit_2021} & p2\\
-90 \unit{\percent}\textsuperscript{j} & initialize & 2Q & LD/e & $\text{Si/}\text{SiO}_2$ & 2D & 2021-12 & \onlinecite{leon_bell-state_2021} & Fig. 3 caption\\
 96 \unit{\percent}\textsuperscript{k} & initialize & 2Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2022-02 & \onlinecite{evans_fast_2022} & p6 and Fig. 3b\\
-93 \unit{\percent}\textsuperscript{j} & initialize & 2Q & ST/e & GaAs/AlGaAs & 2D & 2017-12 & \onlinecite{nichol_high-fidelity_2017} & p4\\
+93 \unit{\percent}\textsuperscript{j} & initialize & 2Q & ST/e & GaAs/AlGaAs & 2D & 2017-01 & \onlinecite{nichol_high-fidelity_2017} & p4\\
 88 \unit{\percent}\textsuperscript{l} & initialize & 3Q & LD/e & Si/SiGe & 2D & 2021-06 & \onlinecite{takeda_quantum_2021} & p4\\
 \bottomrule
 \end{tabular}
