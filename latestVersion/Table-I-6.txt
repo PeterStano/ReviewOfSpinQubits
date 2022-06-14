@@ -17,16 +17,16 @@
 2 & \unit{\micro\second}\textsuperscript{g} & $T_2^*$ & ST/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2020-04 & \onlinecite{yang_operation_2020} & Fig. 3g\\
 15 & \unit{\nano\second} & $T_2^*$ & ST/e & GaAs/AlGaAs & 2D & 2020-12 & \onlinecite{jang_robust_2020} & p4\\
 22 & \unit{\nano\second} & $T_2^*$ & ST/e & GaAs/AlGaAs & 2D & 2020-12 & \onlinecite{jang_individual_2020} & Fig. 2a the green trace\\
-0.1 & \unit{\micro\second}\textsuperscript{h} & $T_2^*$ & ST/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2021-02 & \onlinecite{jock_silicon_2021} & p4 and Fig. 2e-g\\
 12 & \unit{\nano\second} & $T_2^*$ & ST/e & GaAs/AlGaAs & 2D & 2021-05 & \onlinecite{jadot_distant_2021} & p1 and Fig. 2b\\
 1 & \unit{\micro\second} & $T_2^*$ & ST/e & Si/SiGe & 2D & 2021-08 & \onlinecite{liu_magnetic-gradient-free_2021} & p3\\
 22 & \unit{\nano\second} & $T_2^*$ & ST/e & GaAs/AlGaAs & 2D & 2021-10 & \onlinecite{fedele_simultaneous_2021} & Fig. 2c Qubit 2\\
-2 & \unit{\micro\second} & $T_2^*$ & ST/e\textsuperscript{i} & Si/SiGe & 2D & 2021-11 & \onlinecite{cai_coherent_2021} & Fig. 6b\\
+2 & \unit{\micro\second} & $T_2^*$ & ST/e\textsuperscript{h} & Si/SiGe & 2D & 2021-11 & \onlinecite{cai_coherent_2021} & Fig. 6b\\
 21 & \unit{\nano\second} & $T_2^*$ & ST/e & GaAs/AlGaAs & 2D & 2021-12 & \onlinecite{kojima_probabilistic_2021} & p5\\
+0.1 & \unit{\micro\second}\textsuperscript{i} & $T_2^*$ & ST/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2022-12 & \onlinecite{jock_silicon_2022} & p4 and Fig. 2e-g\\
 0.7 & \unit{\micro\second} & $T_2^*$ & ST/h & Ge/SiGe & 2D & 2021-08 & \onlinecite{jirovec_singlet-triplet_2021} & Fig. 3f 1.0 {mT} trace\\
 \bottomrule
 \end{tabular}
-\caption{Spin coherence times (part 6). Superscripts stand for the following. \textsuperscript{a}: In non-ergodic regime. \textsuperscript{b}: With feedback. \textsuperscript{c}: Dephasing of transported spin. \textsuperscript{d}: Impurity-gated dot hybrid qubit. \textsuperscript{e}: From linewidth. \textsuperscript{f}: At 0.04 kelvin. \textsuperscript{g}: At 1.5 kelvin. \textsuperscript{h}: \derived from $T_2^* = Q/f$ with $f=200$ {MHz} and $Q=20$. \textsuperscript{i}: $S$-$T_-$ qubit.
+\caption{Spin coherence times (part 6). Superscripts stand for the following. \textsuperscript{a}: In non-ergodic regime. \textsuperscript{b}: With feedback. \textsuperscript{c}: Dephasing of transported spin. \textsuperscript{d}: Impurity-gated dot hybrid qubit. \textsuperscript{e}: From linewidth. \textsuperscript{f}: At 0.04 kelvin. \textsuperscript{g}: At 1.5 kelvin. \textsuperscript{h}: $S$-$T_-$ qubit. \textsuperscript{i}: \derived from $T_2^* = Q/f$ with $f=200$ {MHz} and $Q=20$.
 \label{spinCoherence6}
 }
 \end{table}

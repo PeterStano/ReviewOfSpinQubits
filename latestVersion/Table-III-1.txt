@@ -47,10 +47,10 @@
 83 & \unit{\nano\second} & gate & 1Q & LD/e & Si/SiGe & 2D & 2020-01 & \onlinecite{croot_flopping-mode_2020} & p4\\
 15 & \unit{\nano\second} & gate & 1Q & LD/e & GaAs/AlGaAs & 2D & 2020-03 & \onlinecite{nakajima_coherence_2020} & Fig. 6\\
 5 & \unit{\micro\second} & gate & 1Q & LD/e\textsuperscript{r} & $\text{Si/}\text{SiO}_2$ & 2D & 2020-12 & \onlinecite{leon_coherent_2020} & {SM} Fig. 4a at around 50 {nV}\\
-0.56 & \unit{\micro\second} & gate & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2021-01 & \onlinecite{zwerver_qubits_2021} & p3 and {ED} Fig. 11e\\
 83 & \unit{\nano\second} & gate & 1Q & LD/e & Si/SiGe & 2D & 2021-06 & \onlinecite{takeda_quantum_2021} & p1\\
 70 & \unit{\nano\second} & gate & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2021-11 & \onlinecite{mills_two-qubit_2021} & p1\\
 0.1 & \unit{\micro\second} & gate & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-01 & \onlinecite{noiri_fast_2022} & p4\\
+0.36 & \unit{\micro\second} & gate & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2022-03 & \onlinecite{zwerver_qubits_2022} & {ED} Fig. 7a\\
 10 & \unit{\nano\second}\textsuperscript{s} & gate & 2Q & LD/e & GaAs/AlGaAs & 2D & 2011-09 & \onlinecite{brunner_two-qubit_2011} & p4\\
 0.16 & \unit{\micro\second} & gate & 2Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2015-10 & \onlinecite{veldhorst_two-qubit_2015} & p4\\
 0.13 & \unit{\micro\second} & gate & 2Q & LD/e & Si/SiGe & 2D & 2018-01 & \onlinecite{zajac_resonantly_2018} & p2\\

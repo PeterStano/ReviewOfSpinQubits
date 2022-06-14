@@ -7,11 +7,11 @@
 98 \unit{\percent} & gate & 2Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2019-05 & \onlinecite{huang_fidelity_2019} & p4 and Fig. 4\\
 84 \unit{\percent}\textsuperscript{a} & gate & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2019-12 & \onlinecite{sigillito_coherent_2019} & p6\\
 86.1 \unit{\percent} & gate & 2Q & LD/e\textsuperscript{b} & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2020-04 & \onlinecite{petit_universal_2020} & p3 and Fig. 3d\\
-99.65 \unit{\percent}\textsuperscript{c} & gate & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2021-07 & \onlinecite{xue_computing_2021} & p3 and {ED} Fig. 5\\
-98.2 \unit{\percent} & gate & 2Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2021-07 & \onlinecite{evans_fast_2021} & p4 and Fig. 3a\\
-98.62 \unit{\percent}\textsuperscript{d} & gate & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2021-11 & \onlinecite{mills_two-qubit_2021} & p3\\
-99.81 \unit{\percent}\textsuperscript{e} & gate & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2021-11 & \onlinecite{mills_two-qubit_2021} & p3\\
-99.51 \unit{\percent}\textsuperscript{f} & gate & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-01 & \onlinecite{noiri_fast_2022} & p4 and Fig. 2g\\
+98.62 \unit{\percent}\textsuperscript{c} & gate & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2021-11 & \onlinecite{mills_two-qubit_2021} & p3\\
+99.81 \unit{\percent}\textsuperscript{d} & gate & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2021-11 & \onlinecite{mills_two-qubit_2021} & p3\\
+99.51 \unit{\percent}\textsuperscript{e} & gate & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-01 & \onlinecite{noiri_fast_2022} & p4 and Fig. 2g\\
+99.65 \unit{\percent}\textsuperscript{f} & gate & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-01 & \onlinecite{xue_quantum_2022} & p3 and {ED} Fig. 5\\
+98.2 \unit{\percent} & gate & 2Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2022-02 & \onlinecite{evans_fast_2022} & p4 and Fig. 3a\\
 90 \unit{\percent} & gate & 2Q & LD/i & Si:P & imp & 2019-07 & \onlinecite{he_two-qubit_2019} & p3\\
 72 \unit{\percent}\textsuperscript{g} & gate & 2Q & ST/e & GaAs/AlGaAs & 2D & 2012-04 & \onlinecite{shulman_demonstration_2012} & p3\\
 90 \unit{\percent} & gate & 2Q & ST/e & GaAs/AlGaAs & 2D & 2017-12 & \onlinecite{nichol_high-fidelity_2017} & p4 and Fig. 4e\\
@@ -56,7 +56,7 @@
 95 \unit{\percent} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2017-12 & \onlinecite{fujita_coherent_2017} & p2\\
 \bottomrule
 \end{tabular}
-\caption{Operation infidelities (part 2). Superscripts stand for the following. \textsuperscript{a}: {SWAP}. \textsuperscript{b}: At 1 kelvin. \textsuperscript{c}: {CPHASE}. \textsuperscript{d}: {CNOT} gate synthetized using the {CZ} gate. \textsuperscript{e}: {CZ} gate. \textsuperscript{f}: {CNOT}. \textsuperscript{g}: Fidelity of a Bell state produced using {CPHASE}. \textsuperscript{h}: {EO} qubit. \textsuperscript{i}: The corresponding infidelity includes both preparation and measurement errors. \textsuperscript{j}: The average of 93 \% and 72 \%. \textsuperscript{k}: The average of the figure of merit for the two qubits measured. \textsuperscript{l}: The average of 90.7 \% and 83.3 \%. \textsuperscript{m}: The average of 97 \% and 90.1 \%, the measurement fidelities for the two spin states. \textsuperscript{n}: \derived from visibility $V=93.4$ \%. \textsuperscript{o}: $S$/$T_0$/$T_+$ ternary result. \textsuperscript{p}: S/T binary result. \textsuperscript{q}: Latched readout.
+\caption{Operation infidelities (part 2). Superscripts stand for the following. \textsuperscript{a}: {SWAP}. \textsuperscript{b}: At 1 kelvin. \textsuperscript{c}: {CNOT} gate synthetized using the {CZ} gate. \textsuperscript{d}: {CZ} gate. \textsuperscript{e}: {CNOT}. \textsuperscript{f}: {CZ}. \textsuperscript{g}: Fidelity of a Bell state produced using {CPHASE}. \textsuperscript{h}: {EO} qubit. \textsuperscript{i}: The corresponding infidelity includes both preparation and measurement errors. \textsuperscript{j}: The average of 93 \% and 72 \%. \textsuperscript{k}: The average of the figure of merit for the two qubits measured. \textsuperscript{l}: The average of 90.7 \% and 83.3 \%. \textsuperscript{m}: The average of 97 \% and 90.1 \%, the measurement fidelities for the two spin states. \textsuperscript{n}: \derived from visibility $V=93.4$ \%. \textsuperscript{o}: $S$/$T_0$/$T_+$ ternary result. \textsuperscript{p}: S/T binary result. \textsuperscript{q}: Latched readout.
 \label{operationFidelity2}
 }
 \end{table}

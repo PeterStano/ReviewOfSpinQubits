@@ -29,12 +29,12 @@
 97.5 \unit{\percent} & gate & 1Q & LD/e & GaAs/AlGaAs & 2D & 2020-03 & \onlinecite{nakajima_coherence_2020} & p3 and Fig. 4e\\
 99.3 \unit{\percent} & gate & 1Q & LD/e\textsuperscript{h} & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2020-04 & \onlinecite{petit_universal_2020} & p3 and Fig. 2g\\
 99.7 \unit{\percent} & gate & 1Q & LD/e\textsuperscript{i} & $\text{Si/}\text{SiO}_2$ & 2D & 2020-12 & \onlinecite{leon_coherent_2020} & {SM} Fig. 3\\
-99.1 \unit{\percent} & gate & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2021-01 & \onlinecite{zwerver_qubits_2021} & p3 and {ED} Fig. 10f\\
 99.69 \unit{\percent} & gate & 1Q & LD/e\textsuperscript{j} & Si/SiGe & 2D & 2021-05 & \onlinecite{xue_cmos-based_2021} & p4\\
 99.91 \unit{\percent} & gate & 1Q & LD/e & Si/SiGe & 2D & 2021-06 & \onlinecite{takeda_quantum_2021} & p1 for Q3\\
-99.72 \unit{\percent} & gate & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2021-07 & \onlinecite{xue_computing_2021} & p3\\
 99.73 \unit{\percent}\textsuperscript{k} & gate & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2021-11 & \onlinecite{mills_two-qubit_2021} & p1 and Fig. 1C\\
+99.72 \unit{\percent} & gate & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-01 & \onlinecite{xue_quantum_2022} & p2\\
 99.84 \unit{\percent} & gate & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-01 & \onlinecite{noiri_fast_2022} & p4 and Fig. 2c\\
+99.1 \unit{\percent} & gate & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2022-03 & \onlinecite{zwerver_qubits_2022} & p5 and S Fig. 15f\\
 99.3 \unit{\percent} & gate & 1Q & LD/h & Ge/SiGe & 2D & 2020-01 & \onlinecite{hendrickx_fast_2020} & p2 and Fig. 2d\\
 99.9 \unit{\percent} & gate & 1Q & LD/h & Ge/SiGe & 2D & 2021-03 & \onlinecite{hendrickx_four-qubit_2021} & Fig. S4 dot 3\\
 98.9 \unit{\percent} & gate & 1Q & LD/h\textsuperscript{l} & $\text{Si/}\text{SiO}_2$ & 1D & 2021-03 & \onlinecite{camenzind_spin_2021} & p6 and Fig. 3b\\

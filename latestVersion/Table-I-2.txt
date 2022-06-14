@@ -27,7 +27,7 @@
 0.4 & \unit{\milli\second} & $T_2^{\text{DynD}}$ & LD/e & Si/SiGe & 2D & 2016-10 & \onlinecite{kawakami_gate_2016} & p3\\
 3.1 & \unit{\milli\second} & $T_2^{\text{DynD}}$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2017-12 & \onlinecite{yoneda_quantum-dot_2017} & Fig. 4a\\
 6.7 & \unit{\milli\second} & $T_2^{\text{DynD}}$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2018-10 & \onlinecite{chan_assessment_2018} & p2\\
-3.7 & \unit{\milli\second} & $T_2^{\text{DynD}}$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2021-01 & \onlinecite{zwerver_qubits_2021} & p4 and Fig. 4b\\
+3.7 & \unit{\milli\second} & $T_2^{\text{DynD}}$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2022-03 & \onlinecite{zwerver_qubits_2022} & Fig. 4d\\
 0.1 & \unit{\milli\second} & $T_2^{\text{DynD}}$ & LD/h & Ge/SiGe & 2D & 2021-03 & \onlinecite{hendrickx_four-qubit_2021} & Fig. S6 dot 3\\
 5.4 & \unit{\micro\second} & $T_2^{\text{DynD}}$ & LD/h\textsuperscript{d} & $\text{Si/}\text{SiO}_2$ & 1D & 2021-03 & \onlinecite{camenzind_spin_2021} & p7 and Fig. 4a\\
 0.41 & \unit{\micro\second} & $T_2^{\text{DynD}}$ & LD/i & Si:P & imp & 2012-09 & \onlinecite{pla_single-atom_2012} & p3\\
@@ -40,7 +40,7 @@
 0.13 & \unit{\milli\second}\textsuperscript{k} & $T_2^{\text{DynD}}$ & ST/e & GaAs/AlGaAs & 2D & 2012-02 & \onlinecite{medford_scaling_2012} & Fig. 3b\\
 0.87 & \unit{\milli\second} & $T_2^{\text{DynD}}$ & ST/e & GaAs/AlGaAs & 2D & 2016-10 & \onlinecite{malinowski_notch_2016} & Fig. 5\\
 0.3 & \unit{\milli\second} & $T_2^{\text{DynD}}$ & ST/e & GaAs/AlGaAs & 2D & 2017-04 & \onlinecite{malinowski_spectrum_2017} & Fig. 4c the point n=256\\
-20 & \unit{\micro\second}\textsuperscript{l} & $T_2^{\text{DynD}}$ & ST/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2021-02 & \onlinecite{jock_silicon_2021} & Fig. 4c the rightmost blue point\\
+20 & \unit{\micro\second}\textsuperscript{l} & $T_2^{\text{DynD}}$ & ST/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2022-12 & \onlinecite{jock_silicon_2022} & Fig. 4c the rightmost blue point\\
 0.16 & \unit{\milli\second} & $T_2^{\text{DynD}}$ & ST/h & Ge/SiGe & 2D & 2021-08 & \onlinecite{jirovec_singlet-triplet_2021} & p6 and Fig. 5\\
 2 & \unit{\micro\second}\textsuperscript{m} & $T_2^{\text{Echo}}$ & HY/e\textsuperscript{g} & GaAs/AlGaAs & 2D & 2013-07 & \onlinecite{medford_quantum-dot-based_2013} & Fig. 5\\
 0.1 & \unit{\micro\second} & $T_2^{\text{Echo}}$ & HY/e\textsuperscript{n} & GaAs/AlGaAs & 2D & 2013-09 & \onlinecite{medford_self-consistent_2013} & p3\\

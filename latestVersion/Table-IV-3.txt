@@ -39,9 +39,9 @@
 89 \unit{\percent}\textsuperscript{j} & initialize & 2Q & LD/e & Si/SiGe & 2D & 2018-02 & \onlinecite{watson_programmable_2018} & p3\\
 89 \unit{\percent}\textsuperscript{j} & initialize & 2Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2019-05 & \onlinecite{huang_fidelity_2019} & p3\\
 94.1 \unit{\percent}\textsuperscript{j} & initialize & 2Q & LD/e & Si/SiGe & 2D & 2021-06 & \onlinecite{takeda_quantum_2021} & p2\\
-96 \unit{\percent}\textsuperscript{k} & initialize & 2Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2021-07 & \onlinecite{evans_fast_2021} & p6 and Fig. 3b\\
 96.6 \unit{\percent}\textsuperscript{h} & initialize & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2021-11 & \onlinecite{mills_two-qubit_2021} & p2\\
 90 \unit{\percent}\textsuperscript{j} & initialize & 2Q & LD/e & $\text{Si/}\text{SiO}_2$ & 2D & 2021-12 & \onlinecite{leon_bell-state_2021} & Fig. 3 caption\\
+96 \unit{\percent}\textsuperscript{k} & initialize & 2Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2022-02 & \onlinecite{evans_fast_2022} & p6 and Fig. 3b\\
 93 \unit{\percent}\textsuperscript{j} & initialize & 2Q & ST/e & GaAs/AlGaAs & 2D & 2017-12 & \onlinecite{nichol_high-fidelity_2017} & p4\\
 88 \unit{\percent}\textsuperscript{l} & initialize & 3Q & LD/e & Si/SiGe & 2D & 2021-06 & \onlinecite{takeda_quantum_2021} & p4\\
 \bottomrule

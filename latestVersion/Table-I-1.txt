@@ -29,19 +29,19 @@
 1 & \unit{\second} & $T_1$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2020-03 & \onlinecite{hollmann_large_2020} & p6 and Fig. 4a\\
 3.7 & \unit{\milli\second} & $T_1$ & LD/e\textsuperscript{g} & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2020-04 & \onlinecite{petit_universal_2020} & p2\\
 90 & \unit{\milli\second} & $T_1$ & LD/e & $\text{Si/}\text{SiO}_2$ & 2D & 2020-06 & \onlinecite{zhang_giant_2020} & Fig. 1c\\
-1.6 & \unit{\second} & $T_1$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2021-01 & \onlinecite{zwerver_qubits_2021} & p3 and Fig. 3b\\
 9 & \unit{\second} & $T_1$ & LD/e & $\text{Si/}\text{SiO}_2$ & 1D & 2021-03 & \onlinecite{ciriano-tejel_spin_2021} & p3 and Fig. 3a the leftmost blue point\\
 1.3 & \unit{\milli\second} & $T_1$ & LD/e & Si/SiGe & 2D & 2021-06 & \onlinecite{takeda_quantum_2021} & p1 for Q3\\
 10 & \unit{\milli\second} & $T_1$ & LD/e & $\text{Si/}\text{SiO}_2$ & 1D & 2021-09 & \onlinecite{spence_spin-valley_2021} & p2 and Fig. 2a\\
+1.6 & \unit{\second} & $T_1$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2022-03 & \onlinecite{zwerver_qubits_2022} & p4 and Fig. 3c\\
 5 & \unit{\nano\second} & $T_1$ & LD/h & GaAs/AlGaAs & 1D & 2016-12 & \onlinecite{wang_anisotropic_2016} & p4 and {SM} {pS}5\\
 86 & \unit{\micro\second} & $T_1$ & LD/h & Ge/Si & 1D & 2018-11 & \onlinecite{vukusic_single-shot_2018} & p3 and Fig. 3c the leftmost point\\
 60 & \unit{\micro\second} & $T_1$ & LD/h & GaAs/AlGaAs & 2D & 2019-12 & \onlinecite{bogan_single_2019} & abstract and Fig. 4\\
 9 & \unit{\micro\second} & $T_1$ & LD/h & Ge/SiGe & 2D & 2020-01 & \onlinecite{hendrickx_fast_2020} & p3 and Fig. 2f\\
-3.7 & \unit{\micro\second} & $T_1$ & LD/h & Ge/Si & 1D & 2020-06 & \onlinecite{wang_ultrafast_2020} & p6\\
 32 & \unit{\milli\second} & $T_1$ & LD/h & Ge/SiGe & 2D & 2020-08 & \onlinecite{lawrie_spin_2020} & p3\\
 1.2 & \unit{\milli\second} & $T_1$ & LD/h & Ge/SiGe & 2D & 2020-12 & \onlinecite{hendrickx_single-hole_2020} & p4 and Fig. 3a\\
 16 & \unit{\milli\second} & $T_1$ & LD/h & Ge/SiGe & 2D & 2021-03 & \onlinecite{hendrickx_four-qubit_2021} & Fig. S5 dot 3\\
 3 & \unit{\milli\second}\textsuperscript{h} & $T_1$ & LD/h & BLG & 2D & 2021-12 & \onlinecite{gachter_single-shot_2021} & p5\\
+3.7 & \unit{\micro\second} & $T_1$ & LD/h & Ge/Si & 1D & 2022-12 & \onlinecite{wang_ultrafast_2022} & {SM} p13 and {SFig}. 7.1d\\
 6 & \unit{\second} & $T_1$ & LD/i & Si:P & imp & 2010-10 & \onlinecite{morello_single-shot_2010} & p2\\
 0.7 & \unit{\second} & $T_1$ & LD/i & Si:P & imp & 2012-09 & \onlinecite{pla_single-atom_2012} & p3\\
 1.8 & \unit{\second} & $T_1$ & LD/i & Si:P & imp & 2013-10 & \onlinecite{buch_spin_2013} & Fig. 3\\
