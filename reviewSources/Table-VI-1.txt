@@ -8,15 +8,15 @@ $2 \times 2$ & device & LD/e & GaAs/AlGaAs & 2D & 2012-09 & \onlinecite{thalinea
 $2 \times 2$ & device & LD/e & GaAs/AlGaAs & 2D & 2018-04 & \onlinecite{mukhopadhyay_2x2_2018}\\
 $2 \times 2$ & device & LD/e & $\text{Si/}\text{SiO}_2$ & 1D & 2020-09 & \onlinecite{duan_remote_2020}\\
 $2 \times 2$ & device & LD/e & $\text{Si/}\text{SiO}_2$ & 1D & 2020-10 & \onlinecite{gilbert_single-electron_2020}\\
-$2 \times 2$ & device & LD/e & $\text{Si/}\text{SiO}_2$ & 1D & 2020-12 & \onlinecite{ansaloni_single-electron_2020}\\
 $2 \times 2$ & device & LD/e & $\text{Si/}\text{SiO}_2$ & 1D & 2020-12 & \onlinecite{bohuslavskyi_reflectometry_2020}\\
+$2 \times 2$ & device & LD/e & $\text{Si/}\text{SiO}_2$ & 1D & 2020-12 & \onlinecite{ansaloni_single-electron_2020}\\
 $2 \times 2$ & device & LD/h & Ge/SiGe & 2D & 2020-02 & \onlinecite{lawrie_quantum_2020}\\
 $2 \times 2$ & device & LD/h & Ge/SiGe & 2D & 2020-07 & \onlinecite{hendrickx_single-hole_2020}\\
 $2 \times 2$ & device & LD/h & Ge/SiGe & 2D & 2021-01 & \onlinecite{van_riggelen_two-dimensional_2021}\\
 $2 \times 2$ & device & LD/h & Ge/SiGe & 2D & 2021-09 & \onlinecite{lawrie_simultaneous_2021}\\
 $2 \times 2$ & device & ST/e & GaAs/AlGaAs & 2D & 2021-10 & \onlinecite{fedele_simultaneous_2021}\\
-$2$ & device & HY/e & Si/SiGe & 2D & 2021-11 & \onlinecite{ha_flexible_2021}\\
 $2$ & device & HY/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2021-04 & \onlinecite{chen_detuning_2021}\\
+$2$ & device & HY/e & Si/SiGe & 2D & 2021-11 & \onlinecite{ha_flexible_2021}\\
 $2$ & device & LD/h & Ge/SiGe & 2D & 2019-03 & \onlinecite{hardy_single_2019}\\
 $2$ & device & ST/e & GaAs/AlGaAs & 2D & 2011-07 & \onlinecite{van_weperen_charge-state_2011}\\
 $2$ & device & ST/e & GaAs/AlGaAs & 2D & 2018-10 & \onlinecite{croot_device_2018}\\
@@ -30,8 +30,8 @@ $3$ & device & LD/e & GaAs/AlGaAs & 2D & 2017-06 & \onlinecite{flentje_linear_20
 $3$ & device & LD/e & GaAs/AlGaAs & 2D & 2017-09 & \onlinecite{flentje_coherent_2017}\\
 $3$ & device & LD/e & GaAs/AlGaAs & 2D & 2017-10 & \onlinecite{noiri_cotunneling_2017}\\
 $3$ & device & LD/e & GaAs/AlGaAs & 2D & 2021-05 & \onlinecite{kojima_probabilistic_2021}\\
-$3$ & device & LD/e & Si/SiGe & 2D & 2019-07 & \onlinecite{jones_spin-blockade_2019}\\
 $3$ & device & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2021-01 & \onlinecite{chan_exchange_2021}\\
+$3$ & device & LD/e & Si/SiGe & 2D & 2019-07 & \onlinecite{jones_spin-blockade_2019}\\
 $3$ & device & LD/e & $\text{Si/}\text{SiO}_2$ & 2D & 2020-02 & \onlinecite{lawrie_quantum_2020}\\
 $3$ & device & LD/h & Ge/Si & 1D & 2018-08 & \onlinecite{froning_single_2018}\\
 $3$ & device & ST/e & GaAs/AlGaAs & 2D & 2020-12 & \onlinecite{jang_individual_2020}\\

@@ -1,24 +1,24 @@
 \setcounter{rowcount}{-1}
 \begin{table}
-\begin{tabular}{@{}S[round-mode=places, round-precision=1, round-pad = false, table-alignment-mode = marker, table-number-alignment = center, table-align-text-after=false ]ccccccc@{ \stepcounter{rowcount} \tiny \therowcount }}
+\begin{tabular}{@{}S[round-mode=none, round-pad=false, round-precision=3, table-alignment-mode = marker, table-number-alignment = center, table-align-text-after=false ]ccccccc@{ \stepcounter{rowcount} \tiny \therowcount }}
 \toprule
 {Quality factor} & {\#Qubits} & {Qubit} & {Material} & {Host} & {Date} & {Reference} & {Source}\\
 \midrule
-4\textsuperscript{a} & 1Q & HY/e\textsuperscript{b,c} & GaAs/AlGaAs & 2D & 2017-07 & \onlinecite{malinowski_symmetric_2017} & Fig. 4c\\
-8\textsuperscript{a} & 1Q & HY/e\textsuperscript{d,c} & GaAs/AlGaAs & 2D & 2017-07 & \onlinecite{malinowski_symmetric_2017} & Fig. 4c\\
-43\textsuperscript{e} & 1Q & LD/e & GaAs/AlGaAs & 2D & 2020-03 & \onlinecite{nakajima_coherence_2020} & Fig. 6\\
-5\textsuperscript{f} & 1Q & LD/e & InAs & 1D & 2010-12 & \onlinecite{nadj-perge_spinorbit_2010} & p2 and Fig. 2d\\
-70\textsuperscript{g} & 1Q & LD/e & Si/SiGe & 2D & 2016-08 & \onlinecite{takeda_fault-tolerant_2016} & p3\\
-9\textsuperscript{h} & 1Q & LD/e & Si/SiGe & 2D & 2020-01 & \onlinecite{croot_flopping-mode_2020} & p4\\
-440\textsuperscript{i} & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2017-12 & \onlinecite{yoneda_quantum-dot_2017} & p2\\
-44\textsuperscript{j} & 1Q & LD/h\textsuperscript{k} & $\text{Si/}\text{SiO}_2$ & 1D & 2021-03 & \onlinecite{camenzind_spin_2021} & p5\\
-35\textsuperscript{l} & 1Q & ST/e & GaAs/AlGaAs & 2D & 2016-03 & \onlinecite{martins_noise_2016} & p2 and Fig. 4d\\
-5.1 & 1Q & ST/e & GaAs/AlGaAs & 2D & 2021-10 & \onlinecite{fedele_simultaneous_2021} & Fig. 2c Qubit 2\\
-44 & 1Q & ST/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2016-03 & \onlinecite{reed_reduced_2016} & Fig. 4b the topmost red point\\
-26\textsuperscript{m} & 2Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2015-10 & \onlinecite{veldhorst_two-qubit_2015} & p4\\
+4. \textsuperscript{a} & 1Q & HY/e\textsuperscript{b,c} & GaAs/AlGaAs & 2D & 2017-07 & \onlinecite{malinowski_symmetric_2017} & Fig. 4c\\
+8. \textsuperscript{a} & 1Q & HY/e\textsuperscript{d,c} & GaAs/AlGaAs & 2D & 2017-07 & \onlinecite{malinowski_symmetric_2017} & Fig. 4c\\
+42.5 \textsuperscript{e} & 1Q & LD/e & GaAs/AlGaAs & 2D & 2020-03 & \onlinecite{nakajima_coherence_2020} & Fig. 6\\
+5. \textsuperscript{f} & 1Q & LD/e & InAs & 1D & 2010-12 & \onlinecite{nadj-perge_spinorbit_2010} & p2 and Fig. 2d\\
+444. \textsuperscript{g} & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2017-12 & \onlinecite{yoneda_quantum-dot_2017} & p2\\
+70. \textsuperscript{h} & 1Q & LD/e & Si/SiGe & 2D & 2016-08 & \onlinecite{takeda_fault-tolerant_2016} & p3\\
+9. \textsuperscript{i} & 1Q & LD/e & Si/SiGe & 2D & 2020-01 & \onlinecite{croot_flopping-mode_2020} & p4\\
+43.5 \textsuperscript{j} & 1Q & LD/h\textsuperscript{k} & $\text{Si/}\text{SiO}_2$ & 1D & 2021-03 & \onlinecite{camenzind_spin_2021} & p5\\
+35. \textsuperscript{l} & 1Q & ST/e & GaAs/AlGaAs & 2D & 2016-03 & \onlinecite{martins_noise_2016} & p2 and Fig. 4d\\
+5.1  & 1Q & ST/e & GaAs/AlGaAs & 2D & 2021-10 & \onlinecite{fedele_simultaneous_2021} & Fig. 2c Qubit 2\\
+44.  & 1Q & ST/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2016-03 & \onlinecite{reed_reduced_2016} & Fig. 4b the topmost red point\\
+26. \textsuperscript{m} & 2Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2015-10 & \onlinecite{veldhorst_two-qubit_2015} & p4\\
 \bottomrule
 \end{tabular}
-\caption{Quality factors (gate). Superscripts stand for the following. \textsuperscript{a}: Approximate value at $f_\mathrm{R}=100$ {MHz}. \textsuperscript{b}: At a partial sweet spot. \textsuperscript{c}: Resonant exchange qubit. \textsuperscript{d}: At a full sweet spot. \textsuperscript{e}: The reference defines $Q=2f_R \TRabi$. To convert to our definition, we divide by 2. \textsuperscript{f}: Rough approximation, given as `number of resolved Rabi oscillation periods'. \textsuperscript{g}: The reference defines $Q=2f_\mathrm{R} \TRabi$. To convert to our definition, we divide by 2. \textsuperscript{h}: The reference defines $Q=2 \TRabi f_R$. To convert to our definition, we divide by 2. \textsuperscript{i}: The reference defines $Q=2 f_\mathrm{R} \TRabi$. To convert to our definition, we divide 2, and use $f_\mathrm{R}=3.9$ {MHz} and $\TRabi=113$ \unit{\micro\second} to get $Q=444$. \textsuperscript{j}: The reference defines $Q=2 f_R \TRabi$ and finds $Q \gg 87$. To convert to our definition, we divide by 2 and take the stated lower limit. \textsuperscript{k}: At 1.5 kelvin. \textsuperscript{l}: The reference defines the quality factor as "the number of [exchange-induced singlet-triplet] oscillations before the [oscillation-signal] amplitude decays to $1/e$ of its initial value", corresponding qualitatively to $f_\mathrm{R} \TRabi$. \textsuperscript{m}: The reference defines $N_\mathrm{{CZ}}=f_\mathrm{{CZ}} T_2^\mathrm{{CZ}}$ with $T_2^\mathrm{{CZ}} = 8.3$ \unit{\micro\second}.
+\caption{Quality factors (gate). Superscripts stand for the following. \textsuperscript{a}: Approximate value at $f_\mathrm{R}=100$ {MHz}. \textsuperscript{b}: At a partial sweet spot. \textsuperscript{c}: Resonant exchange qubit. \textsuperscript{d}: At a full sweet spot. \textsuperscript{e}: The reference defines $Q=2f_R \TRabi$. To convert to our definition, we divide by 2. \textsuperscript{f}: Rough approximation, given as `number of resolved Rabi oscillation periods'. \textsuperscript{g}: The reference defines $Q=2 f_\mathrm{R} \TRabi$. To convert to our definition, we divide 2, and use $f_\mathrm{R}=3.9$ {MHz} and $\TRabi=113$ \unit{\micro\second} to get $Q=444$. \textsuperscript{h}: The reference defines $Q=2f_\mathrm{R} \TRabi$. To convert to our definition, we divide by 2. \textsuperscript{i}: The reference defines $Q=2 \TRabi f_R$. To convert to our definition, we divide by 2. \textsuperscript{j}: The reference defines $Q=2 f_R \TRabi$ and finds $Q \gg 87$. To convert to our definition, we divide by 2 and take the stated lower limit. \textsuperscript{k}: At 1.5 kelvin. \textsuperscript{l}: The reference defines the quality factor as "the number of [exchange-induced singlet-triplet] oscillations before the [oscillation-signal] amplitude decays to $1/e$ of its initial value", corresponding qualitatively to $f_\mathrm{R} \TRabi$. \textsuperscript{m}: The reference defines $N_\mathrm{{CZ}}=f_\mathrm{{CZ}} T_2^\mathrm{{CZ}}$ with $T_2^\mathrm{{CZ}} = 8.3$ \unit{\micro\second}.
 \label{oscillationCount}
 }
 \end{table}
