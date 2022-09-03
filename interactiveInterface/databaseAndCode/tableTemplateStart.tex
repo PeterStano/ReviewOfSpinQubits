@@ -1,0 +1,29 @@
+\documentclass[aps, prx, onecolumn, notitlepage, longbibliography, floatfix]{revtex4-2}
+
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{stix}
+\usepackage[table, dvipsnames]{xcolor}
+\definecolor{mygray}{gray}{0.7}
+\usepackage{siunitx}
+\usepackage{booktabs}
+
+\newcommand{\estimated}{\textit{(estimated) }}
+\newcommand{\derived}{\textit{(derived) }}
+\newcommand{\TRabi}{T_2^\mathrm{Rabi}}
+\newcommand{\TEcho}{T_2^\mathrm{Echo}}
+\newcommand{\TDynD}{T_2^\mathrm{DynD}}
+
+\newcounter{rowcount}
+
+\providecommand{\phantomsection}{}
+\AtBeginDocument{\let\textlabel\label}
+\makeatletter
+\newcommand{\mylabel}[2]{ 
+\raisebox{.7\normalbaselineskip}{\phantomsection}
+\def\@currentlabel{#1}\textlabel{#2}}
+\makeatother
+
+\begin{document}
+
+%%TABLES%%

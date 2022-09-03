@@ -1,0 +1,302 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     10411,        294]
+NotebookOptionsPosition[      7659,        229]
+NotebookOutlinePosition[      8355,        254]
+CellTagsIndexPosition[      8273,        249]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["instructions", "Subsection",ExpressionUUID->"2e772760-221a-462e-9ba9-b8e503ff4e59"],
+
+Cell["\<\
+1. Clone gitHub repository on your computer with an installed Mathematica or \
+its equivalent:
+ \thttps://github.com/PeterStano/spinQubitReview/
+ 
+2. Open the interactiveInterface/interactiveInterface_User.nb (this \
+notebook).
+\t
+3. Execute the command \
+\[OpenCurlyQuote]interactiveInterface\[CloseCurlyQuote] in the last Cell of \
+the notebook, including \[OpenCurlyQuote]Evaluate of initialization Cells\
+\[CloseCurlyQuote].
+ \tDepending on your settings, you might need also to click \
+\[OpenCurlyDoubleQuote]Enable Dynamics\[CloseCurlyDoubleQuote] button shown \
+on the Workbook window top, or to tick off the \[OpenCurlyQuote]Dynamic \
+Updating Enabled\[CloseCurlyQuote] in Mathematica \[OpenCurlyQuote]Evaluation\
+\[CloseCurlyQuote] menu.\
+\>", "Text",ExpressionUUID->"5f96639a-56c3-47f1-ac77-e4905d99c6fd"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["initializations", "Subsection",ExpressionUUID->"757ba928-f92a-446c-9a99-fa3493773d72"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+delete previous Manipulate output (the output is not cross-session safe, in \
+my experience)\
+\>", "Subsubsection",ExpressionUUID->"994fa17a-261d-47a4-8b06-d3a15266fa12"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"NotebookDelete", "@", 
+   RowBox[{"Cells", "[", 
+    RowBox[{
+     RowBox[{"CellTags", "\[Rule]", "\"\<interactiveInterface\>\""}], ",", 
+     RowBox[{"CellStyle", "->", "\"\<Output\>\""}]}], "]"}]}], ";"}]], "Input",\
+
+ InitializationCell->True,
+ CellLabel->"In[1]:=",ExpressionUUID->"4d5eb078-fd1f-4097-988b-869097f40e6d"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["required packages", "Subsubsection",ExpressionUUID->"db3d8e93-3fde-444a-ae2c-bb6ce6669088"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"requiredPackages", "=", 
+   RowBox[{"{", 
+    RowBox[{
+    "\"\<common`routines`\>\"", ",", "\"\<common`pointMarkers`\>\"", ",", 
+     "\"\<myConstants`common`\>\"", ",", "\"\<myConstants`lists`\>\"", ",", 
+     "\"\<spinReview`common`\>\"", ",", "\"\<spinReview`database`\>\"", ",", 
+     "\"\<spinReview`exportAsTable`\>\"", ",", 
+     "\"\<spinReview`exportAsPlot`\>\"", ",", 
+     "\"\<spinReview`interactiveInterface`\>\""}], "}"}]}], ";"}]], "Input",
+ InitializationCell->True,
+ CellLabel->"In[2]:=",ExpressionUUID->"c30cd92c-c3a5-4af6-825e-6adbe0c421d8"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["file names", "Subsubsection",ExpressionUUID->"0ae57a2c-1ad3-40d9-912d-c8597b3eac3c"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"bundleDirectory", "=", 
+   RowBox[{"FileNameJoin", "[", 
+    RowBox[{"{", 
+     RowBox[{"NotebookDirectory", "[", "]"}], "}"}], "]"}]}], ";", 
+  RowBox[{
+   RowBox[{"bundlePackageName", "[", "packageName_", "]"}], ":=", 
+   RowBox[{
+    RowBox[{"StringReplace", "[", 
+     RowBox[{"packageName", ",", 
+      RowBox[{"\"\<`\>\"", "\[Rule]", "\"\<.\>\""}]}], "]"}], "~~", 
+    "\"\<m.enc\>\""}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"codeFolder", "=", "\"\<databaseAndCode\>\""}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"packageFileName", "[", "packageName_", "]"}], ":=", 
+   RowBox[{"FileNameJoin", "[", 
+    RowBox[{"{", 
+     RowBox[{"bundleDirectory", ",", "codeFolder", ",", 
+      RowBox[{"bundlePackageName", "[", "packageName", "]"}]}], "}"}], 
+    "]"}]}], ";"}]}], "Input",
+ InitializationCell->True,
+ CellLabel->"In[3]:=",ExpressionUUID->"46680731-e13a-4d6e-83da-371f50bd0ae3"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["(optional) check the bundle", "Subsubsection",ExpressionUUID->"8ee0edcf-c37d-4be6-a28e-906bc9e067c1"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"Print", "[", 
+   RowBox[{"\"\<bundle directory \>\"", ",", "bundleDirectory", ",", 
+    RowBox[{"If", "[", 
+     RowBox[{
+      RowBox[{"FileExistsQ", "[", "bundleDirectory", "]"}], ",", 
+      "\"\< found.\>\"", ",", "\"\< not found.\>\""}], "]"}]}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Print", "[", 
+   RowBox[{
+    RowBox[{"Count", "[", 
+     RowBox[{
+      RowBox[{"FileExistsQ", "/@", 
+       RowBox[{"packageFileName", "/@", "requiredPackages"}]}], ",", "True"}],
+      "]"}], ",", "\"\< out of \>\"", ",", 
+    RowBox[{"Length", "@", "requiredPackages"}], ",", 
+    "\"\< packages found.\>\""}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"If", "[", 
+   RowBox[{
+    RowBox[{"FileExistsQ", "@", 
+     RowBox[{"FileNameJoin", "[", 
+      RowBox[{"{", 
+       RowBox[{
+       "bundleDirectory", ",", "\"\<databaseAndCode\>\"", ",", 
+        "\"\<dtbs.enc\>\""}], "}"}], "]"}]}], ",", 
+    RowBox[{"Print", "[", "\"\<Database file found.\>\"", "]"}], ",", 
+    RowBox[{"Print", "[", "\"\<Database file not found.\>\"", "]"}]}], "]"}], 
+  ";"}]}], "Input",
+ CellLabel->"In[18]:=",ExpressionUUID->"3104941e-c222-4430-9afa-7e8d1d853197"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"bundle directory \"\>", 
+   "\[InvisibleSpace]", "\<\"/Users/peter/Library/Mobile \
+Documents/com~apple~CloudDocs/Desktop/spinReview/versionWithTables/\
+githubFiles/interactiveInterface\"\>", 
+   "\[InvisibleSpace]", "\<\" found.\"\>"}],
+  SequenceForm[
+  "bundle directory ", 
+   "/Users/peter/Library/Mobile \
+Documents/com~apple~CloudDocs/Desktop/spinReview/versionWithTables/\
+githubFiles/interactiveInterface", " found."],
+  Editable->False]], "Print",
+ CellLabel->
+  "During evaluation of \
+In[18]:=",ExpressionUUID->"0c4c3d13-03f5-4ceb-bf9a-0da4a7e26bcd"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "7", "\[InvisibleSpace]", "\<\" out of \"\>", "\[InvisibleSpace]", "7", 
+   "\[InvisibleSpace]", "\<\" packages found.\"\>"}],
+  SequenceForm[7, " out of ", 7, " packages found."],
+  Editable->False]], "Print",
+ CellLabel->
+  "During evaluation of \
+In[18]:=",ExpressionUUID->"6b69ce32-04ee-49f4-b918-8fedc5b27f88"],
+
+Cell[BoxData["\<\"Database file found.\"\>"], "Print",
+ CellLabel->
+  "During evaluation of \
+In[18]:=",ExpressionUUID->"4478f9ad-2e36-42f4-b917-e4f61ec3cc4d"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["load packages and database", "Subsubsection",ExpressionUUID->"9c4ac06f-5614-4d7e-ba32-71b5e1acf721"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{
+    RowBox[{"Needs", "[", 
+     RowBox[{"#", ",", 
+      RowBox[{"packageFileName", "[", "#", "]"}]}], "]"}], "&"}], "/@", 
+   "requiredPackages"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Get", "[", 
+   RowBox[{"FileNameJoin", "[", 
+    RowBox[{"{", 
+     RowBox[{"bundleDirectory", ",", "codeFolder", ",", "\"\<dtbs.enc\>\""}], 
+     "}"}], "]"}], "]"}], ";"}]}], "Input",
+ InitializationCell->True,
+ EmphasizeSyntaxErrors->True,
+ CellLabel->"In[6]:=",ExpressionUUID->"a7e5e848-9250-4404-b4e1-1c723be968d8"]
+}, Closed]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["the interactive interface", "Subsection",ExpressionUUID->"ee361696-9c84-4abd-a831-05abef72463a"],
+
+Cell[BoxData[
+ RowBox[{"interactiveInterface", "[", "]"}]], "Input",
+ CellTags->"interactiveInterface",
+ CellLabel->"In[8]:=",ExpressionUUID->"54d48629-c67e-4479-bf3d-e34142f7ca79"]
+}, Open  ]]
+},
+AutoGeneratedPackage->None,
+WindowSize->{1315, 971},
+WindowMargins->{{329, Automatic}, {Automatic, 0}},
+TaggingRules->{"TryRealOnly" -> False},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"12.2 for Mac OS X x86 (64-bit) (February 2, 2021)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"59d0a881-4e57-464d-bca2-f3521c70a8b2"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "interactiveInterface"->{
+  Cell[7462, 223, 181, 3, 37, "Input",ExpressionUUID->"54d48629-c67e-4479-bf3d-e34142f7ca79",
+   CellTags->"interactiveInterface"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"interactiveInterface", 8117, 243}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 89, 0, 67, "Subsection",ExpressionUUID->"2e772760-221a-462e-9ba9-b8e503ff4e59"],
+Cell[672, 24, 825, 17, 246, "Text",ExpressionUUID->"5f96639a-56c3-47f1-ac77-e4905d99c6fd"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1534, 46, 92, 0, 67, "Subsection",ExpressionUUID->"757ba928-f92a-446c-9a99-fa3493773d72"],
+Cell[CellGroupData[{
+Cell[1651, 50, 180, 3, 41, "Subsubsection",ExpressionUUID->"994fa17a-261d-47a4-8b06-d3a15266fa12"],
+Cell[1834, 55, 359, 9, 51, "Input",ExpressionUUID->"4d5eb078-fd1f-4097-988b-869097f40e6d",
+ InitializationCell->True]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[2230, 69, 97, 0, 40, "Subsubsection",ExpressionUUID->"db3d8e93-3fde-444a-ae2c-bb6ce6669088"],
+Cell[2330, 71, 596, 12, 104, "Input",ExpressionUUID->"c30cd92c-c3a5-4af6-825e-6adbe0c421d8",
+ InitializationCell->True]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[2963, 88, 90, 0, 40, "Subsubsection",ExpressionUUID->"0ae57a2c-1ad3-40d9-912d-c8597b3eac3c"],
+Cell[3056, 90, 966, 25, 130, "Input",ExpressionUUID->"46680731-e13a-4d6e-83da-371f50bd0ae3",
+ InitializationCell->True]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[4059, 120, 107, 0, 40, "Subsubsection",ExpressionUUID->"8ee0edcf-c37d-4be6-a28e-906bc9e067c1"],
+Cell[CellGroupData[{
+Cell[4191, 124, 1215, 31, 156, "Input",ExpressionUUID->"3104941e-c222-4430-9afa-7e8d1d853197"],
+Cell[CellGroupData[{
+Cell[5431, 159, 611, 15, 78, "Print",ExpressionUUID->"0c4c3d13-03f5-4ceb-bf9a-0da4a7e26bcd"],
+Cell[6045, 176, 362, 9, 29, "Print",ExpressionUUID->"6b69ce32-04ee-49f4-b918-8fedc5b27f88"],
+Cell[6410, 187, 159, 3, 29, "Print",ExpressionUUID->"4478f9ad-2e36-42f4-b917-e4f61ec3cc4d"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[6630, 197, 106, 0, 40, "Subsubsection",ExpressionUUID->"9c4ac06f-5614-4d7e-ba32-71b5e1acf721"],
+Cell[6739, 199, 569, 16, 78, "Input",ExpressionUUID->"a7e5e848-9250-4404-b4e1-1c723be968d8",
+ InitializationCell->True]
+}, Closed]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[7357, 221, 102, 0, 46, "Subsection",ExpressionUUID->"ee361696-9c84-4abd-a831-05abef72463a"],
+Cell[7462, 223, 181, 3, 37, "Input",ExpressionUUID->"54d48629-c67e-4479-bf3d-e34142f7ca79",
+ CellTags->"interactiveInterface"]
+}, Open  ]]
+}
+]
+*)
+

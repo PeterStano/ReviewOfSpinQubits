@@ -5,9 +5,8 @@ Summary
 The document explains 
 A. how the review database is stored; versioning, copyright
 B. how to report errors or omissions
-C. how to produce your own table
-D. how to produce your own figure
-
+C. how to produce your own tables and figures interactively
+D. how to get an adjustable LaTeX source for a table from the review
 
 
 
@@ -50,9 +49,21 @@ Why it is wrong: The sample material is stated in Methods Section 1 on page 8.
 
 
 
-C. How to produce your own table
---------------------------------
 
+C. How to produce your own tables and figures interactively
+-----------------------------------------------------------
+
+The database content is accessible interactively. The user can construct tables and figures analogous to the ones in the review, selecting table columns and figure axes. The resulting tables and figures can be inspected on the screen or exported into LaTeX (tables) or vector and bitmap graphics (figures). See folder interactiveInterface and the README.txt therein for instructions.
+
+
+
+
+
+ 
+D. how to get an adjustable LaTeX source for a table from the review
+--------------------------------------------------------------------
+
+This functionality was superseded by the interactive interface (see the previous point C). It is kept as a legacy code.
 
 The simplest way is to use the script makeTable-script.txt in the GitHub project parent directory.
 The result of running the script for "Table-I-1.txt", by 
@@ -72,11 +83,4 @@ pdflatex makeTable.tex
 pdflatex makeTable.tex
 
 
-
-
-D. How to produce your own figure (not yet available)
------------------------------------------------------
-
-We plan to provide an interface to produce figures analogous to those in the review. The user will be able to choose the quantities on the x and y axis, what to sort by colors and symbols, and what additional filters to apply on the data.  
- 
 

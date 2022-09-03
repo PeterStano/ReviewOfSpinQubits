@@ -1,3 +1,11 @@
-.DS_Store
+interactiveInterface/*
+!interactiveInterface/interactiveInterface_User.nb
+!interactiveInterface/README.txt
+!interactiveInterface/databaseAndCode/
+
+interactiveInterface/databaseAndCode/*
+!interactiveInterface/databaseAndCode/*.enc
+!interactiveInterface/databaseAndCode/tableTemplate*.tex
 
 
+**/.DS_Store
