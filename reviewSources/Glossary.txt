@@ -7,6 +7,7 @@
 \item[\key{Dimensions}] The single dimension of a one-dimensional array, or the two dimensions of a two-dimensional array starting with the larger one.
 \item[\key{Fidelity}] Operation fidelity. See Sec.~\ref{sec:fidelityDefinition} for details.
 \item[\key{Functionality}] What functionality is available for the qubit-array initialization, manipulation, and measurement. See Sec.~\ref{sec:arrayFunctionality}. This attribute can have the following values: \val{device}, \val{simulator}, and \val{processor}.
+\item[\val{gate}] The number of gate-signal oscillations before the signal amplitude drops to 1/e. See Sec.~\ref{sec:qualityFactor} for details. This is one of the values of \key{QFactorType}.
 \item[\val{gate}] The operation is a gate. We use the following acronyms: the "C" in the two-qubit gates CZ, CPHASE, and CNOT stands for "controlled". SWAP is a two-qubit gate exchanging the two states. See \cite{mermin_quantum_2007} for more on how such gates are use in basic algorithms. Single qubit gates are often induced by ESR (electron spin resonance) or EDSR (electric dipole spin resonance). This is one of the values of \key{Operation}.
 \item[\key{Host}] Where are the dots defined. This attribute can have the following values: \val{2D}, \val{1D}, and \val{imp}.
 \item[\val{HY/e}] The qubit basis is represented by electron states having hybrid character, most often differing in both the spin and charge degrees of freedom. This is one of the values of \key{Qubit}.
@@ -20,8 +21,9 @@
 \item[\key{Note}] Additional information concerning the \val{value} exists, indicated by a superscript. The correspodning note is given in the table caption.
 \item[\key{Operation}] The operation type. This attribute can have the following values: \val{gate}, \val{measure}, and \val{initialize}.
 \item[\val{processor}] The array functionality is at the highest level out of those spanning the range from fabricating a sample to implementing a fully functional quantum processor. See Sec.~\ref{sec:arrayFunctionality} for details. This is one of the values of \key{Functionality}.
-\item[\key{Quality factor}] (For a gate). The number of gate-signal oscillations before the signal amplitude drops to 1/e. See Sec.~\ref{sec:qualityFactor} for details.
-\item[\key{Quality factor}]  (For a qubit). The number of gate-signal oscillations within the inhomogeneous dephasing time. See Sec.~\ref{sec:qualityFactor} for details.
+\item[\key{QFactor}] The number of gate-signal oscillations within a certain characteristic time.
+\item[\key{QFactorType}] It describes what type of quality factor has been evaluated. This attribute can have the following values: \val{qubit}, and \val{gate}.
+\item[\val{qubit}] The number of gate-signal oscillations within the inhomogeneous dephasing time. See Sec.~\ref{sec:qualityFactor} for details. This is one of the values of \key{QFactorType}.
 \item[\key{Qubit}] Which degree of freedom defines the qubit. It includes the carrier (such as the electron, hole, or impurity) and the subspace representing the qubit states' pair, such as the spin-1/2 (the LD qubit), the singlet and triplet (the ST qubit), orbitals (the charge qubit), and their hybrids, among others the exchange-only (EO) and resonant-exchange (RX) qubits. This attribute can have the following values: \val{charge}, \val{HY/e}, \val{LD/e}, \val{ST/e}, \val{LD/h}, \val{ST/h}, \val{LD/i}, and \val{ST/i}.
 \item[\key{\#Qubits}] Number of qubits that the operation involves.
 \item[\key{Reference}] The number referring to the bibliography at the end of the document. The bibliography is sorted alphabetically in first authors' names.
