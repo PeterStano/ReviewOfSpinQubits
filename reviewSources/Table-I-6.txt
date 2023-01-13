@@ -5,29 +5,54 @@
 \toprule
 \multicolumn{2}{c}{Time} & {Coherence} & {Qubit} & {Material} & {Host} & {Date} & {Reference} & {Source}\\
 \midrule
+10. & \unit{\milli\second} & $T_2^{\text{DynD}}$ & LD/i & Si:P & imp & 2015-04 & \onlinecite{laucht_electrically_2015} & p4 and Fig. 3j\\
+9.2 & \unit{\milli\second} & $T_2^{\text{DynD}}$ & LD/i & $\, ^{28}\text{Si:B}$ & imp & 2020-07 & \onlinecite{kobayashi_engineering_2020} & p3 and Fig. 4\\
+6.7 & \unit{\milli\second} & $T_2^{\text{DynD}}$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2018-10 & \onlinecite{chan_assessment_2018} & p2\\
+3.7 & \unit{\milli\second} & $T_2^{\text{DynD}}$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2022-03 & \onlinecite{zwerver_qubits_2022} & Fig. 4d\\
+3.1 & \unit{\milli\second} & $T_2^{\text{DynD}}$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2017-12 & \onlinecite{yoneda_quantum-dot_2017} & Fig. 4a\\
+0.87 & \unit{\milli\second} & $T_2^{\text{DynD}}$ & ST/e & GaAs/AlGaAs & 2D & 2016-10 & \onlinecite{malinowski_notch_2016} & Fig. 5\\
+0.400 & \unit{\milli\second} & $T_2^{\text{DynD}}$ & LD/e & Si/SiGe & 2D & 2016-10 & \onlinecite{kawakami_gate_2016} & p3\\
+0.4 & \unit{\milli\second} & $T_2^{\text{DynD}}$ & LD/h & $\text{Si/}\text{SiO}_2$ & 1D & 2022-09 & \onlinecite{piot_single_2022} & p4 and Fig. 3d\\
+0.300 & \unit{\milli\second} & $T_2^{\text{DynD}}$ & ST/e & GaAs/AlGaAs & 2D & 2017-04 & \onlinecite{malinowski_spectrum_2017} & Fig. 4c the point n=256\\
+0.276 & \unit{\milli\second} & $T_2^{\text{DynD}}$ & ST/e & GaAs/AlGaAs & 2D & 2010-12 & \onlinecite{bluhm_dephasing_2010} & Fig. 3\\
+0.158 & \unit{\milli\second} & $T_2^{\text{DynD}}$ & ST/h & Ge/SiGe & 2D & 2021-06 & \onlinecite{jirovec_singlet-triplet_2021} & p6 and Fig. 5\\
+0.130 & \unit{\milli\second}\textsuperscript{a} & $T_2^{\text{DynD}}$ & ST/e & GaAs/AlGaAs & 2D & 2012-02 & \onlinecite{medford_scaling_2012} & Fig. 3b\\
+0.10 & \unit{\milli\second} & $T_2^{\text{DynD}}$ & LD/h & Ge/SiGe & 2D & 2021-03 & \onlinecite{hendrickx_four-qubit_2021} & Fig. S6 dot 3\\
+80. & \unit{\micro\second} & $T_2^{\text{DynD}}$ & ST/e & GaAs/AlGaAs & 2D & 2010-12 & \onlinecite{barthel_interlaced_2010} & p3\\
+44. & \unit{\micro\second} & $T_2^{\text{DynD}}$ & LD/e & Si/SiGe & 2D & 2014-08 & \onlinecite{kawakami_electrical_2014} & Fig. 4b\\
+20. & \unit{\micro\second}\textsuperscript{b} & $T_2^{\text{DynD}}$ & ST/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2022-02 & \onlinecite{jock_silicon_2022} & Fig. 4c the rightmost blue point\\
+19. & \unit{\micro\second} & $T_2^{\text{DynD}}$ & HY/e\textsuperscript{c} & GaAs/AlGaAs & 2D & 2013-07 & \onlinecite{medford_quantum-dot-based_2013} & p3 and Fig. 5 the rightmost point\\
+5.4 & \unit{\micro\second}\textsuperscript{d} & $T_2^{\text{DynD}}$ & LD/h\textsuperscript{d} & $\text{Si/}\text{SiO}_2$ & 1D & 2022-03 & \onlinecite{camenzind_spin_2022} & p3 and Fig. 4a\\
+1. & \unit{\micro\second} & $T_2^{\text{DynD}}$ & HY/e\textsuperscript{e,f} & GaAs/AlGaAs & 2D & 2017-07 & \onlinecite{malinowski_symmetric_2017} & Fig. 5b\\
+1. & \unit{\micro\second} & $T_2^{\text{DynD}}$ & HY/e\textsuperscript{g,f} & GaAs/AlGaAs & 2D & 2017-07 & \onlinecite{malinowski_symmetric_2017} & Fig. 5b\\
+0.410 & \unit{\micro\second} & $T_2^{\text{DynD}}$ & LD/i & Si:P & imp & 2012-09 & \onlinecite{pla_single-atom_2012} & p3\\
+0.150 & \unit{\micro\second} & $T_2^{\text{DynD}}$ & LD/e & InAs & 1D & 2010-12 & \onlinecite{nadj-perge_spinorbit_2010} & Fig. 4a inset the highest point\\
 0.150 & \unit{\micro\second} & $T_2^{\text{DynD}}$ & HY/e & Si/SiGe & 2D & 2015-12 & \onlinecite{kim_high-fidelity_2015} & abstract and Fig. 3d\\
 0.113 & \unit{\milli\second} & $T_2^{\text{Rabi}}$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2017-12 & \onlinecite{yoneda_quantum-dot_2017} & p2\\
-0.10 & \unit{\milli\second}\textsuperscript{a} & $T_2^{\text{Rabi}}$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-01 & \onlinecite{noiri_fast_2022} & {ED} Fig. 2l the topmost trace\\
+0.10 & \unit{\milli\second}\textsuperscript{h} & $T_2^{\text{Rabi}}$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-01 & \onlinecite{noiri_fast_2022} & {ED} Fig. 2l the topmost trace\\
+80. & \unit{\micro\second}\textsuperscript{i} & $T_2^{\text{Rabi}}$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-09 & \onlinecite{noiri_shuttling-based_2022} & {ED} Fig. 2e\\
 18.6 & \unit{\micro\second} & $T_2^{\text{Rabi}}$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2019-12 & \onlinecite{zhao_single-spin_2019} & p3 and Fig. 2d\\
-7. & \unit{\micro\second}\textsuperscript{b} & $T_2^{\text{Rabi}}$ & LD/e & Si/SiGe & 2D & 2016-08 & \onlinecite{takeda_fault-tolerant_2016} & p3\\
+7. & \unit{\micro\second}\textsuperscript{j} & $T_2^{\text{Rabi}}$ & LD/e & Si/SiGe & 2D & 2016-08 & \onlinecite{takeda_fault-tolerant_2016} & p3\\
 6. & \unit{\micro\second} & $T_2^{\text{Rabi}}$ & ST/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2020-03 & \onlinecite{takeda_resonantly_2020} & p3\\
+5.2 & \unit{\micro\second}\textsuperscript{k} & $T_2^{\text{Rabi}}$ & LD/e & Si/SiGe & 2D & 2022-08 & \onlinecite{takeda_quantum_2022} & {ED} Fig. 3i\\
 1.4 & \unit{\micro\second} & $T_2^{\text{Rabi}}$ & LD/e & Si/SiGe & 2D & 2020-01 & \onlinecite{croot_flopping-mode_2020} & p4\\
 1.26 & \unit{\micro\second} & $T_2^{\text{Rabi}}$ & LD/e & GaAs/AlGaAs & 2D & 2020-03 & \onlinecite{nakajima_coherence_2020} & Fig. 6\\
-1. & \unit{\micro\second} & $T_2^{\text{Rabi}}$ & HY/e\textsuperscript{c} & Si/SiGe & 2D & 2017-08 & \onlinecite{thorgrimsson_extending_2017} & Fig. 3g\\
+1. & \unit{\micro\second} & $T_2^{\text{Rabi}}$ & HY/e\textsuperscript{l} & Si/SiGe & 2D & 2017-08 & \onlinecite{thorgrimsson_extending_2017} & Fig. 3g\\
 0.700 & \unit{\micro\second} & $T_2^{\text{Rabi}}$ & ST/e & GaAs/AlGaAs & 2D & 2017-01 & \onlinecite{nichol_high-fidelity_2017} & p3 and Fig. 2b\\
 0.526 & \unit{\micro\second} & $T_2^{\text{Rabi}}$ & LD/e & GaAs/AlGaAs & 2D & 2019-04 & \onlinecite{nakajima_quantum_2019} & Fig. 2\\
-0.400 & \unit{\micro\second}\textsuperscript{d} & $T_2^{\text{Rabi}}$ & HY/e\textsuperscript{e} & $\, ^{28}\text{Si/SiGe}$ & 2D & 2019-07 & \onlinecite{andrews_quantifying_2019} & Fig. S2c\\
-0.28 & \unit{\micro\second}\textsuperscript{f} & $T_2^{\text{Rabi}}$ & ST/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2016-03 & \onlinecite{reed_reduced_2016} & p3, Fig. 4a and b\\
+0.400 & \unit{\micro\second}\textsuperscript{m} & $T_2^{\text{Rabi}}$ & HY/e\textsuperscript{n} & $\, ^{28}\text{Si/SiGe}$ & 2D & 2019-07 & \onlinecite{andrews_quantifying_2019} & Fig. S2c\\
+0.28 & \unit{\micro\second}\textsuperscript{o} & $T_2^{\text{Rabi}}$ & ST/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2016-03 & \onlinecite{reed_reduced_2016} & p3, Fig. 4a and b\\
+0.19 & \unit{\micro\second}\textsuperscript{p} & $T_2^{\text{Rabi}}$ & HY/e & Si/SiGe & 2D & 2018-10 & \onlinecite{abadillo-uriel_signatures_2018} & p3\\
 86. & \unit{\nano\second} & $T_2^{\text{Rabi}}$ & ST/e & GaAs/AlGaAs & 2D & 2021-05 & \onlinecite{kojima_probabilistic_2021} & p3\\
 84. & \unit{\nano\second} & $T_2^{\text{Rabi}}$ & LD/e & GaAs/AlGaAs & 2D & 2016-04 & \onlinecite{noiri_coherent_2016} & Fig. 3\\
-80. & \unit{\nano\second}\textsuperscript{g} & $T_2^{\text{Rabi}}$ & HY/e\textsuperscript{h,i} & GaAs/AlGaAs & 2D & 2017-07 & \onlinecite{malinowski_symmetric_2017} & Fig. 4c\\
+80. & \unit{\nano\second}\textsuperscript{q} & $T_2^{\text{Rabi}}$ & HY/e\textsuperscript{g,f} & GaAs/AlGaAs & 2D & 2017-07 & \onlinecite{malinowski_symmetric_2017} & Fig. 4c\\
 60. & \unit{\nano\second} & $T_2^{\text{Rabi}}$ & LD/h & Ge/Si & 1D & 2021-01 & \onlinecite{froning_ultrafast_2021} & Fig. 3d\\
-40. & \unit{\nano\second}\textsuperscript{g} & $T_2^{\text{Rabi}}$ & HY/e\textsuperscript{j,i} & GaAs/AlGaAs & 2D & 2017-07 & \onlinecite{malinowski_symmetric_2017} & Fig. 4c\\
+40. & \unit{\nano\second}\textsuperscript{q} & $T_2^{\text{Rabi}}$ & HY/e\textsuperscript{e,f} & GaAs/AlGaAs & 2D & 2017-07 & \onlinecite{malinowski_symmetric_2017} & Fig. 4c\\
 37. & \unit{\nano\second} & $T_2^{\text{Rabi}}$ & HY/e & GaAs/AlGaAs & 2D & 2021-06 & \onlinecite{jang_single-shot_2021} & Fig. 3b\\
-36.7 & \unit{\nano\second}\textsuperscript{k} & $T_2^{\text{Rabi}}$ & LD/e & GaAs/AlGaAs & 2D & 2014-12 & \onlinecite{yoneda_fast_2014} & p3\\
+36.7 & \unit{\nano\second}\textsuperscript{r} & $T_2^{\text{Rabi}}$ & LD/e & GaAs/AlGaAs & 2D & 2014-12 & \onlinecite{yoneda_fast_2014} & p3\\
 \bottomrule
 \end{tabular}
-\caption{Spin coherence times (part 6). Superscripts stand for the following. \textsuperscript{a}: The Rabi decay time $\TRabi = 100$ \unit{\micro\second} is obtained by fitting the Rabi decay data to a function with two parameters, $\TRabi$ and $T_2^*$. \textsuperscript{b}: From $Q=140$ and $f_\mathrm{R}=10$ {MHz}. \textsuperscript{c}: Tunable between spin- and charge- qubit. \textsuperscript{d}: \estimated from Fig. S2c as the signal decay by factor $1/e$. \textsuperscript{e}: {EO} qubit. \textsuperscript{f}: \derived from $T = h N_\mathrm{R} / J$ with $J/h=160$ {MHz} and $N_\mathrm{R}=44$. \textsuperscript{g}: Approximate value at $f_\mathrm{R}=100$ {MHz}. \textsuperscript{h}: At a full sweet spot. \textsuperscript{i}: Resonant exchange qubit. \textsuperscript{j}: At a partial sweet spot. \textsuperscript{k}: At Rabi frequency $f_\mathrm{R}=85.9$ {MHz}.
+\caption{Spin coherence times (part 6). Superscripts stand for the following. \textsuperscript{a}: \estimated Fig. 3b the rightmost point. \textsuperscript{b}: \estimated from Fig. 4c. \textsuperscript{c}: {RX} qubit. \textsuperscript{d}: At 1.5 kelvin. \textsuperscript{e}: At a partial sweet spot. \textsuperscript{f}: Resonant exchange qubit. \textsuperscript{g}: At a full sweet spot. \textsuperscript{h}: The Rabi decay time $\TRabi = 100$ \unit{\micro\second} is obtained by fitting the Rabi decay data to a function with two parameters, $\TRabi$ and $T_2^*$. \textsuperscript{i}: Left qubit. \textsuperscript{j}: From $Q=140$ and $f_\mathrm{R}=10$ {MHz}. \textsuperscript{k}: Decay of {CZ} oscillations. \textsuperscript{l}: Tunable between spin- and charge- qubit. \textsuperscript{m}: \estimated from Fig. S2c as the signal decay by factor $1/e$. \textsuperscript{n}: {EO} qubit. \textsuperscript{o}: \derived from $T = h N_\mathrm{R} / J$ with $J/h=160$ {MHz} and $N_\mathrm{R}=44$. \textsuperscript{p}: Reference gives Rabi decay rate $\Gamma=5.4$ {MHz}. We convert it to Rabi decay time by $\TRabi=1/\Gamma$. \textsuperscript{q}: Approximate value at $f_\mathrm{R}=100$ {MHz}. \textsuperscript{r}: At Rabi frequency $f_\mathrm{R}=85.9$ {MHz}.
 \label{spinCoherence6}
 }
 \end{table}

@@ -5,6 +5,12 @@
 \toprule
 {Dimensions} & {Functionality} & {Qubit} & {Material} & {Host} & {Date} & {Reference}\\
 \midrule
+$3$ & device & LD/e & GaAs/AlGaAs & 2D & 2022-08 & \onlinecite{nurizzo_controlled_2022}\\
+$3$ & device & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-09 & \onlinecite{noiri_shuttling-based_2022}\\
+$3$ & device & ST/e & GaAs/AlGaAs & 2D & 2020-12 & \onlinecite{jang_individual_2020}\\
+$3$ & device & LD/h & Ge/Si & 1D & 2018-08 & \onlinecite{froning_single_2018}\\
+$2$ & device & charge & Si/SiGe & 2D & 2019-12 & \onlinecite{neyens_measurements_2019}\\
+$2$ & device & HY/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2021-04 & \onlinecite{chen_detuning_2021}\\
 $2$ & device & HY/e & Si/SiGe & 2D & 2021-11 & \onlinecite{ha_flexible_2021}\\
 $2$ & device & ST/e & GaAs/AlGaAs & 2D & 2011-07 & \onlinecite{van_weperen_charge-state_2011}\\
 $2$ & device & ST/e & GaAs/AlGaAs & 2D & 2018-10 & \onlinecite{croot_device_2018}\\
@@ -26,8 +32,10 @@ $2$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2011-08 & \onlinecite{nowack_single-
 $2$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2011-09 & \onlinecite{brunner_two-qubit_2011}\\
 $2$ & simulator & ST/e & GaAs/AlGaAs & 2D & 2012-04 & \onlinecite{shulman_demonstration_2012}\\
 $2$ & simulator & ST/e & GaAs/AlGaAs & 2D & 2019-03 & \onlinecite{malinowski_fast_2019}\\
+$6$ & processor & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-09 & \onlinecite{philips_universal_2022}\\
 $2 \times 2$ & processor & LD/h & Ge/SiGe & 2D & 2021-03 & \onlinecite{hendrickx_four-qubit_2021}\\
 $3$ & processor & LD/e & Si/SiGe & 2D & 2021-06 & \onlinecite{takeda_quantum_2021}\\
+$3$ & processor & LD/e & Si/SiGe & 2D & 2022-08 & \onlinecite{takeda_quantum_2022}\\
 $2$ & processor & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2015-10 & \onlinecite{veldhorst_two-qubit_2015}\\
 $2$ & processor & LD/e & Si/SiGe & 2D & 2017-12 & \onlinecite{zajac_resonantly_2017}\\
 $2$ & processor & LD/e & Si/SiGe & 2D & 2018-02 & \onlinecite{watson_programmable_2018}\\

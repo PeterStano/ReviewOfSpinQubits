@@ -1,0 +1,23 @@
+\rowcolors{2}{white}{gray!25}
+\setcounter{rowcount}{-1}
+\begin{table}
+\begin{tabular}{@{}S[table-format=2.4\unit{\percent}\textsuperscript{x}, table-align-text-after=true, round-mode=none, round-pad=false, round-precision=0]cccccccc@{ \stepcounter{rowcount} \tiny \therowcount }}
+\toprule
+{Fidelity} & {Operation} & {\#Qubits} & {Qubit} & {Material} & {Host} & {Date} & {Reference} & {Source}\\
+\midrule
+90. \unit{\percent}\textsuperscript{a} & initialize & 2Q & LD/e & $\text{Si/}\text{SiO}_2$ & 2D & 2021-05 & \onlinecite{leon_bell-state_2021} & Fig. 3 caption\\
+89. \unit{\percent}\textsuperscript{a} & initialize & 2Q & LD/e & Si/SiGe & 2D & 2018-02 & \onlinecite{watson_programmable_2018} & p3\\
+89. \unit{\percent}\textsuperscript{a} & initialize & 2Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2019-05 & \onlinecite{huang_fidelity_2019} & p3\\
+86.5 \unit{\percent}\textsuperscript{b,c} & initialize & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-09 & \onlinecite{philips_universal_2022} & Fig. 4h\\
+93. \unit{\percent}\textsuperscript{a} & initialize & 2Q & ST/e & GaAs/AlGaAs & 2D & 2017-01 & \onlinecite{nichol_high-fidelity_2017} & p4\\
+88. \unit{\percent}\textsuperscript{d} & initialize & 3Q & LD/e & Si/SiGe & 2D & 2021-06 & \onlinecite{takeda_quantum_2021} & p4\\
+86.6 \unit{\percent}\textsuperscript{e} & initialize & 3Q & LD/e & Si/SiGe & 2D & 2022-08 & \onlinecite{takeda_quantum_2022} & Fig. 2\\
+76. \unit{\percent}\textsuperscript{f,g} & initialize & 3Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-09 & \onlinecite{philips_universal_2022} & Fig. 5g\\
+59.25 \unit{\percent}\textsuperscript{f,c} & initialize & 3Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-09 & \onlinecite{philips_universal_2022} & Fig. 5g\\
+\bottomrule
+\end{tabular}
+\caption{Operation fidelities (part 4). Superscripts stand for the following. \textsuperscript{a}: Into a Bell state using a two-qubit algorithm. \textsuperscript{b}: Average of five nearest-neighbors qubit pairs. \textsuperscript{c}: Not corrected for {SPAM} errors. \textsuperscript{d}: Initialization into the {GHZ} state through a quantum algorithm. \textsuperscript{e}: {GHZ} state; fidelity compensated for readout errors. \textsuperscript{f}: Average of four nearest-neighbors qubit triples. \textsuperscript{g}: Corrected for {SPAM} errors.
+\label{operationFidelity4}
+}
+\end{table}
+
