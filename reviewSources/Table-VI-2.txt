@@ -5,6 +5,8 @@
 \toprule
 {Dimensions} & {Functionality} & {Qubit} & {Material} & {Host} & {Date} & {Reference}\\
 \midrule
+$3$ & device & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2021-01 & \onlinecite{chan_exchange_2021}\\
+$3$ & device & LD/e & GaAs/AlGaAs & 2D & 2021-05 & \onlinecite{kojima_probabilistic_2021}\\
 $3$ & device & LD/e & GaAs/AlGaAs & 2D & 2022-08 & \onlinecite{nurizzo_controlled_2022}\\
 $3$ & device & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-09 & \onlinecite{noiri_shuttling-based_2022}\\
 $3$ & device & ST/e & GaAs/AlGaAs & 2D & 2020-12 & \onlinecite{jang_individual_2020}\\
@@ -23,6 +25,7 @@ $4$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2021-01 & \onlinecite{qiao_long-dist
 $4$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2021-04 & \onlinecite{kandel_adiabatic_2021}\\
 $4$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2021-11 & \onlinecite{van_diepen_quantum_2021}\\
 $2 \times 2$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2020-03 & \onlinecite{dehollain_nagaoka_2020}\\
+$2 \times 2$ & simulator & LD/h & Ge/SiGe & 2D & 2022-08 & \onlinecite{wang_probing_2022}\\
 $3$ & simulator & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2015-05 & \onlinecite{eng_isotopically_2015}\\
 $3$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2016-10 & \onlinecite{baart_coherent_2016}\\
 $3$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2018-11 & \onlinecite{noiri_fast_2018}\\
@@ -40,7 +43,7 @@ $2$ & processor & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2015-10 & \onli
 $2$ & processor & LD/e & Si/SiGe & 2D & 2017-12 & \onlinecite{zajac_resonantly_2017}\\
 $2$ & processor & LD/e & Si/SiGe & 2D & 2018-02 & \onlinecite{watson_programmable_2018}\\
 $2$ & processor & LD/e & $\text{Si/}\text{SiO}_2$ & 2D & 2021-05 & \onlinecite{leon_bell-state_2021}\\
-$2$ & processor & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2021-11 & \onlinecite{mills_two-qubit_2021}\\
+$2$ & processor & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-04 & \onlinecite{mills_two-qubit_2022}\\
 $2$ & processor & LD/h & Ge/SiGe & 2D & 2020-01 & \onlinecite{hendrickx_fast_2020}\\
 \bottomrule
 \end{tabular}

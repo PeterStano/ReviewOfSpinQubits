@@ -12,15 +12,16 @@
 85. \unit{\percent} & gate & 1Q & HY/e\textsuperscript{f} & Si/SiGe & 2D & 2019-11 & \onlinecite{penthorn_two-axis_2019} & p4\\
 99.96 \unit{\percent}\textsuperscript{g} & gate & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-09 & \onlinecite{philips_universal_2022} & Fig. 2d\\
 99.957 \unit{\percent} & gate & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2019-04 & \onlinecite{yang_silicon_2019} & abstract\\
-99.956 \unit{\percent} & gate & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-04 & \onlinecite{mills_high_2022} & p4 and Fig. 4c\\
+99.956 \unit{\percent} & gate & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-12 & \onlinecite{mills_high-fidelity_2022} & p5 and Fig. 4c\\
 99.95 \unit{\percent} & gate & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & imp & 2015-03 & \onlinecite{muhonen_quantifying_2015} & p6\\
+99.93 \unit{\percent} & gate & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2023-01 & \onlinecite{gilbert_-demand_2023} & p5 and Fig. 4\\
 99.926 \unit{\percent} & gate & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2017-12 & \onlinecite{yoneda_quantum-dot_2017} & p4 and Fig. 5\\
 99.91 \unit{\percent} & gate & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2018-10 & \onlinecite{chan_assessment_2018} & p3\\
 99.91 \unit{\percent} & gate & 1Q & LD/e & Si/SiGe & 2D & 2021-06 & \onlinecite{takeda_quantum_2021} & p1 for Q3\\
 99.906 \unit{\percent}\textsuperscript{h} & gate & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-09 & \onlinecite{noiri_shuttling-based_2022} & p3 and Fig. 1f\\
 99.84 \unit{\percent} & gate & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-01 & \onlinecite{noiri_fast_2022} & p4 and Fig. 2c\\
 99.8 \unit{\percent} & gate & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2018-10 & \onlinecite{takeda_optimized_2018} & p5\\
-99.73 \unit{\percent}\textsuperscript{i} & gate & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2021-11 & \onlinecite{mills_two-qubit_2021} & p1 and Fig. 1C\\
+99.73 \unit{\percent}\textsuperscript{i} & gate & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-04 & \onlinecite{mills_two-qubit_2022} & p1 and Fig. 1C\\
 99.72 \unit{\percent} & gate & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-01 & \onlinecite{xue_quantum_2022} & p2\\
 99.72 \unit{\percent}\textsuperscript{j} & gate & 1Q & LD/e & Si/SiGe & 2D & 2022-08 & \onlinecite{takeda_quantum_2022} & {ED} Fig. 2f-h\\
 99.7 \unit{\percent} & gate & 1Q & LD/e & Si/SiGe & 2D & 2017-12 & \onlinecite{zajac_resonantly_2017} & p2\\
@@ -54,7 +55,6 @@
 98.9 \unit{\percent}\textsuperscript{s} & gate & 1Q & LD/h\textsuperscript{s} & $\text{Si/}\text{SiO}_2$ & 1D & 2022-03 & \onlinecite{camenzind_spin_2022} & p3 and Fig. 3b\\
 96.3 \unit{\percent}\textsuperscript{t} & gate & 1Q & LD/h & Ge/SiGe & 2D & 2021-09 & \onlinecite{lawrie_simultaneous_2021} & Fig. 2g\\
 99.942 \unit{\percent} & gate & 1Q & LD/i & $\, ^{28}\text{Si:P}$ & imp & 2016-10 & \onlinecite{dehollain_optimization_2016} & p6 and Fig. 3\\
-99.6 \unit{\percent} & gate & 1Q & LD/i & $\, ^{28}\text{Si:P}$ & imp & 2014-10 & \onlinecite{muhonen_storing_2014} & p2\\
 \bottomrule
 \end{tabular}
 \caption{Operation fidelities (part 1). Superscripts stand for the following. \textsuperscript{a}: Per Clifford gate. \textsuperscript{b}: {EO} qubit. \textsuperscript{c}: Average of $\mathcal{F}[X_\pi]=93$ \unit{\percent} and $\mathcal{F}[Z_\pi]=96$ \unit{\percent}. \textsuperscript{d}: The average of the six fidelity values given. \textsuperscript{e}: Hybrid qubit with three electrons in two dots. \textsuperscript{f}: Electron-valley qubit. \textsuperscript{g}: Q3. \textsuperscript{h}: Left qubit. \textsuperscript{i}: The average of the six values given in Fig. 1C. \textsuperscript{j}: The average over the three qubits. \textsuperscript{k}: In a five-electron dot configuration. \textsuperscript{l}: With the control chip inside the fridge. \textsuperscript{m}: A three-electron qubit. \textsuperscript{n}: At 1 kelvin. \textsuperscript{o}: Qubit dressed with an oscillatory drive-amplitude. \textsuperscript{p}: Fidelity of Clifford gates. \textsuperscript{q}: Qubit dressed with a constant drive-amplitude. \textsuperscript{r}: At 0.04 kelvin. \textsuperscript{s}: At 1.5 kelvin. \textsuperscript{t}: \estimated Fig. 2g the leftmost point.

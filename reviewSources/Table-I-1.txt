@@ -39,7 +39,7 @@
 50. & \unit{\milli\second} & $T_1$ & LD/e & Si/SiGe & 2D & 2018-02 & \onlinecite{watson_programmable_2018} & p1 and {ED} Fig. 3b\\
 40. & \unit{\milli\second} & $T_1$ & LD/e & $\text{Si/}\text{SiO}_2$ & 2D & 2010-03 & \onlinecite{xiao_measurement_2010} & p4 and Fig. 4 the leftmost red point\\
 32. & \unit{\milli\second} & $T_1$ & LD/h & Ge/SiGe & 2D & 2020-08 & \onlinecite{lawrie_spin_2020} & p3\\
-31.5 & \unit{\milli\second} & $T_1$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-04 & \onlinecite{mills_high_2022} & p3\\
+31.5 & \unit{\milli\second} & $T_1$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-12 & \onlinecite{mills_high-fidelity_2022} & p3\\
 22. & \unit{\milli\second}\textsuperscript{g} & $T_1$ & LD/e & Si/SiGe & 2D & 2022-08 & \onlinecite{takeda_quantum_2022} & p2 and {ED} Fig. 4b-d\\
 20. & \unit{\milli\second} & $T_1$ & HY/e\textsuperscript{h} & $\, ^{28}\text{Si/SiGe}$ & 2D & 2021-12 & \onlinecite{blumoff_fast_2021} & p4\\
 16. & \unit{\milli\second} & $T_1$ & LD/h & Ge/SiGe & 2D & 2021-03 & \onlinecite{hendrickx_four-qubit_2021} & Fig. S5 dot 3\\
