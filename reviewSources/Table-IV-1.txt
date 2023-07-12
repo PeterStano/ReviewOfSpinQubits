@@ -19,45 +19,45 @@
 99.91 \unit{\percent} & gate & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2018-10 & \onlinecite{chan_assessment_2018} & p3\\
 99.91 \unit{\percent} & gate & 1Q & LD/e & Si/SiGe & 2D & 2021-06 & \onlinecite{takeda_quantum_2021} & p1 for Q3\\
 99.906 \unit{\percent}\textsuperscript{h} & gate & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-09 & \onlinecite{noiri_shuttling-based_2022} & p3 and Fig. 1f\\
+99.85 \unit{\percent}\textsuperscript{i,j} & gate & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2023-04 & \onlinecite{undseth_hotter_2023} & p9\\
 99.84 \unit{\percent} & gate & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-01 & \onlinecite{noiri_fast_2022} & p4 and Fig. 2c\\
 99.8 \unit{\percent} & gate & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2018-10 & \onlinecite{takeda_optimized_2018} & p5\\
-99.73 \unit{\percent}\textsuperscript{i} & gate & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-04 & \onlinecite{mills_two-qubit_2022} & p1 and Fig. 1C\\
+99.73 \unit{\percent}\textsuperscript{k} & gate & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-04 & \onlinecite{mills_two-qubit_2022} & p1 and Fig. 1C\\
+99.72 \unit{\percent}\textsuperscript{l} & gate & 1Q & LD/e & Si/SiGe & 2D & 2022-08 & \onlinecite{takeda_quantum_2022} & {ED} Fig. 2f-h\\
 99.72 \unit{\percent} & gate & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-01 & \onlinecite{xue_quantum_2022} & p2\\
-99.72 \unit{\percent}\textsuperscript{j} & gate & 1Q & LD/e & Si/SiGe & 2D & 2022-08 & \onlinecite{takeda_quantum_2022} & {ED} Fig. 2f-h\\
 99.7 \unit{\percent} & gate & 1Q & LD/e & Si/SiGe & 2D & 2017-12 & \onlinecite{zajac_resonantly_2017} & p2\\
-99.7 \unit{\percent} & gate & 1Q & LD/e\textsuperscript{k} & $\text{Si/}\text{SiO}_2$ & 2D & 2020-02 & \onlinecite{leon_coherent_2020} & {SM} Fig. 3\\
-99.69 \unit{\percent} & gate & 1Q & LD/e\textsuperscript{l} & Si/SiGe & 2D & 2021-05 & \onlinecite{xue_cmos-based_2021} & p4\\
-99.6 \unit{\percent} & gate & 1Q & LD/e & Si/SiGe & 2D & 2016-08 & \onlinecite{takeda_fault-tolerant_2016} & p4\\
+99.7 \unit{\percent} & gate & 1Q & LD/e\textsuperscript{m} & $\text{Si/}\text{SiO}_2$ & 2D & 2020-02 & \onlinecite{leon_coherent_2020} & {SM} Fig. 3\\
+99.69 \unit{\percent} & gate & 1Q & LD/e\textsuperscript{n} & Si/SiGe & 2D & 2021-05 & \onlinecite{xue_cmos-based_2021} & p4\\
 99.6 \unit{\percent} & gate & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2014-10 & \onlinecite{veldhorst_addressable_2014} & p2 and Fig. 4\\
+99.6 \unit{\percent} & gate & 1Q & LD/e & Si/SiGe & 2D & 2016-08 & \onlinecite{takeda_fault-tolerant_2016} & p4\\
 99.5 \unit{\percent} & gate & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2019-05 & \onlinecite{huang_fidelity_2019} & {ED} Tab. 2\\
-99.3 \unit{\percent} & gate & 1Q & LD/e\textsuperscript{m} & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2015-11 & \onlinecite{veldhorst_spin-orbit_2015} & p4 and Fig. 4c\\
-99.3 \unit{\percent} & gate & 1Q & LD/e\textsuperscript{n} & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2020-04 & \onlinecite{petit_universal_2020} & p3 and Fig. 2g\\
+99.3 \unit{\percent} & gate & 1Q & LD/e\textsuperscript{o} & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2020-04 & \onlinecite{petit_universal_2020} & p3 and Fig. 2g\\
+99.3 \unit{\percent} & gate & 1Q & LD/e\textsuperscript{p} & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2015-11 & \onlinecite{veldhorst_spin-orbit_2015} & p4 and Fig. 4c\\
 99.1 \unit{\percent} & gate & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2022-03 & \onlinecite{zwerver_qubits_2022} & p5 and S Fig. 15f\\
-99.1 \unit{\percent}\textsuperscript{o,p} & gate & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2022-09 & \onlinecite{hansen_implementation_2022} & p7 and Fig. 6d\\
+99.1 \unit{\percent}\textsuperscript{q,r} & gate & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2022-09 & \onlinecite{hansen_implementation_2022} & p7 and Fig. 6d\\
 99. \unit{\percent} & gate & 1Q & LD/e & Si/SiGe & 2D & 2016-10 & \onlinecite{kawakami_gate_2016} & p5\\
 98.8 \unit{\percent} & gate & 1Q & LD/e & Si/SiGe & 2D & 2018-02 & \onlinecite{watson_programmable_2018} & p1 and {ED} Fig. 4\\
 98.8 \unit{\percent} & gate & 1Q & LD/e & Si/SiGe & 2D & 2019-04 & \onlinecite{xue_benchmarking_2019} & p7\\
-98.6 \unit{\percent}\textsuperscript{q,p} & gate & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2022-09 & \onlinecite{hansen_implementation_2022} & p6 and Fig. 6b\\
+98.6 \unit{\percent}\textsuperscript{s,r} & gate & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2022-09 & \onlinecite{hansen_implementation_2022} & p6 and Fig. 6b\\
 97.5 \unit{\percent} & gate & 1Q & LD/e & GaAs/AlGaAs & 2D & 2020-03 & \onlinecite{nakajima_coherence_2020} & p3 and Fig. 4e\\
 96.6 \unit{\percent} & gate & 1Q & LD/e & GaAs/AlGaAs & 2D & 2014-12 & \onlinecite{yoneda_fast_2014} & p2\\
 81. \unit{\percent} & gate & 1Q & LD/e & InSb & 1D & 2013-02 & \onlinecite{van_den_berg_fast_2013} & p3\\
 73. \unit{\percent} & gate & 1Q & LD/e & GaAs/AlGaAs & 2D & 2006-08 & \onlinecite{koppens_driven_2006} & p5\\
 48. \unit{\percent} & gate & 1Q & LD/e & InAs & 1D & 2010-12 & \onlinecite{nadj-perge_spinorbit_2010} & p2\\
-99.76 \unit{\percent}\textsuperscript{r} & gate & 1Q & ST/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2020-04 & \onlinecite{yang_operation_2020} & Fig. 3d\\
+99.76 \unit{\percent}\textsuperscript{t} & gate & 1Q & ST/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2020-04 & \onlinecite{yang_operation_2020} & Fig. 3d\\
 99.6 \unit{\percent} & gate & 1Q & ST/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2020-03 & \onlinecite{takeda_resonantly_2020} & p4\\
 99.5 \unit{\percent} & gate & 1Q & ST/e & GaAs/AlGaAs & 2D & 2020-08 & \onlinecite{cerfontaine_closed-loop_2020} & Fig. 3\\
+99.05 \unit{\percent}\textsuperscript{u,v,w} & gate & 1Q & ST/e & GaAs/AlGaAs & 2D & 2022-07 & \onlinecite{kim_approaching_2022} & p5\\
+98.6 \unit{\percent}\textsuperscript{x} & gate & 1Q & ST/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2020-04 & \onlinecite{yang_operation_2020} & Fig. 3h\\
 98.6 \unit{\percent} & gate & 1Q & ST/e & GaAs/AlGaAs & 2D & 2017-01 & \onlinecite{nichol_high-fidelity_2017} & p3 and Fig. 2c\\
-98.6 \unit{\percent}\textsuperscript{s} & gate & 1Q & ST/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2020-04 & \onlinecite{yang_operation_2020} & Fig. 3h\\
 98.5 \unit{\percent} & gate & 1Q & ST/e & GaAs/AlGaAs & 2D & 2016-06 & \onlinecite{cerfontaine_feedback-tuned_2016} & p4\\
 99.9899 \unit{\percent} & gate & 1Q & LD/h & Ge/SiGe & 2D & 2021-09 & \onlinecite{lawrie_simultaneous_2021} & p2 and Fig. 2k\\
 99.9 \unit{\percent} & gate & 1Q & LD/h & Ge/SiGe & 2D & 2021-03 & \onlinecite{hendrickx_four-qubit_2021} & Fig. S4 dot 3\\
 99.3 \unit{\percent} & gate & 1Q & LD/h & Ge/SiGe & 2D & 2020-01 & \onlinecite{hendrickx_fast_2020} & p2 and Fig. 2d\\
-98.9 \unit{\percent}\textsuperscript{s} & gate & 1Q & LD/h\textsuperscript{s} & $\text{Si/}\text{SiO}_2$ & 1D & 2022-03 & \onlinecite{camenzind_spin_2022} & p3 and Fig. 3b\\
-96.3 \unit{\percent}\textsuperscript{t} & gate & 1Q & LD/h & Ge/SiGe & 2D & 2021-09 & \onlinecite{lawrie_simultaneous_2021} & Fig. 2g\\
-99.942 \unit{\percent} & gate & 1Q & LD/i & $\, ^{28}\text{Si:P}$ & imp & 2016-10 & \onlinecite{dehollain_optimization_2016} & p6 and Fig. 3\\
+98.9 \unit{\percent}\textsuperscript{x} & gate & 1Q & LD/h\textsuperscript{x} & $\text{Si/}\text{SiO}_2$ & 1D & 2022-03 & \onlinecite{camenzind_spin_2022} & p3 and Fig. 3b\\
 \bottomrule
 \end{tabular}
-\caption{Operation fidelities (part 1). Superscripts stand for the following. \textsuperscript{a}: Per Clifford gate. \textsuperscript{b}: {EO} qubit. \textsuperscript{c}: Average of $\mathcal{F}[X_\pi]=93$ \unit{\percent} and $\mathcal{F}[Z_\pi]=96$ \unit{\percent}. \textsuperscript{d}: The average of the six fidelity values given. \textsuperscript{e}: Hybrid qubit with three electrons in two dots. \textsuperscript{f}: Electron-valley qubit. \textsuperscript{g}: Q3. \textsuperscript{h}: Left qubit. \textsuperscript{i}: The average of the six values given in Fig. 1C. \textsuperscript{j}: The average over the three qubits. \textsuperscript{k}: In a five-electron dot configuration. \textsuperscript{l}: With the control chip inside the fridge. \textsuperscript{m}: A three-electron qubit. \textsuperscript{n}: At 1 kelvin. \textsuperscript{o}: Qubit dressed with an oscillatory drive-amplitude. \textsuperscript{p}: Fidelity of Clifford gates. \textsuperscript{q}: Qubit dressed with a constant drive-amplitude. \textsuperscript{r}: At 0.04 kelvin. \textsuperscript{s}: At 1.5 kelvin. \textsuperscript{t}: \estimated Fig. 2g the leftmost point.
+\caption{Operation fidelities (part 1). Superscripts stand for the following. \textsuperscript{a}: Per Clifford gate. \textsuperscript{b}: {EO} qubit. \textsuperscript{c}: Average of $\mathcal{F}[X_\pi]=93$ \unit{\percent} and $\mathcal{F}[Z_\pi]=96$ \unit{\percent}. \textsuperscript{d}: The average of the six fidelity values given. \textsuperscript{e}: Hybrid qubit with three electrons in two dots. \textsuperscript{f}: Electron-valley qubit. \textsuperscript{g}: Q3. \textsuperscript{h}: Left qubit. \textsuperscript{i}: At 200 {mK}. \textsuperscript{j}: We take the average of the range given by the article. \textsuperscript{k}: The average of the six values given in Fig. 1C. \textsuperscript{l}: The average over the three qubits. \textsuperscript{m}: In a five-electron dot configuration. \textsuperscript{n}: With the control chip inside the fridge. \textsuperscript{o}: At 1 kelvin. \textsuperscript{p}: A three-electron qubit. \textsuperscript{q}: Qubit dressed with an oscillatory drive-amplitude. \textsuperscript{r}: Fidelity of Clifford gates. \textsuperscript{s}: Qubit dressed with a constant drive-amplitude. \textsuperscript{t}: At 0.04 kelvin. \textsuperscript{u}: We take the values obtained by {GST}. \textsuperscript{v}: X/2 gate. \textsuperscript{w}: With estimation and/or feedback. \textsuperscript{x}: At 1.5 kelvin.
 \label{operationFidelity1}
 }
 \end{table}

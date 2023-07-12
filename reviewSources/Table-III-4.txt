@@ -5,24 +5,31 @@
 \toprule
 \multicolumn{2}{c}{Time} & {Operation} & {\#Qubits} & {Qubit} & {Material} & {Host} & {Date} & {Reference} & {Source}\\
 \midrule
+4. & \unit{\milli\second}\textsuperscript{a} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2010-07 & \onlinecite{petersson_charge_2010} & p4\\
+20. & \unit{\milli\second} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2016-11 & \onlinecite{kiyama_single-shot_2016} & p3\\
+10. & \unit{\micro\second} & measure & 1Q & LD/h & Ge/SiGe & 2D & 2021-09 & \onlinecite{lawrie_simultaneous_2021} & p1\\
+6. & \unit{\micro\second} & measure & 1Q & ST/h & Ge/SiGe & 2D & 2020-07 & \onlinecite{hendrickx_single-hole_2020} & p4\\
+1.5 & \unit{\micro\second} & measure & 1Q & LD/i & Si:P & imp & 2019-10 & \onlinecite{keith_single-shot_2019} & p4\\
+67. & \unit{\micro\second}\textsuperscript{b} & measure & 1Q & LD/i & Si:P & imp & 2023-02 & \onlinecite{hogg_single-shot_2023} & Tab. I\\
+3. & \unit{\milli\second} & measure & 1Q & LD/i & Si:P & imp & 2015-10 & \onlinecite{watson_high-fidelity_2015} & p4\\
 40. & \unit{\milli\second} & measure & 1Q & LD/i & Si:P & imp & 2013-06 & \onlinecite{buch_spin_2013} & Fig. 2b caption\\
-50. & \unit{\milli\second}\textsuperscript{a} & measure & 1Q & LD/i & Si:P & imp & 2018-03 & \onlinecite{broome_two-electron_2018} & {SFig}. 2d\\
-0.150 & \unit{\second}\textsuperscript{b} & measure & 1Q & LD/i & Si:P & imp & 2015-10 & \onlinecite{watson_high-fidelity_2015} & Fig. 2b-c\\
+50. & \unit{\milli\second}\textsuperscript{c} & measure & 1Q & LD/i & Si:P & imp & 2018-03 & \onlinecite{broome_two-electron_2018} & {SFig}. 2d\\
+0.150 & \unit{\second}\textsuperscript{d} & measure & 1Q & LD/i & Si:P & imp & 2015-10 & \onlinecite{watson_high-fidelity_2015} & Fig. 2b-c\\
 0.200 & \unit{\second} & measure & 1Q & LD/i & Si:P & imp & 2017-03 & \onlinecite{watson_atomically_2017} & p3\\
-65. & \unit{\micro\second}\textsuperscript{c} & measure & 1Q & ST/i\textsuperscript{d} & Si:P & imp & 2018-05 & \onlinecite{harvey-collard_high-fidelity_2018} & Tab. {II}\\
-0.150 & \unit{\milli\second} & measure & 1Q & ST/i\textsuperscript{d} & Si:P & imp & 2018-05 & \onlinecite{harvey-collard_high-fidelity_2018} & Tab. {II}\\
+65. & \unit{\micro\second}\textsuperscript{e} & measure & 1Q & ST/i\textsuperscript{f} & Si:P & imp & 2018-05 & \onlinecite{harvey-collard_high-fidelity_2018} & Tab. {II}\\
+0.150 & \unit{\milli\second} & measure & 1Q & ST/i\textsuperscript{f} & Si:P & imp & 2018-05 & \onlinecite{harvey-collard_high-fidelity_2018} & Tab. {II}\\
 0.3 & \unit{\milli\second} & measure & 1Q & ST/i & Si:P & imp & 2018-11 & \onlinecite{pakkiam_single-shot_2018} & p2\\
-18.4 & \unit{\milli\second}\textsuperscript{e} & measure & 1Q & ST/i & Si:P & imp & 2017-07 & \onlinecite{broome_high-fidelity_2017} & p3\\
+18.4 & \unit{\milli\second}\textsuperscript{g} & measure & 1Q & ST/i & Si:P & imp & 2017-07 & \onlinecite{broome_high-fidelity_2017} & p3\\
 2.6 & \unit{\milli\second} & measure & 2Q & ST/e & $\text{Si/}\text{SiO}_2$ & 2D & 2019-03 & \onlinecite{west_gate-based_2019} & p3\\
-50. & \unit{\micro\second}\textsuperscript{f} & initialize & 1Q & LD/e & Si/SiGe & 2D & 2018-02 & \onlinecite{watson_programmable_2018} & {ED} Fig. 2\\
+50. & \unit{\micro\second}\textsuperscript{h} & initialize & 1Q & LD/e & Si/SiGe & 2D & 2018-02 & \onlinecite{watson_programmable_2018} & {ED} Fig. 2\\
 4. & \unit{\milli\second} & initialize & 1Q & LD/e & Si/SiGe & 2D & 2014-08 & \onlinecite{kawakami_electrical_2014} & p1\\
-20. & \unit{\nano\second}\textsuperscript{g} & initialize & 1Q & ST/e & GaAs/AlGaAs & 2D & 2014-10 & \onlinecite{shulman_suppressing_2014} & p2\\
+20. & \unit{\nano\second}\textsuperscript{i} & initialize & 1Q & ST/e & GaAs/AlGaAs & 2D & 2014-10 & \onlinecite{shulman_suppressing_2014} & p2\\
 50. & \unit{\nano\second} & initialize & 1Q & ST/e & GaAs/AlGaAs & 2D & 2012-04 & \onlinecite{shulman_demonstration_2012} & p1\\
-20. & \unit{\milli\second}\textsuperscript{h} & initialize & 1Q & ST/e & $\text{Si/}\text{SiO}_2$ & 1D & 2019-05 & \onlinecite{urdampilleta_gate-based_2019} & Fig. 3\\
+20. & \unit{\milli\second}\textsuperscript{j} & initialize & 1Q & ST/e & $\text{Si/}\text{SiO}_2$ & 1D & 2019-05 & \onlinecite{urdampilleta_gate-based_2019} & Fig. 3\\
 10. & \unit{\milli\second} & initialize & 1Q & LD/i & $\, ^{28}\text{Si:P}$ & imp & 2022-10 & \onlinecite{johnson_beating_2022} & p6\\
 \bottomrule
 \end{tabular}
-\caption{Operation times (part 4). Superscripts stand for the following. \textsuperscript{a}: \estimated as the duration of phase 3 in {SFig}. 2d. \textsuperscript{b}: \estimated from Fig. 2b-c. \textsuperscript{c}: Latched readout. \textsuperscript{d}: Hybrid {ST} qubit: impurity -- gated dot. \textsuperscript{e}: Latched readout; $\mathrm{{SNR}}=6.4$. \textsuperscript{f}: Using spin hot-spot. \textsuperscript{g}: Into singlet. \textsuperscript{h}: Into triplet.
+\caption{Operation times (part 4). Superscripts stand for the following. \textsuperscript{a}: The reference estimates this time as required for $\mathrm{{SNR}}=1$. \textsuperscript{b}: We take 1/bandwidth=1/15 {kHz}. \textsuperscript{c}: \estimated as the duration of phase 3 in {SFig}. 2d. \textsuperscript{d}: \estimated from Fig. 2b-c. \textsuperscript{e}: Latched readout. \textsuperscript{f}: Hybrid {ST} qubit: impurity -- gated dot. \textsuperscript{g}: Latched readout; $\mathrm{{SNR}}=6.4$. \textsuperscript{h}: Using spin hot-spot. \textsuperscript{i}: Into singlet. \textsuperscript{j}: Into triplet.
 \label{operationTime4}
 }
 \end{table}

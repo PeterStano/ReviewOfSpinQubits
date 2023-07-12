@@ -1,0 +1,31 @@
+\rowcolors{2}{white}{gray!25}
+\setcounter{rowcount}{-1}
+\begin{table}
+\begin{tabular}{@{}S[table-format=2.2, round-mode=figures, round-pad=false, round-precision=2,  table-alignment-mode = none, table-number-alignment = center, table-column-width = 3em ]@{}lccccccc@{ \stepcounter{rowcount} \tiny \therowcount }}
+\toprule
+\multicolumn{2}{c}{Time} & {Coherence} & {Qubit} & {Material} & {Host} & {Date} & {Reference} & {Source}\\
+\midrule
+1.71 & \unit{\micro\second}\textsuperscript{a} & $T_2^{\text{Rabi}}$ & ST/e & GaAs/AlGaAs & 2D & 2022-07 & \onlinecite{kim_approaching_2022} & p4\\
+1.4 & \unit{\micro\second}\textsuperscript{b} & $T_2^{\text{Rabi}}$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2023-01 & \onlinecite{gilbert_-demand_2023} & Fig. 3d, blue point\\
+1.4 & \unit{\micro\second} & $T_2^{\text{Rabi}}$ & LD/e & Si/SiGe & 2D & 2020-01 & \onlinecite{croot_flopping-mode_2020} & p4\\
+1.26 & \unit{\micro\second} & $T_2^{\text{Rabi}}$ & LD/e & GaAs/AlGaAs & 2D & 2020-03 & \onlinecite{nakajima_coherence_2020} & Fig. 6\\
+1. & \unit{\micro\second} & $T_2^{\text{Rabi}}$ & HY/e\textsuperscript{c} & Si/SiGe & 2D & 2017-08 & \onlinecite{thorgrimsson_extending_2017} & Fig. 3g\\
+0.700 & \unit{\micro\second} & $T_2^{\text{Rabi}}$ & ST/e & GaAs/AlGaAs & 2D & 2017-01 & \onlinecite{nichol_high-fidelity_2017} & p3 and Fig. 2b\\
+0.526 & \unit{\micro\second} & $T_2^{\text{Rabi}}$ & LD/e & GaAs/AlGaAs & 2D & 2019-04 & \onlinecite{nakajima_quantum_2019} & Fig. 2\\
+0.400 & \unit{\micro\second}\textsuperscript{d} & $T_2^{\text{Rabi}}$ & HY/e\textsuperscript{e} & $\, ^{28}\text{Si/SiGe}$ & 2D & 2019-07 & \onlinecite{andrews_quantifying_2019} & Fig. S2c\\
+0.28 & \unit{\micro\second}\textsuperscript{f} & $T_2^{\text{Rabi}}$ & ST/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2016-03 & \onlinecite{reed_reduced_2016} & p3, Fig. 4a and b\\
+0.19 & \unit{\micro\second}\textsuperscript{g} & $T_2^{\text{Rabi}}$ & HY/e & Si/SiGe & 2D & 2018-10 & \onlinecite{abadillo-uriel_signatures_2018} & p3\\
+86. & \unit{\nano\second} & $T_2^{\text{Rabi}}$ & ST/e & GaAs/AlGaAs & 2D & 2021-05 & \onlinecite{kojima_probabilistic_2021} & p3\\
+84. & \unit{\nano\second} & $T_2^{\text{Rabi}}$ & LD/e & GaAs/AlGaAs & 2D & 2016-04 & \onlinecite{noiri_coherent_2016} & Fig. 3\\
+80. & \unit{\nano\second}\textsuperscript{h} & $T_2^{\text{Rabi}}$ & HY/e\textsuperscript{i,j} & GaAs/AlGaAs & 2D & 2017-07 & \onlinecite{malinowski_symmetric_2017} & Fig. 4c\\
+60. & \unit{\nano\second} & $T_2^{\text{Rabi}}$ & LD/h & Ge/Si & 1D & 2021-01 & \onlinecite{froning_ultrafast_2021} & Fig. 3d\\
+40. & \unit{\nano\second}\textsuperscript{h} & $T_2^{\text{Rabi}}$ & HY/e\textsuperscript{k,j} & GaAs/AlGaAs & 2D & 2017-07 & \onlinecite{malinowski_symmetric_2017} & Fig. 4c\\
+37. & \unit{\nano\second} & $T_2^{\text{Rabi}}$ & HY/e & GaAs/AlGaAs & 2D & 2021-06 & \onlinecite{jang_single-shot_2021} & Fig. 3b\\
+36.7 & \unit{\nano\second}\textsuperscript{l} & $T_2^{\text{Rabi}}$ & LD/e & GaAs/AlGaAs & 2D & 2014-12 & \onlinecite{yoneda_fast_2014} & p3\\
+\bottomrule
+\end{tabular}
+\caption{Spin coherence times (part 7). Superscripts stand for the following. \textsuperscript{a}: With estimation and/or feedback. \textsuperscript{b}: \estimated from Fig. 3d at $\Delta V_J=10$ {mV}. \textsuperscript{c}: Tunable between spin- and charge- qubit. \textsuperscript{d}: \estimated from Fig. S2c as the signal decay by factor $1/e$. \textsuperscript{e}: {EO} qubit. \textsuperscript{f}: \derived from $T = h N_\mathrm{R} / J$ with $J/h=160$ {MHz} and $N_\mathrm{R}=44$. \textsuperscript{g}: Reference gives Rabi decay rate $\Gamma=5.4$ {MHz}. We convert it to Rabi decay time by $\TRabi=1/\Gamma$. \textsuperscript{h}: Approximate value at $f_\mathrm{R}=100$ {MHz}. \textsuperscript{i}: At a full sweet spot. \textsuperscript{j}: Resonant exchange qubit. \textsuperscript{k}: At a partial sweet spot. \textsuperscript{l}: At Rabi frequency $f_\mathrm{R}=85.9$ {MHz}.
+\label{spinCoherence7}
+}
+\end{table}
+
