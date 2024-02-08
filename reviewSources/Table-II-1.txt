@@ -25,7 +25,7 @@
 5.0 & \unit{\nano\second}\textsuperscript{g} & $T_2^*$ & charge & GaAs/AlGaAs & 2D & 2020-05 & \onlinecite{koski_strong_2020} & p3\\
 5.0 & \unit{\nano\second}\textsuperscript{g} & $T_2^*$ & charge & $\, ^{28}\text{Si/SiGe}$ & 2D & 2021-04 & \onlinecite{borjans_probing_2021} & p6\\
 4.4 & \unit{\nano\second}\textsuperscript{h} & $T_2^*$ & charge & Si/SiGe & 2D & 2020-06 & \onlinecite{borjans_split-gate_2020} & Fig. 3b\\
-4.0 & \unit{\nano\second}\textsuperscript{i} & $T_2^*$ & charge & $\, ^{28}\text{Si/SiGe}$ & 2D & 2018-02 & \onlinecite{mi_coherent_2018} & p2 and Fig. 1d\\
+4.0 & \unit{\nano\second}\textsuperscript{i} & $T_2^*$ & charge & Si/SiGe & 2D & 2018-02 & \onlinecite{mi_coherent_2018} & p2 and Fig. 1d\\
 4.0 & \unit{\nano\second}\textsuperscript{i} & $T_2^*$ & charge & Si/SiGe & 2D & 2017-01 & \onlinecite{mi_circuit_2017} & p5\\
 4.0 & \unit{\nano\second}\textsuperscript{j} & $T_2^*$ & charge & GaAs/AlGaAs & 2D & 2017-03 & \onlinecite{stockklauser_strong_2017} & p5\\
 3.2 & \unit{\nano\second}\textsuperscript{k,l} & $T_2^*$ & charge & GaAs/AlGaAs & 2D & 2023-05 & \onlinecite{lin_collective_2023} & Tab. 1\\
@@ -40,26 +40,27 @@
 1.1 & \unit{\nano\second} & $T_2^*$ & charge & GaAs/AlGaAs & 2D & 2010-07 & \onlinecite{petersson_charge_2010} & p3\\
 1. & \unit{\nano\second} & $T_2^*$ & charge & GaAs/AlGaAs & 2D & 2003-11 & \onlinecite{hayashi_coherent_2003} & p3\\
 0.637 & \unit{\nano\second}\textsuperscript{r} & $T_2^*$ & charge & GaAs/AlGaAs & 2D & 2015-07 & \onlinecite{stockklauser_microwave_2015} & Fig. 2b\\
-0.57 & \unit{\nano\second}\textsuperscript{s} & $T_2^*$ & charge & Ge/SiGe & 1D & 2020-08 & \onlinecite{xu_dipole_2020} & p5 and Fig.3\\
-0.51 & \unit{\nano\second}\textsuperscript{t} & $T_2^*$ & charge & SLG & 2D & 2015-09 & \onlinecite{deng_charge_2015} & p3\\
+0.612 & \unit{\nano\second}\textsuperscript{s} & $T_2^*$ & charge & InAs & 1D & 2023-08 & \onlinecite{ranni_dephasing_2023} & p5\\
+0.57 & \unit{\nano\second}\textsuperscript{t} & $T_2^*$ & charge & Ge/SiGe & 1D & 2020-08 & \onlinecite{xu_dipole_2020} & p5 and Fig.3\\
+0.51 & \unit{\nano\second}\textsuperscript{u} & $T_2^*$ & charge & SLG & 2D & 2015-09 & \onlinecite{deng_charge_2015} & p3\\
 0.400 & \unit{\nano\second} & $T_2^*$ & charge & GaAs/AlGaAs & 2D & 2004-10 & \onlinecite{petta_manipulation_2004} & p4 and Fig. 4\\
-0.3 & \unit{\nano\second}\textsuperscript{u} & $T_2^*$ & charge & GaAs/AlGaAs & 2D & 2013-09 & \onlinecite{basset_single-electron_2013} & Fig. 3b\\
-0.289 & \unit{\nano\second}\textsuperscript{v} & $T_2^*$ & charge & CNT & 1D & 2014-04 & \onlinecite{viennot_out--equilibrium_2014} & p2\\
-0.17 & \unit{\nano\second}\textsuperscript{w} & $T_2^*$ & charge & GaAs/AlGaAs & 2D & 2012-01 & \onlinecite{frey_dipole_2012} & p4\\
-0.2 & \unit{\nano\second}\textsuperscript{x} & $T_2^*$ & charge & InSb & 1D & 2016-05 & \onlinecite{wang_insb_2016} & p4\\
-0.118 & \unit{\nano\second}\textsuperscript{y} & $T_2^*$ & charge & CNT & 1D & 2019-07 & \onlinecite{cubaynes_highly_2019} & p2\\
+0.3 & \unit{\nano\second}\textsuperscript{v} & $T_2^*$ & charge & GaAs/AlGaAs & 2D & 2013-09 & \onlinecite{basset_single-electron_2013} & Fig. 3b\\
+0.289 & \unit{\nano\second}\textsuperscript{w} & $T_2^*$ & charge & CNT & 1D & 2014-04 & \onlinecite{viennot_out--equilibrium_2014} & p2\\
+0.17 & \unit{\nano\second}\textsuperscript{x} & $T_2^*$ & charge & GaAs/AlGaAs & 2D & 2012-01 & \onlinecite{frey_dipole_2012} & p4\\
+0.2 & \unit{\nano\second}\textsuperscript{y} & $T_2^*$ & charge & InSb & 1D & 2016-05 & \onlinecite{wang_insb_2016} & p4\\
+0.118 & \unit{\nano\second}\textsuperscript{z} & $T_2^*$ & charge & CNT & 1D & 2019-07 & \onlinecite{cubaynes_highly_2019} & p2\\
 80. & \unit{\pico\second} & $T_2^*$ & charge & Si/SiGe & 2D & 2020-09 & \onlinecite{macquarrie_progress_2020} & p3\\
 60. & \unit{\pico\second} & $T_2^*$ & charge & GaAs/AlGaAs & 2D & 2011-10 & \onlinecite{dovzhenko_nonadiabatic_2011} & p2\\
-50. & \unit{\pico\second}\textsuperscript{z} & $T_2^*$ & charge & CNT & 1D & 2015-05 & \onlinecite{ranjan_clean_2015} & Fig. 4f the lowest black point\\
-16.0 & \unit{\pico\second}\textsuperscript{$\alpha$} & $T_2^*$ & charge & $\text{Si/}\text{SiO}_2$ & 1D & 2021-05 & \onlinecite{ibberson_large_2021} & p4\\
+50. & \unit{\pico\second}\textsuperscript{$\alpha$} & $T_2^*$ & charge & CNT & 1D & 2015-05 & \onlinecite{ranjan_clean_2015} & Fig. 4f the lowest black point\\
+16.0 & \unit{\pico\second}\textsuperscript{$\beta$} & $T_2^*$ & charge & $\text{Si/}\text{SiO}_2$ & 1D & 2021-05 & \onlinecite{ibberson_large_2021} & p4\\
 0.760 & \unit{\micro\second} & $T_2^{\text{Echo}}$ & charge & Si/SiGe & 2D & 2013-08 & \onlinecite{shi_coherent_2013} & Fg. 2\\
 43.1 & \unit{\nano\second} & $T_2^{\text{Echo}}$ & charge & GaAs/AlGaAs & 2D & 2019-05 & \onlinecite{scarlino_all-microwave_2019} & p4 and Fig. 5e\\
 2.2 & \unit{\nano\second} & $T_2^{\text{Echo}}$ & charge & Si/SiGe & 2D & 2015-02 & \onlinecite{kim_microwave-driven_2015} & p3\\
-4. & \unit{\nano\second}\textsuperscript{$\beta$} & $T_2^{\text{DynD}}$ & charge & GaAs/AlGaAs & 2D & 2013-01 & \onlinecite{cao_ultrafast_2013} & p5\\
+4. & \unit{\nano\second}\textsuperscript{$\gamma$} & $T_2^{\text{DynD}}$ & charge & GaAs/AlGaAs & 2D & 2013-01 & \onlinecite{cao_ultrafast_2013} & p5\\
 1.5 & \unit{\nano\second} & $T_2^{\text{Rabi}}$ & charge & Si/SiGe & 2D & 2015-02 & \onlinecite{kim_microwave-driven_2015} & Fig. 1e\\
 \bottomrule
 \end{tabular}
-\caption{Charge coherence times. Superscripts stand for the following. \textsuperscript{a}: From $f_\textrm{FWHM}/2\pi = 2.7$ {MHz}. \textsuperscript{b}: From $\Gamma_2/2\pi = 2.6$ {MHz}. \textsuperscript{c}: From $\Gamma_2/2\pi = 4.8$ {MHz}. \textsuperscript{d}: From $\Gamma_2/2\pi=9.9$ {MHz}. \textsuperscript{e}: From $\Gamma_2/2\pi = 6$ {MHz}. \textsuperscript{f}: From $\Gamma_2/2\pi = 30$ {MHz}. \textsuperscript{g}: From $\Gamma_2/2\pi = 32$ {MHz}. \textsuperscript{h}: From $\Gamma_2/2\pi = 36$ {MHz}. \textsuperscript{i}: From $\Gamma_2/2\pi = 40$ {MHz}. \textsuperscript{j}: From $f_\mathrm{FWHM}/2\pi = 80$ {MHz}. \textsuperscript{k}: {DQD}1. \textsuperscript{l}: From $\Gamma_2/2\pi =50$ {MHz}. \textsuperscript{m}: From $\Gamma_2/2\pi = 53$ {MHz}. \textsuperscript{n}: From $\Gamma_2/2\pi = 55$ {MHz}. \textsuperscript{o}: From $\Gamma_2/2\pi = 60$ {MHz}. \textsuperscript{p}: From $\Gamma_2/2\pi=72$ {MHz}. \textsuperscript{q}: From $\Gamma_2 /2\pi = 90$ {MHz}. \textsuperscript{r}: From $\Gamma_2/2\pi = 250$ {MHz}. \textsuperscript{s}: From $\Gamma_2/2\pi = 0.28$ {GHz}. \textsuperscript{t}: From $\Gamma_phi/2\pi = 0.31$ {GHz}. \textsuperscript{u}: From $\Gamma_\phi /2pi = 0.5$ {GHz}. \textsuperscript{v}: From $\Gamma_2/2\pi = 550$ {MHz}. \textsuperscript{w}: From $\Gamma_\phi/2\pi = 0.9$ {GHz} and $\Gamma_1=100$ {MHz}. \textsuperscript{x}: From $\Gamma_\phi/2\pi$; we take the lower limit from the range 1-4 {GHz} given in the reference. \textsuperscript{y}: From $\Gamma_2/2\pi = 1.35$ {GHz}. \textsuperscript{z}: From $\Gamma_2/2\pi \approx 3$ {GHz} \estimated from Fig. 4f. \textsuperscript{$\alpha$}: From $\Gamma_2/2\pi = 9.95$ {GHz}. \textsuperscript{$\beta$}: From Landau-Zener interference.
+\caption{Charge coherence times. Superscripts stand for the following. \textsuperscript{a}: From $f_\textrm{FWHM}/2\pi = 2.7$ {MHz}. \textsuperscript{b}: From $\Gamma_2/2\pi = 2.6$ {MHz}. \textsuperscript{c}: From $\Gamma_2/2\pi = 4.8$ {MHz}. \textsuperscript{d}: From $\Gamma_2/2\pi=9.9$ {MHz}. \textsuperscript{e}: From $\Gamma_2/2\pi = 6$ {MHz}. \textsuperscript{f}: From $\Gamma_2/2\pi = 30$ {MHz}. \textsuperscript{g}: From $\Gamma_2/2\pi = 32$ {MHz}. \textsuperscript{h}: From $\Gamma_2/2\pi = 36$ {MHz}. \textsuperscript{i}: From $\Gamma_2/2\pi = 40$ {MHz}. \textsuperscript{j}: From $f_\mathrm{FWHM}/2\pi = 80$ {MHz}. \textsuperscript{k}: {DQD}1. \textsuperscript{l}: From $\Gamma_2/2\pi =50$ {MHz}. \textsuperscript{m}: From $\Gamma_2/2\pi = 53$ {MHz}. \textsuperscript{n}: From $\Gamma_2/2\pi = 55$ {MHz}. \textsuperscript{o}: From $\Gamma_2/2\pi = 60$ {MHz}. \textsuperscript{p}: From $\Gamma_2/2\pi=72$ {MHz}. \textsuperscript{q}: From $\Gamma_2 /2\pi = 90$ {MHz}. \textsuperscript{r}: From $\Gamma_2/2\pi = 250$ {MHz}. \textsuperscript{s}: From $\Gamma/2\pi=260 $ Mhz. \textsuperscript{t}: From $\Gamma_2/2\pi = 0.28$ {GHz}. \textsuperscript{u}: From $\Gamma_\phi/2\pi = 0.31$ {GHz}. \textsuperscript{v}: From $\Gamma_\phi /2pi = 0.5$ {GHz}. \textsuperscript{w}: From $\Gamma_2/2\pi = 550$ {MHz}. \textsuperscript{x}: From $\Gamma_\phi/2\pi = 0.9$ {GHz} and $\Gamma_1=100$ {MHz}. \textsuperscript{y}: From $\Gamma_\phi/2\pi$; we take the lower limit from the range 1-4 {GHz} given in the reference. \textsuperscript{z}: From $\Gamma_2/2\pi = 1.35$ {GHz}. \textsuperscript{$\alpha$}: From $\Gamma_2/2\pi \approx 3$ {GHz} \estimated from Fig. 4f. \textsuperscript{$\beta$}: From $\Gamma_2/2\pi = 9.95$ {GHz}. \textsuperscript{$\gamma$}: From Landau-Zener interference.
 \label{chargeCoherence}
 }
 \end{table}

@@ -5,6 +5,10 @@
 \toprule
 {Dimensions} & {Functionality} & {Qubit} & {Material} & {Host} & {Date} & {Reference}\\
 \midrule
+$3$ & device & ST/e & GaAs/AlGaAs & 2D & 2020-12 & \onlinecite{jang_individual_2020}\\
+$3$ & device & LD/h & Ge/Si & 1D & 2018-08 & \onlinecite{froning_single_2018}\\
+$2$ & device & charge & Si/SiGe & 2D & 2019-12 & \onlinecite{neyens_measurements_2019}\\
+$2$ & device & HY/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2021-04 & \onlinecite{chen_detuning_2021}\\
 $2$ & device & HY/e & Si/SiGe & 2D & 2021-11 & \onlinecite{ha_flexible_2021}\\
 $2$ & device & ST/e & GaAs/AlGaAs & 2D & 2011-07 & \onlinecite{van_weperen_charge-state_2011}\\
 $2$ & device & ST/e & GaAs/AlGaAs & 2D & 2018-10 & \onlinecite{croot_device_2018}\\
@@ -18,7 +22,6 @@ $4$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2021-01 & \onlinecite{qiao_long-dist
 $4$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2021-04 & \onlinecite{kandel_adiabatic_2021}\\
 $4$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2021-11 & \onlinecite{van_diepen_quantum_2021}\\
 $2 \times 2$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2020-03 & \onlinecite{dehollain_nagaoka_2020}\\
-$2 \times 2$ & simulator & LD/h & Ge/SiGe & 2D & 2022-08 & \onlinecite{wang_probing_2022}\\
 $3$ & simulator & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2015-05 & \onlinecite{eng_isotopically_2015}\\
 $3$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2016-10 & \onlinecite{baart_coherent_2016}\\
 $3$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2018-11 & \onlinecite{noiri_fast_2018}\\
@@ -32,6 +35,7 @@ $6$ & processor & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-09 & \onlinecite{p
 $2 \times 2$ & processor & LD/h & Ge/SiGe & 2D & 2021-03 & \onlinecite{hendrickx_four-qubit_2021}\\
 $3$ & processor & LD/e & Si/SiGe & 2D & 2021-06 & \onlinecite{takeda_quantum_2021}\\
 $3$ & processor & LD/e & Si/SiGe & 2D & 2022-08 & \onlinecite{takeda_quantum_2022}\\
+$2$ & processor & HY/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2023-03 & \onlinecite{weinstein_universal_2023}\\
 $2$ & processor & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2015-10 & \onlinecite{veldhorst_two-qubit_2015}\\
 $2$ & processor & LD/e & Si/SiGe & 2D & 2017-12 & \onlinecite{zajac_resonantly_2017}\\
 $2$ & processor & LD/e & Si/SiGe & 2D & 2018-02 & \onlinecite{watson_programmable_2018}\\
