@@ -31,6 +31,7 @@
 3.2 & \unit{\nano\second}\textsuperscript{k,l} & $T_2^*$ & charge & GaAs/AlGaAs & 2D & 2023-05 & \onlinecite{lin_collective_2023} & Tab. 1\\
 3.0 & \unit{\nano\second}\textsuperscript{m} & $T_2^*$ & charge & GaAs/AlGaAs & 2D & 2021-02 & \onlinecite{kratochwil_charge_2021} & p5 and Fig. 4a\\
 2.9 & \unit{\nano\second}\textsuperscript{n} & $T_2^*$ & charge & GaAs/AlGaAs & 2D & 2021-02 & \onlinecite{wang_correlated_2021} & p4\\
+2.7 & \unit{\nano\second} & $T_2^*$ & charge & $\, ^{28}\text{Si/SiGe}$ & 2D & 2023-10 & \onlinecite{dijkema_two-qubit_2023} & p6\\
 2.7 & \unit{\nano\second}\textsuperscript{o} & $T_2^*$ & charge & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-05 & \onlinecite{harvey-collard_coherent_2022} & p6\\
 2.2 & \unit{\nano\second}\textsuperscript{p} & $T_2^*$ & charge & GaAs/AlGaAs & 2D & 2021-04 & \onlinecite{chen_microwave-resonator-detected_2021} & p3\\
 2.2 & \unit{\nano\second} & $T_2^*$ & charge & Si/SiGe & 2D & 2013-08 & \onlinecite{shi_coherent_2013} & abstract and Fig. 1\\
@@ -46,6 +47,7 @@
 0.400 & \unit{\nano\second} & $T_2^*$ & charge & GaAs/AlGaAs & 2D & 2004-10 & \onlinecite{petta_manipulation_2004} & p4 and Fig. 4\\
 0.3 & \unit{\nano\second}\textsuperscript{v} & $T_2^*$ & charge & GaAs/AlGaAs & 2D & 2013-09 & \onlinecite{basset_single-electron_2013} & Fig. 3b\\
 0.289 & \unit{\nano\second}\textsuperscript{w} & $T_2^*$ & charge & CNT & 1D & 2014-04 & \onlinecite{viennot_out--equilibrium_2014} & p2\\
+0.248 & \unit{\nano\second} & $T_2^*$ & charge & BLG & 2D & 2024-06 & \onlinecite{ruckriegel_electric_2024} & p5 and Fig. 4\\
 0.17 & \unit{\nano\second}\textsuperscript{x} & $T_2^*$ & charge & GaAs/AlGaAs & 2D & 2012-01 & \onlinecite{frey_dipole_2012} & p4\\
 0.2 & \unit{\nano\second}\textsuperscript{y} & $T_2^*$ & charge & InSb & 1D & 2016-05 & \onlinecite{wang_insb_2016} & p4\\
 0.118 & \unit{\nano\second}\textsuperscript{z} & $T_2^*$ & charge & CNT & 1D & 2019-07 & \onlinecite{cubaynes_highly_2019} & p2\\

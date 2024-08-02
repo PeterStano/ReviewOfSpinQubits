@@ -6,6 +6,7 @@
 \multicolumn{2}{c}{Time} & {Coherence} & {Qubit} & {Material} & {Host} & {Date} & {Reference} & {Source}\\
 \midrule
 57. & \unit{\second} & $T_1$ & LD/e & GaAs/AlGaAs & 2D & 2018-08 & \onlinecite{camenzind_hyperfine-phonon_2018} & p3 and Fig. 4a\\
+43. & \unit{\second} & $T_1$ & LD/i & Si:P & imp & 2024-03 & \onlinecite{hsueh_engineering_2024} & Tab. 2 and Fig. 4\\
 30. & \unit{\second} & $T_1$ & LD/i & Si:P & imp & 2017-03 & \onlinecite{watson_atomically_2017} & Fig. 2b the lowest point\\
 16. & \unit{\second} & $T_1$ & LD/i & Si:P & imp & 2023-11 & \onlinecite{kranz_exploiting_2023} & Tab. I\\
 11. & \unit{\second}\textsuperscript{a} & $T_1$ & LD/i & Si:P & imp & 2023-02 & \onlinecite{hogg_single-shot_2023} & p6\\
@@ -32,32 +33,31 @@
 0.7 & \unit{\second} & $T_1$ & LD/i & Si:P & imp & 2012-09 & \onlinecite{pla_single-atom_2012} & p3\\
 0.6 & \unit{\second}\textsuperscript{d} & $T_1$ & LD/e & Si/SiGe & 2D & 2009-08 & \onlinecite{hayes_lifetime_2009} & Fig. 5\\
 0.5 & \unit{\second}\textsuperscript{e} & $T_1$ & ST/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2020-04 & \onlinecite{yang_operation_2020} & Fig. 4 the leftmost black point\\
+0.354 & \unit{\second}\textsuperscript{f} & $T_1$ & HY/e & BLG & 2D & 2024-01 & \onlinecite{garreis_long-lived_2024} & Fig. 3b\\
 0.170 & \unit{\second} & $T_1$ & LD/e & Si/SiGe & 2D & 2016-11 & \onlinecite{zajac_scalable_2016} & Fig. 6\\
-0.160 & \unit{\second}\textsuperscript{f} & $T_1$ & LD/e & Si/SiGe & 2D & 2019-04 & \onlinecite{borjans_single-spin_2019} & Fig. 2\\
-0.145 & \unit{\second}\textsuperscript{g} & $T_1$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2018-08 & \onlinecite{petit_spin_2018} & p2 and p4\\
+0.160 & \unit{\second}\textsuperscript{g} & $T_1$ & LD/e & Si/SiGe & 2D & 2019-04 & \onlinecite{borjans_single-spin_2019} & Fig. 2\\
+0.145 & \unit{\second}\textsuperscript{h} & $T_1$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2018-08 & \onlinecite{petit_spin_2018} & p2 and p4\\
 0.141 & \unit{\second} & $T_1$ & ST/e & Si/SiGe & 2D & 2012-04 & \onlinecite{shi_fast_2012} & Fig. 2d\\
 0.134 & \unit{\second} & $T_1$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2019-11 & \onlinecite{sigillito_coherent_2019} & p4\\
 90. & \unit{\milli\second} & $T_1$ & LD/e & $\text{Si/}\text{SiO}_2$ & 2D & 2020-06 & \onlinecite{zhang_giant_2020} & Fig. 1c\\
 85. & \unit{\milli\second} & $T_1$ & LD/e & GaAs/AlGaAs & 2D & 2014-12 & \onlinecite{scarlino_spin-relaxation_2014} & p2 and Fig. 3\\
 50. & \unit{\milli\second} & $T_1$ & LD/e & Si/SiGe & 2D & 2018-02 & \onlinecite{watson_programmable_2018} & p1 and {ED} Fig. 3b\\
 40. & \unit{\milli\second} & $T_1$ & LD/e & $\text{Si/}\text{SiO}_2$ & 2D & 2010-03 & \onlinecite{xiao_measurement_2010} & p4 and Fig. 4 the leftmost red point\\
-34. & \unit{\milli\second} & $T_1$ & ST/e & BLG & 2D & 2024-01 & \onlinecite{garreis_long-lived_2024} & p4 and Fig. 3b\\
+34. & \unit{\milli\second} & $T_1$ & ST/e & BLG & 2D & 2024-01 & \onlinecite{garreis_long-lived_2024} & Fig. 3b\\
 32. & \unit{\milli\second} & $T_1$ & LD/h & Ge/SiGe & 2D & 2020-08 & \onlinecite{lawrie_spin_2020} & p3\\
 31.5 & \unit{\milli\second} & $T_1$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-12 & \onlinecite{mills_high-fidelity_2022} & p3\\
-22. & \unit{\milli\second}\textsuperscript{h} & $T_1$ & LD/e & Si/SiGe & 2D & 2022-08 & \onlinecite{takeda_quantum_2022} & p2 and {ED} Fig. 4b-d\\
-20. & \unit{\milli\second} & $T_1$ & HY/e\textsuperscript{i} & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-03 & \onlinecite{blumoff_fast_2022} & p5\\
+22. & \unit{\milli\second}\textsuperscript{i} & $T_1$ & LD/e & Si/SiGe & 2D & 2022-08 & \onlinecite{takeda_quantum_2022} & p2 and {ED} Fig. 4b-d\\
+20. & \unit{\milli\second} & $T_1$ & HY/e\textsuperscript{j} & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-03 & \onlinecite{blumoff_fast_2022} & p5\\
 16. & \unit{\milli\second} & $T_1$ & LD/h & Ge/SiGe & 2D & 2021-03 & \onlinecite{hendrickx_four-qubit_2021} & Fig. S5 dot 3\\
-15. & \unit{\milli\second}\textsuperscript{j} & $T_1$ & ST/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2020-04 & \onlinecite{yang_operation_2020} & Fig. 4 the rightmost black point\\
-11.23 & \unit{\milli\second}\textsuperscript{k} & $T_1$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2023-08 & \onlinecite{huang_high-fidelity_2023} & p3\\
+15. & \unit{\milli\second}\textsuperscript{k} & $T_1$ & ST/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2020-04 & \onlinecite{yang_operation_2020} & Fig. 4 the rightmost black point\\
+11.23 & \unit{\milli\second}\textsuperscript{l} & $T_1$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2024-03 & \onlinecite{huang_high-fidelity_2024} & p3\\
 10. & \unit{\milli\second} & $T_1$ & LD/e & $\text{Si/}\text{SiO}_2$ & 1D & 2022-03 & \onlinecite{spence_spin-valley_2022} & p2 and Fig. 2a\\
 8.37 & \unit{\milli\second} & $T_1$ & LD/h & BLG & 2D & 2022-05 & \onlinecite{gachter_single-shot_2022} & p5 and Fig. 4\\
 5. & \unit{\milli\second} & $T_1$ & LD/i & $\, ^{28}\text{Si:B}$ & imp & 2020-07 & \onlinecite{kobayashi_engineering_2020} & p3 and Fig. 3b\\
-5. & \unit{\milli\second}\textsuperscript{l} & $T_1$ & ST/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2021-01 & \onlinecite{seedhouse_pauli_2021} & p4 and Fig. 1d\\
-4.1 & \unit{\milli\second} & $T_1$ & ST/i & Si:P & imp & 2014-06 & \onlinecite{dehollain_single-shot_2014} & \\
-3.7 & \unit{\milli\second} & $T_1$ & LD/e & GaAs/AlGaAs & 2D & 2016-07 & \onlinecite{baart_nanosecond-timescale_2016} & p3 and Fig. 2\\
+5. & \unit{\milli\second}\textsuperscript{m} & $T_1$ & ST/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2021-01 & \onlinecite{seedhouse_pauli_2021} & p4 and Fig. 1d\\
 \bottomrule
 \end{tabular}
-\caption{Spin coherence times (part 1). Superscripts stand for the following. \textsuperscript{a}: Dot D3. \textsuperscript{b}: No micromagnet. \textsuperscript{c}: Qubit defined in the rotating frame. \textsuperscript{d}: \estimated Fig. 5 the lowest point. \textsuperscript{e}: At 0.04 K. \textsuperscript{f}: With micromagnet. \textsuperscript{g}: At 0.1 K. \textsuperscript{h}: The average over the three qubits. \textsuperscript{i}: {EO} qubit. \textsuperscript{j}: At 1.5 K. \textsuperscript{k}: At 1 K. \textsuperscript{l}: Lifetime of $T_-$ state.
+\caption{Spin coherence times (part 1). Superscripts stand for the following. \textsuperscript{a}: Dot D3. \textsuperscript{b}: No micromagnet. \textsuperscript{c}: Qubit defined in the rotating frame. \textsuperscript{d}: \estimated Fig. 5 the lowest point. \textsuperscript{e}: At 0.04 K. \textsuperscript{f}: Valley degree of freedom. \textsuperscript{g}: With micromagnet. \textsuperscript{h}: At 0.1 K. \textsuperscript{i}: The average over the three qubits. \textsuperscript{j}: {EO} qubit. \textsuperscript{k}: At 1.5 K. \textsuperscript{l}: At 1 K. \textsuperscript{m}: Lifetime of $T_-$ state.
 \label{spinCoherence1}
 }
 \end{table}

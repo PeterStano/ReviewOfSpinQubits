@@ -5,6 +5,7 @@
 \toprule
 {Dimensions} & {Functionality} & {Qubit} & {Material} & {Host} & {Date} & {Reference}\\
 \midrule
+$3$ & device & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-09 & \onlinecite{noiri_shuttling-based_2022}\\
 $3$ & device & ST/e & GaAs/AlGaAs & 2D & 2020-12 & \onlinecite{jang_individual_2020}\\
 $3$ & device & LD/h & Ge/Si & 1D & 2018-08 & \onlinecite{froning_single_2018}\\
 $2$ & device & charge & Si/SiGe & 2D & 2019-12 & \onlinecite{neyens_measurements_2019}\\
@@ -21,6 +22,7 @@ $4$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2020-07 & \onlinecite{qiao_coherent_
 $4$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2021-01 & \onlinecite{qiao_long-distance_2021}\\
 $4$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2021-04 & \onlinecite{kandel_adiabatic_2021}\\
 $4$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2021-11 & \onlinecite{van_diepen_quantum_2021}\\
+$4$ & simulator & ST/h & Ge/SiGe & 2D & 2023-12 & \onlinecite{zhang_universal_2023}\\
 $2 \times 2$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2020-03 & \onlinecite{dehollain_nagaoka_2020}\\
 $3$ & simulator & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2015-05 & \onlinecite{eng_isotopically_2015}\\
 $3$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2016-10 & \onlinecite{baart_coherent_2016}\\
