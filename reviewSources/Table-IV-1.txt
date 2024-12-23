@@ -30,7 +30,7 @@
 99.7 \unit{\percent} & gate & 1Q & LD/e & Si/SiGe & 2D & 2017-12 & \onlinecite{zajac_resonantly_2017} & p2\\
 99.7 \unit{\percent} & gate & 1Q & LD/e\textsuperscript{p} & $\text{Si/}\text{SiO}_2$ & 2D & 2020-02 & \onlinecite{leon_coherent_2020} & {SM} Fig. 3\\
 99.69 \unit{\percent} & gate & 1Q & LD/e\textsuperscript{q} & Si/SiGe & 2D & 2021-05 & \onlinecite{xue_cmos-based_2021} & p4\\
-99.65 \unit{\percent}\textsuperscript{r} & gate & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2023-09 & \onlinecite{tanttu_consistency_2023} & {ED} Tab. {II}\\
+99.65 \unit{\percent}\textsuperscript{r} & gate & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2024-08 & \onlinecite{tanttu_assessment_2024} & {ED} Tab. {II}\\
 99.6 \unit{\percent} & gate & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2014-10 & \onlinecite{veldhorst_addressable_2014} & p2 and Fig. 4\\
 99.6 \unit{\percent} & gate & 1Q & LD/e & Si/SiGe & 2D & 2016-08 & \onlinecite{takeda_fault-tolerant_2016} & p4\\
 99.5 \unit{\percent} & gate & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2019-05 & \onlinecite{huang_fidelity_2019} & {ED} Tab. 2\\

@@ -48,8 +48,8 @@
 70. & \unit{\micro\second} & $T_2^{\text{Echo}}$ & ST/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2015-05 & \onlinecite{eng_isotopically_2015} & Fig. S2 the topmost red point\\
 70. & \unit{\micro\second} & $T_2^{\text{Echo}}$ & LD/h & Ge/SiGe & 2D & 2024-05 & \onlinecite{hendrickx_sweet-spot_2024} & Fig. {ED}3\\
 45.8 & \unit{\micro\second} & $T_2^{\text{Echo}}$ & LD/e & Si/SiGe & 2D & 2021-06 & \onlinecite{takeda_quantum_2021} & p1 for Q3\\
-43. & \unit{\micro\second}\textsuperscript{k} & $T_2^{\text{Echo}}$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2023-09 & \onlinecite{tanttu_consistency_2023} & {ED} Tab. {II}\\
-43. & \unit{\micro\second}\textsuperscript{l} & $T_2^{\text{Echo}}$ & LD/e & Si/SiGe & 2D & 2022-08 & \onlinecite{takeda_quantum_2022} & p2 and {ED} Fig. 4j-l\\
+43. & \unit{\micro\second}\textsuperscript{k} & $T_2^{\text{Echo}}$ & LD/e & Si/SiGe & 2D & 2022-08 & \onlinecite{takeda_quantum_2022} & p2 and {ED} Fig. 4j-l\\
+43. & \unit{\micro\second}\textsuperscript{l} & $T_2^{\text{Echo}}$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2024-08 & \onlinecite{tanttu_assessment_2024} & {ED} Tab. {II}\\
 40.1 & \unit{\micro\second}\textsuperscript{m} & $T_2^{\text{Echo}}$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-09 & \onlinecite{philips_universal_2022} & Fig. 2e\\
 40. & \unit{\micro\second}\textsuperscript{n} & $T_2^{\text{Echo}}$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2023-01 & \onlinecite{gilbert_-demand_2023} & Fig. 3d, green point\\
 37. & \unit{\micro\second} & $T_2^{\text{Echo}}$ & LD/e & Si/SiGe & 2D & 2014-08 & \onlinecite{kawakami_electrical_2014} & p4 and Fig. 4a\\
@@ -57,7 +57,7 @@
 32. & \unit{\micro\second} & $T_2^{\text{Echo}}$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-01 & \onlinecite{noiri_fast_2022} & {ED} Fig. 2i the topmost trace\\
 \bottomrule
 \end{tabular}
-\caption{Spin coherence times (part 5). Superscripts stand for the following. \textsuperscript{a}: Hybrid qubit with three electrons in two dots. \textsuperscript{b}: From $\Gamma_2/2\pi = 19.6$ {MHz}. \textsuperscript{c}: {RX} qubit. \textsuperscript{d}: From {EDSR} linewidth. \textsuperscript{e}: Carbon nanotube made from $^{13}$C isotope. \textsuperscript{f}: From $\Gamma_2/2\pi = 357$ {MHz}. \textsuperscript{g}: From Landau-Zener interference. \textsuperscript{h}: Qubit defined in the rotating frame. \textsuperscript{i}: At 0.04 K. \textsuperscript{j}: The average figure of merit for the two qubits measured. \textsuperscript{k}: Device B. \textsuperscript{l}: The average over the three qubits. \textsuperscript{m}: Q3. \textsuperscript{n}: \estimated from Fig. 3d at $\Delta V_J=10$ {mV}.
+\caption{Spin coherence times (part 5). Superscripts stand for the following. \textsuperscript{a}: Hybrid qubit with three electrons in two dots. \textsuperscript{b}: From $\Gamma_2/2\pi = 19.6$ {MHz}. \textsuperscript{c}: {RX} qubit. \textsuperscript{d}: From {EDSR} linewidth. \textsuperscript{e}: Carbon nanotube made from $^{13}$C isotope. \textsuperscript{f}: From $\Gamma_2/2\pi = 357$ {MHz}. \textsuperscript{g}: From Landau-Zener interference. \textsuperscript{h}: Qubit defined in the rotating frame. \textsuperscript{i}: At 0.04 K. \textsuperscript{j}: The average figure of merit for the two qubits measured. \textsuperscript{k}: The average over the three qubits. \textsuperscript{l}: Device B. \textsuperscript{m}: Q3. \textsuperscript{n}: \estimated from Fig. 3d at $\Delta V_J=10$ {mV}.
 \label{spinCoherence5}
 }
 \end{table}

@@ -15,7 +15,7 @@
 3.3 & \unit{\micro\second} & $T_2^*$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2019-12 & \onlinecite{zhao_single-spin_2019} & Tab. 1\\
 3.2 & \unit{\micro\second} & $T_2^*$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-12 & \onlinecite{mills_high-fidelity_2022} & p5\\
 2.9 & \unit{\micro\second}\textsuperscript{c,d} & $T_2^*$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-11 & \onlinecite{petit_design_2022} & p3\\
-2.8 & \unit{\micro\second}\textsuperscript{e} & $T_2^*$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2023-09 & \onlinecite{tanttu_consistency_2023} & {ED} Tab. {II}\\
+2.8 & \unit{\micro\second}\textsuperscript{e} & $T_2^*$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2024-08 & \onlinecite{tanttu_assessment_2024} & {ED} Tab. {II}\\
 2.7 & \unit{\micro\second} & $T_2^*$ & LD/e\textsuperscript{c} & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2020-04 & \onlinecite{petit_universal_2020} & p2 and Fig. 2e\\
 2.59 & \unit{\micro\second}\textsuperscript{f} & $T_2^*$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-09 & \onlinecite{noiri_shuttling-based_2022} & p3 and {ED} Fig. 2a\\
 2.33 & \unit{\micro\second}\textsuperscript{g} & $T_2^*$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2022-11 & \onlinecite{vahapoglu_coherent_2022} & p3 and Fig. 3a\\

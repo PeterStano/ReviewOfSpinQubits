@@ -15,9 +15,9 @@
 99.3 \unit{\percent} & measure & 1Q & ST/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2019-12 & \onlinecite{zhao_single-spin_2019} & p2\\
 99.21 \unit{\percent} & measure & 1Q & ST/e & $\text{Si/}\text{SiO}_2$ & 1D & 2023-02 & \onlinecite{oakes_fast_2023} & p6 and Fig. 4d\\
 99.2 \unit{\percent} & measure & 1Q & ST/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2021-04 & \onlinecite{borjans_spin_2021} & p5\\
-99. \unit{\percent}\textsuperscript{f} & measure & 1Q & ST/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2023-09 & \onlinecite{tanttu_consistency_2023} & {ED} Tab. {II}\\
 99. \unit{\percent} & measure & 1Q & ST/e & Si/SiGe & 2D & 2020-02 & \onlinecite{connors_rapid_2020} & p6\\
 99. \unit{\percent} & measure & 1Q & ST/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2018-10 & \onlinecite{fogarty_integrated_2018} & p2\\
+99. \unit{\percent}\textsuperscript{f} & measure & 1Q & ST/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2024-08 & \onlinecite{tanttu_assessment_2024} & {ED} Tab. {II}\\
 98.45 \unit{\percent}\textsuperscript{g} & measure & 1Q & ST/e & $\text{Si/}\text{SiO}_2$ & 1D & 2019-05 & \onlinecite{urdampilleta_gate-based_2019} & abstract and p2\\
 98.3 \unit{\percent}\textsuperscript{h,i} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2022-07 & \onlinecite{kim_approaching_2022} & p5\\
 98.2 \unit{\percent} & measure & 1Q & ST/e & Si/SiGe & 2D & 2020-02 & \onlinecite{connors_rapid_2020} & Fig. 5b\\

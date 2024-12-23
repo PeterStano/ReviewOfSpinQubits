@@ -23,7 +23,7 @@
 99.65 \unit{\percent}\textsuperscript{h} & gate & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-01 & \onlinecite{xue_quantum_2022} & p3 and {ED} Fig. 5\\
 99.51 \unit{\percent}\textsuperscript{i} & gate & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-01 & \onlinecite{noiri_fast_2022} & p4 and Fig. 2g\\
 99.48 \unit{\percent} & gate & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2024-01 & \onlinecite{wu_hamiltonian_2024} & Fig. 3d\\
-99.17 \unit{\percent}\textsuperscript{j} & gate & 2Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2023-09 & \onlinecite{tanttu_consistency_2023} & p6\\
+99.17 \unit{\percent}\textsuperscript{j} & gate & 2Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2024-08 & \onlinecite{tanttu_assessment_2024} & p6\\
 98.62 \unit{\percent}\textsuperscript{k} & gate & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-04 & \onlinecite{mills_two-qubit_2022} & p3\\
 98.2 \unit{\percent} & gate & 2Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2022-02 & \onlinecite{evans_fast_2022} & p4 and Fig. 3a\\
 98. \unit{\percent} & gate & 2Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2019-05 & \onlinecite{huang_fidelity_2019} & p4 and Fig. 4\\

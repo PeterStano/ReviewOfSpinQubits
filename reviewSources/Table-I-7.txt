@@ -21,7 +21,7 @@
 0.113 & \unit{\milli\second} & $T_2^{\text{Rabi}}$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2017-12 & \onlinecite{yoneda_quantum-dot_2017} & p2\\
 0.10 & \unit{\milli\second}\textsuperscript{j} & $T_2^{\text{Rabi}}$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-01 & \onlinecite{noiri_fast_2022} & {ED} Fig. 2l the topmost trace\\
 80. & \unit{\micro\second}\textsuperscript{k} & $T_2^{\text{Rabi}}$ & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-09 & \onlinecite{noiri_shuttling-based_2022} & {ED} Fig. 2e\\
-41. & \unit{\micro\second}\textsuperscript{l} & $T_2^{\text{Rabi}}$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2023-09 & \onlinecite{tanttu_consistency_2023} & {ED} Tab. {II}\\
+41. & \unit{\micro\second}\textsuperscript{l} & $T_2^{\text{Rabi}}$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2024-08 & \onlinecite{tanttu_assessment_2024} & {ED} Tab. {II}\\
 18.6 & \unit{\micro\second} & $T_2^{\text{Rabi}}$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2019-12 & \onlinecite{zhao_single-spin_2019} & p3 and Fig. 2d\\
 7. & \unit{\micro\second}\textsuperscript{m} & $T_2^{\text{Rabi}}$ & LD/e & Si/SiGe & 2D & 2016-08 & \onlinecite{takeda_fault-tolerant_2016} & p3\\
 6.46 & \unit{\micro\second} & $T_2^{\text{Rabi}}$ & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2023-03 & \onlinecite{hu_flopping-mode_2023} & Fig. 3c\\

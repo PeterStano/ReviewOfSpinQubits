@@ -16,6 +16,8 @@
 2.50 & \unit{\nano\second} & gate & 1Q & ST/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2022-02 & \onlinecite{jock_silicon_2022} & p4 and Fig. 2e the rightmost point\\
 3.13 & \unit{\nano\second} & gate & 1Q & ST/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2016-03 & \onlinecite{reed_reduced_2016} & Fig. 4a\\
 4.20 & \unit{\nano\second} & gate & 1Q & ST/e & GaAs/AlGaAs & 2D & 2020-08 & \onlinecite{cerfontaine_closed-loop_2020} & p4\\
+4.3011 & \unit{\nano\second} & gate & 1Q & ST/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2023-11 & \onlinecite{kim_coherence_2023} & p8\\
+5.00 & \unit{\nano\second} & gate & 1Q & ST/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2023-03 & \onlinecite{weinstein_universal_2023} & {ED} Fig. 1c\\
 15. & \unit{\nano\second} & gate & 1Q & ST/e & GaAs/AlGaAs & 2D & 2021-10 & \onlinecite{fedele_simultaneous_2021} & p3\\
 36. & \unit{\nano\second} & gate & 1Q & ST/e & Si/SiGe & 2D & 2014-08 & \onlinecite{wu_two-axis_2014} & p3\\
 38.2 & \unit{\nano\second} & gate & 1Q & ST/e & GaAs/AlGaAs & 2D & 2021-05 & \onlinecite{kojima_probabilistic_2021} & p3\\
@@ -38,9 +40,10 @@
 33. & \unit{\nano\second} & gate & 1Q & LD/h & $\text{Si/}\text{SiO}_2$ & 1D & 2019-07 & \onlinecite{crippa_gate-reflectometry_2019} & p5 and Fig. 4d\\
 50. & \unit{\nano\second} & gate & 1Q & LD/h & $\text{Si/}\text{SiO}_2$ & 1D & 2022-09 & \onlinecite{piot_single_2022} & p7\\
 96. & \unit{\nano\second} & gate & 1Q & LD/h & Ge/SiGe & 2D & 2023-06 & \onlinecite{lawrie_simultaneous_2023} & p4\\
-0.1 & \unit{\micro\second}\textsuperscript{l} & gate & 1Q & LD/h & Ge/SiGe & 2D & 2024-02 & \onlinecite{john_bichromatic_2024} & {STab}. 2\\
+0.1 & \unit{\micro\second}\textsuperscript{l} & gate & 1Q & LD/h & Ge/SiGe & 2D & 2024-02 & \onlinecite{john_bichromatic_2024} & Stab. 2\\
 3.33 & \unit{\nano\second} & gate & 1Q & ST/h & $\text{Si/}\text{SiO}_2$ & 2D & 2023-10 & \onlinecite{liles_singlet-triplet_2023} & p9\\
 5.00 & \unit{\nano\second} & gate & 1Q & ST/h & Ge/SiGe & 2D & 2021-06 & \onlinecite{jirovec_singlet-triplet_2021} & p2 and Fig. 3e\\
+7.1 & \unit{\nano\second} & gate & 1Q & ST/h & Ge/SiGe & 2D & 2021-06 & \onlinecite{jirovec_singlet-triplet_2021} & Fig. S15\\
 0.15 & \unit{\micro\second} & gate & 1Q & LD/i & Si:P & imp & 2012-09 & \onlinecite{pla_single-atom_2012} & p2 and Fig. 2\\
 0.31 & \unit{\micro\second} & gate & 1Q & LD/i & Si:P & imp & 2023-11 & \onlinecite{kranz_exploiting_2023} & Fig. 4c and Tab. I\\
 0.829 & \unit{\micro\second} & gate & 1Q & LD/i & $\, ^{28}\text{Si:P}$ & imp & 2022-01 & \onlinecite{madzik_precision_2022} & {ED} Fig. 3 first column\\
@@ -52,12 +55,9 @@
 40. & \unit{\nano\second} & gate & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-04 & \onlinecite{mills_two-qubit_2022} & Fig. 2B caption\\
 42.4 & \unit{\nano\second} & gate & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2023-10 & \onlinecite{dijkema_two-qubit_2023} & Fig. 3d\\
 67. & \unit{\nano\second}\textsuperscript{p,q} & gate & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-11 & \onlinecite{petit_design_2022} & Tab. 1\\
-89. & \unit{\nano\second}\textsuperscript{r,q} & gate & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-11 & \onlinecite{petit_design_2022} & Tab. 1\\
-0.100 & \unit{\micro\second}\textsuperscript{s} & gate & 2Q & LD/e & Si/SiGe & 2D & 2022-08 & \onlinecite{takeda_quantum_2022} & p6\\
-0.100 & \unit{\micro\second} & gate & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-01 & \onlinecite{xue_quantum_2022} & p6\\
 \bottomrule
 \end{tabular}
-\caption{Operation times (part 2). Superscripts stand for the following. \textsuperscript{a}: In a five-electron dot configuration. \textsuperscript{b}: Valley and spin flip. \textsuperscript{c}: \estimated from Fig. 4d the rightmost red point. \textsuperscript{d}: The reference calls the observed signal `Rabi oscillations' even though there is no ac field; these oscillations arise as a coherent precession upon pulsing the dot detuning. \textsuperscript{e}: $S$-$T_-$ qubit. \textsuperscript{f}: With estimation and/or feedback. \textsuperscript{g}: $Q_R$. \textsuperscript{h}: At 1.5 K. \textsuperscript{i}: \estimated Fig. 2g the leftmost point. \textsuperscript{j}: Z-gate. \textsuperscript{k}: \derived from Fig. 1d showing 11 oscillations in 400 ns. \textsuperscript{l}: Bichromatic driving. The value is the average of the three bichromatic Rabi frequencies given in {STab}. 2. \textsuperscript{m}: Hybrid electron-nuclear qubit. \textsuperscript{n}: Qubit defined in the rotating frame. \textsuperscript{o}: {SWAP} time. \textsuperscript{p}: {CPHASE}. \textsuperscript{q}: At 1 K. \textsuperscript{r}: {SWAP}. \textsuperscript{s}: {CZ} gate.
+\caption{Operation times (part 2). Superscripts stand for the following. \textsuperscript{a}: In a five-electron dot configuration. \textsuperscript{b}: Valley and spin flip. \textsuperscript{c}: \estimated from Fig. 4d the rightmost red point. \textsuperscript{d}: The reference calls the observed signal `Rabi oscillations' even though there is no ac field; these oscillations arise as a coherent precession upon pulsing the dot detuning. \textsuperscript{e}: $S$-$T_-$ qubit. \textsuperscript{f}: With estimation and/or feedback. \textsuperscript{g}: $Q_R$. \textsuperscript{h}: At 1.5 K. \textsuperscript{i}: \estimated Fig. 2g the leftmost point. \textsuperscript{j}: Z-gate. \textsuperscript{k}: \derived from Fig. 1d showing 11 oscillations in 400 ns. \textsuperscript{l}: Bichromatic driving. The value is the average of the three bichromatic Rabi frequencies given in {STab}. 2. \textsuperscript{m}: Hybrid electron-nuclear qubit. \textsuperscript{n}: Qubit defined in the rotating frame. \textsuperscript{o}: {SWAP} time. \textsuperscript{p}: {CPHASE}. \textsuperscript{q}: At 1 K.
 \label{operationTime2}
 }
 \end{table}

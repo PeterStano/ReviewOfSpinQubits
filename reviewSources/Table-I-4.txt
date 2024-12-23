@@ -15,7 +15,7 @@
 0.110 & \unit{\micro\second}\textsuperscript{c,d} & $T_2^*$ & LD/e & Si/SiGe & 2D & 2017-04 & \onlinecite{scarlino_dressed_2017} & Fig. 3a\\
 100. & \unit{\nano\second}\textsuperscript{e} & $T_2^*$ & ST/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2022-02 & \onlinecite{jock_silicon_2022} & p4 and Fig. 2e-g\\
 0.100 & \unit{\micro\second}\textsuperscript{f} & $T_2^*$ & ST/e & GaAs/AlGaAs & 2D & 2017-01 & \onlinecite{nichol_high-fidelity_2017} & p2\\
-95. & \unit{\nano\second}\textsuperscript{g} & $T_2^*$ & ST/h & Ge/SiGe & 2D & 2023-12 & \onlinecite{zhang_universal_2023} & p5\\
+95. & \unit{\nano\second}\textsuperscript{g} & $T_2^*$ & ST/h & Ge/SiGe & 2D & 2024-10 & \onlinecite{zhang_universal_2024} & p5\\
 94. & \unit{\nano\second}\textsuperscript{f} & $T_2^*$ & ST/e & GaAs/AlGaAs & 2D & 2010-11 & \onlinecite{bluhm_enhancing_2010} & Fig. 3b\\
 90. & \unit{\nano\second} & $T_2^*$ & ST/e & GaAs/AlGaAs & 2D & 2013-04 & \onlinecite{dial_charge_2013} & p2\\
 88. & \unit{\nano\second}\textsuperscript{h} & $T_2^*$ & LD/e & Si/SiGe & 2D & 2018-01 & \onlinecite{samkharadze_strong_2018} & p1\\
