@@ -5,59 +5,59 @@
 \toprule
 \multicolumn{2}{c}{Time} & {Operation} & {\#Qubits} & {Qubit} & {Material} & {Host} & {Date} & {Reference} & {Source}\\
 \midrule
-89. & \unit{\nano\second}\textsuperscript{a,b} & gate & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-11 & \onlinecite{petit_design_2022} & Tab. 1\\
-0.100 & \unit{\micro\second}\textsuperscript{c} & gate & 2Q & LD/e & Si/SiGe & 2D & 2022-08 & \onlinecite{takeda_quantum_2022} & p6\\
+3. & \unit{\micro\second} & gate & 1Q & LD/i & $\, ^{28}\text{Si:P}$ & imp & 2016-10 & \onlinecite{dehollain_optimization_2016} & p3\\
+4.219 & \unit{\micro\second}\textsuperscript{a} & gate & 1Q & LD/i & $\, ^{28}\text{Si:P}$ & imp & 2023-02 & \onlinecite{savytskyy_electrically_2023} & p6\\
+0.16 & \unit{\milli\second} & gate & 1Q & LD/i\textsuperscript{b} & $\, ^{28}\text{Si:P}$ & imp & 2016-10 & \onlinecite{laucht_dressed_2016} & p3 and Fig. 3d\\
+74. & \unit{\pico\second} & gate & 2Q & charge & Si/SiGe & 2D & 2020-09 & \onlinecite{macquarrie_progress_2020} & p4\\
+10. & \unit{\nano\second}\textsuperscript{c} & gate & 2Q & LD/e & GaAs/AlGaAs & 2D & 2011-09 & \onlinecite{brunner_two-qubit_2011} & p4\\
+40. & \unit{\nano\second} & gate & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-04 & \onlinecite{mills_two-qubit_2022} & Fig. 2B caption\\
+42.4 & \unit{\nano\second} & gate & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2024-12 & \onlinecite{dijkema_cavity-mediated_2024} & Fig. 3d\\
+67. & \unit{\nano\second}\textsuperscript{d,e} & gate & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-11 & \onlinecite{petit_design_2022} & Tab. 1\\
+89. & \unit{\nano\second}\textsuperscript{f,e} & gate & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-11 & \onlinecite{petit_design_2022} & Tab. 1\\
+0.100 & \unit{\micro\second}\textsuperscript{g} & gate & 2Q & LD/e & Si/SiGe & 2D & 2022-08 & \onlinecite{takeda_quantum_2022} & p6\\
 0.100 & \unit{\micro\second} & gate & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-01 & \onlinecite{xue_quantum_2022} & p6\\
+0.100 & \unit{\micro\second}\textsuperscript{f} & gate & 2Q & LD/e\textsuperscript{h} & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2024-09 & \onlinecite{hansen_entangling_2024} & p3\\
 0.130 & \unit{\micro\second} & gate & 2Q & LD/e & Si/SiGe & 2D & 2017-12 & \onlinecite{zajac_resonantly_2017} & p2\\
 0.159 & \unit{\micro\second} & gate & 2Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2015-10 & \onlinecite{veldhorst_two-qubit_2015} & p4\\
-0.2 & \unit{\micro\second}\textsuperscript{d} & gate & 2Q & LD/e & Si/SiGe & 2D & 2018-02 & \onlinecite{watson_programmable_2018} & {ED} Fig. 9\\
-0.2 & \unit{\micro\second}\textsuperscript{e,b} & gate & 2Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2024-03 & \onlinecite{huang_high-fidelity_2024} & {ED} Fig. 8f\\
+0.2 & \unit{\micro\second}\textsuperscript{i} & gate & 2Q & LD/e & Si/SiGe & 2D & 2018-02 & \onlinecite{watson_programmable_2018} & {ED} Fig. 9\\
+0.2 & \unit{\micro\second}\textsuperscript{j,e} & gate & 2Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2024-03 & \onlinecite{huang_high-fidelity_2024} & {ED} Fig. 8f\\
 0.270 & \unit{\micro\second} & gate & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2019-06 & \onlinecite{sigillito_site-selective_2019} & Fig. 4d\\
 0.302 & \unit{\micro\second} & gate & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2019-11 & \onlinecite{sigillito_coherent_2019} & p5\\
 0.53 & \unit{\micro\second} & gate & 2Q & LD/e & Si/SiGe & 2D & 2020-03 & \onlinecite{yoneda_quantum_2020} & p3\\
-0.660 & \unit{\micro\second}\textsuperscript{f,b} & gate & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-11 & \onlinecite{petit_design_2022} & Tab. 1\\
+0.660 & \unit{\micro\second}\textsuperscript{k,e} & gate & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-11 & \onlinecite{petit_design_2022} & Tab. 1\\
 3. & \unit{\micro\second} & gate & 2Q & LD/e & $\text{Si/}\text{SiO}_2$ & 2D & 2021-05 & \onlinecite{leon_bell-state_2021} & Fig. 2j the rightmost point\\
 2. & \unit{\nano\second} & gate & 2Q & ST/e & GaAs/AlGaAs & 2D & 2019-03 & \onlinecite{malinowski_fast_2019} & Fig. 2c\\
-5.5 & \unit{\nano\second}\textsuperscript{g} & gate & 2Q & ST/e & GaAs/AlGaAs & 2D & 2018-11 & \onlinecite{noiri_fast_2018} & p4 and Fig. 3\\
+5.5 & \unit{\nano\second}\textsuperscript{l} & gate & 2Q & ST/e & GaAs/AlGaAs & 2D & 2018-11 & \onlinecite{noiri_fast_2018} & p4 and Fig. 3\\
 0.140 & \unit{\micro\second} & gate & 2Q & ST/e & GaAs/AlGaAs & 2D & 2012-04 & \onlinecite{shulman_demonstration_2012} & p3\\
 9. & \unit{\nano\second} & gate & 2Q & LD/h & Ge/SiGe & 2D & 2021-03 & \onlinecite{hendrickx_four-qubit_2021} & Tab. S2\\
-24. & \unit{\nano\second}\textsuperscript{h} & gate & 2Q & LD/h & $\text{Si/}\text{SiO}_2$ & 1D & 2024-05 & \onlinecite{geyer_anisotropic_2024} & p7 and Fig. 4b\\
+24. & \unit{\nano\second}\textsuperscript{m} & gate & 2Q & LD/h & $\text{Si/}\text{SiO}_2$ & 1D & 2024-05 & \onlinecite{geyer_anisotropic_2024} & p7 and Fig. 4b\\
 55. & \unit{\nano\second} & gate & 2Q & LD/h & Ge/SiGe & 2D & 2020-01 & \onlinecite{hendrickx_fast_2020} & p4\\
-7.6 & \unit{\nano\second}\textsuperscript{i,j} & gate & 2Q & ST/h & Ge/SiGe & 2D & 2024-10 & \onlinecite{zhang_universal_2024} & p6\\
+7.6 & \unit{\nano\second}\textsuperscript{n,o} & gate & 2Q & ST/h & Ge/SiGe & 2D & 2024-10 & \onlinecite{zhang_universal_2024} & p6\\
 0.800 & \unit{\nano\second} & gate & 2Q & LD/i & Si:P & imp & 2019-07 & \onlinecite{he_two-qubit_2019} & Fig. 3 and abstract\\
-5.6 & \unit{\micro\second}\textsuperscript{k} & gate & 2Q & LD/i & $\, ^{28}\text{Si:P}$ & imp & 2021-01 & \onlinecite{madzik_conditional_2021} & Fig. 5c\\
-0.460 & \unit{\micro\second}\textsuperscript{l} & gate & 3Q & LD/e & Si/SiGe & 2D & 2022-08 & \onlinecite{takeda_quantum_2022} & p7\\
-0.400 & \unit{\micro\second}\textsuperscript{m} & measure & 1Q & charge & InAs & 1D & 2015-07 & \onlinecite{stehlik_fast_2015} & p5\\
-1. & \unit{\micro\second}\textsuperscript{n} & measure & 1Q & charge & $\text{Si/}\text{SiO}_2$ & 2D & 2020-02 & \onlinecite{schaal_fast_2020} & p5 and Fig. 4c the leftmost green point\\
-0.980 & \unit{\micro\second}\textsuperscript{o} & measure & 1Q & HY/e\textsuperscript{p} & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-03 & \onlinecite{blumoff_fast_2022} & p4\\
-0.172 & \unit{\milli\second}\textsuperscript{q} & measure & 1Q & HY/e & GaAs/AlGaAs & 2D & 2021-06 & \onlinecite{jang_single-shot_2021} & p3\\
+5.6 & \unit{\micro\second}\textsuperscript{p} & gate & 2Q & LD/i & $\, ^{28}\text{Si:P}$ & imp & 2021-01 & \onlinecite{madzik_conditional_2021} & Fig. 5c\\
+0.460 & \unit{\micro\second}\textsuperscript{q} & gate & 3Q & LD/e & Si/SiGe & 2D & 2022-08 & \onlinecite{takeda_quantum_2022} & p7\\
+0.400 & \unit{\micro\second}\textsuperscript{r} & measure & 1Q & charge & InAs & 1D & 2015-07 & \onlinecite{stehlik_fast_2015} & p5\\
+1. & \unit{\micro\second}\textsuperscript{s} & measure & 1Q & charge & $\text{Si/}\text{SiO}_2$ & 2D & 2020-02 & \onlinecite{schaal_fast_2020} & p5 and Fig. 4c the leftmost green point\\
+0.980 & \unit{\micro\second}\textsuperscript{t} & measure & 1Q & HY/e\textsuperscript{u} & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-03 & \onlinecite{blumoff_fast_2022} & p4\\
+0.172 & \unit{\milli\second}\textsuperscript{v} & measure & 1Q & HY/e & GaAs/AlGaAs & 2D & 2021-06 & \onlinecite{jang_single-shot_2021} & p3\\
 0.4 & \unit{\micro\second} & measure & 1Q & LD/e & GaAs/AlGaAs & 2D & 2003-11 & \onlinecite{hanson_zeeman_2003} & Fig. 3\\
-24. & \unit{\micro\second}\textsuperscript{r} & measure & 1Q & LD/e & Si/SiGe & 2D & 2019-08 & \onlinecite{volk_fast_2019} & p7\\
+1.500 & \unit{\micro\second}\textsuperscript{w} & measure & 1Q & LD/e & InAs & 1D & 2024-05 & \onlinecite{pita-vidal_strong_2024} & Fig. S19\\
+24. & \unit{\micro\second}\textsuperscript{x} & measure & 1Q & LD/e & Si/SiGe & 2D & 2019-08 & \onlinecite{volk_fast_2019} & p7\\
 0.250 & \unit{\milli\second} & measure & 1Q & LD/e & $\text{Si/}\text{SiO}_2$ & 1D & 2023-02 & \onlinecite{oakes_fast_2023} & p5 and Fig. 2j\\
 0.670 & \unit{\milli\second} & measure & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-12 & \onlinecite{mills_high-fidelity_2022} & p4\\
 0.700 & \unit{\milli\second} & measure & 1Q & LD/e & GaAs/AlGaAs & 2D & 2019-04 & \onlinecite{nakajima_quantum_2019} & Fig. 1f\\
 1. & \unit{\milli\second} & measure & 1Q & LD/e & $\text{Si/}\text{SiO}_2$ & 1D & 2022-03 & \onlinecite{spence_spin-valley_2022} & p2\\
 4. & \unit{\milli\second} & measure & 1Q & LD/e & Si/SiGe & 2D & 2014-08 & \onlinecite{kawakami_electrical_2014} & p1\\
-49. & \unit{\milli\second}\textsuperscript{s} & measure & 1Q & LD/e & Si/SiGe & 2D & 2020-04 & \onlinecite{xue_repetitive_2020} & p3\\
+49. & \unit{\milli\second}\textsuperscript{y} & measure & 1Q & LD/e & Si/SiGe & 2D & 2020-04 & \onlinecite{xue_repetitive_2020} & p3\\
 0.200 & \unit{\second} & measure & 1Q & LD/e & Si/SiGe & 2D & 2011-04 & \onlinecite{simmons_tunable_2011} & Fig. 2 caption\\
-50. & \unit{\nano\second}\textsuperscript{t} & measure & 1Q & ST/e & $\text{Si/}\text{SiO}_2$ & 1D & 2021-05 & \onlinecite{ibberson_large_2021} & p5 and Fig. 3\\
-0.100 & \unit{\micro\second}\textsuperscript{u} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2010-04 & \onlinecite{barthel_fast_2010} & p3 and Fig. 3\\
-0.200 & \unit{\micro\second}\textsuperscript{v} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2014-01 & \onlinecite{higginbotham_coherent_2014} & {SM} Fig. S1d\\
+50. & \unit{\nano\second}\textsuperscript{z} & measure & 1Q & ST/e & $\text{Si/}\text{SiO}_2$ & 1D & 2021-05 & \onlinecite{ibberson_large_2021} & p5 and Fig. 3\\
+0.100 & \unit{\micro\second}\textsuperscript{$\alpha$} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2010-04 & \onlinecite{barthel_fast_2010} & p3 and Fig. 3\\
+0.200 & \unit{\micro\second}\textsuperscript{$\beta$} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2014-01 & \onlinecite{higginbotham_coherent_2014} & {SM} Fig. S1d\\
 0.800 & \unit{\micro\second} & measure & 1Q & ST/e & Si/SiGe & 2D & 2020-02 & \onlinecite{connors_rapid_2020} & Fig. 5b\\
 0.8 & \unit{\micro\second} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2018-04 & \onlinecite{mukhopadhyay_2x2_2018} & p4\\
-0.8 & \unit{\micro\second}\textsuperscript{w} & measure & 1Q & ST/e & Si/SiGe & 2D & 2020-01 & \onlinecite{noiri_radio-frequency-detected_2020} & Fig. 3c\\
-1. & \unit{\micro\second} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2012-04 & \onlinecite{shulman_demonstration_2012} & p1\\
-1. & \unit{\micro\second} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2014-10 & \onlinecite{shulman_suppressing_2014} & p2\\
-1.65 & \unit{\micro\second} & measure & 1Q & ST/e & Si/SiGe & 2D & 2020-02 & \onlinecite{connors_rapid_2020} & p6\\
-2. & \unit{\micro\second} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2018-09 & \onlinecite{orona_readout_2018} & Fig. 4b the rightmost point\\
-2.4 & \unit{\micro\second} & measure & 1Q & ST/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2024-02 & \onlinecite{takeda_rapid_2024} & p5 and Fig. 3d\\
-4. & \unit{\micro\second} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2017-07 & \onlinecite{nakajima_robust_2017} & p2 and {SM} p1\\
-5.6 & \unit{\micro\second} & measure & 1Q & ST/e & $\text{Si/}\text{SiO}_2$ & 1D & 2023-02 & \onlinecite{oakes_fast_2023} & p6 and Fig. 4d\\
-6. & \unit{\micro\second} & measure & 1Q & ST/e & Si/SiGe & 2D & 2019-08 & \onlinecite{zheng_rapid_2019} & p3 and Fig. 3f\\
-6. & \unit{\micro\second} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2009-10 & \onlinecite{barthel_rapid_2009} & p3\\
 \bottomrule
 \end{tabular}
-\caption{Operation times (part 3). Superscripts stand for the following. \textsuperscript{a}: {SWAP}. \textsuperscript{b}: At 1 K. \textsuperscript{c}: {CZ} gate. \textsuperscript{d}: The reference gives also the `decay time of the {CZ} operation' of 1.6 \unit{\micro\second} in {ED} Fig. 9, which would correspond to a gate quality factor of 4.8. \textsuperscript{e}: Representative value. \textsuperscript{f}: {CROT}. \textsuperscript{g}: Gate between a single-spin and a singlet-triplet qubit. \textsuperscript{h}: Resonantly driven {CROT}. \textsuperscript{i}: {SWAP}-like gate. \textsuperscript{j}: Average of the given range 22-112 {MHz}. \textsuperscript{k}: Fidelity not measured; signal visibility was 50 \unit{\percent}. \textsuperscript{l}: Toffoli gate. \textsuperscript{m}: The value is for detecting an interdot charge transition with {SNR} 76. \textsuperscript{n}: Dot-donor transition; $\mathrm{{SNR}}\approx5$. \textsuperscript{o}: $\mathrm{{SNR}}=6.5$. \textsuperscript{p}: {EO} qubit. \textsuperscript{q}: 32 \unit{\micro\second}+140 \unit{\micro\second}. \textsuperscript{r}: $\mathrm{{SNR}}=3.4$. \textsuperscript{s}: 15 {QND} measurements, each taking 3.263 ms. \textsuperscript{t}: $\mathrm{{SNR}}=3.3$ for an interdot charge transition `mimicking the singlet-triplet readout scheme'. \textsuperscript{u}: $\mathrm{{SNR}}\sim$3. \textsuperscript{v}: $\mathrm{{SNR}}=4.1$. \textsuperscript{w}: $\mathrm{{SNR}}=6$.
+\caption{Operation times (part 3). Superscripts stand for the following. \textsuperscript{a}: Hybrid electron-nuclear qubit. \textsuperscript{b}: Qubit defined in the rotating frame. \textsuperscript{c}: {SWAP} time. \textsuperscript{d}: {CPHASE}. \textsuperscript{e}: At 1 K. \textsuperscript{f}: {SWAP}. \textsuperscript{g}: {CZ} gate. \textsuperscript{h}: Qubit dressed by constant driving. \textsuperscript{i}: The reference gives also the `decay time of the {CZ} operation' of 1.6 \unit{\micro\second} in {ED} Fig. 9, which would correspond to a gate quality factor of 4.8. \textsuperscript{j}: Representative value. \textsuperscript{k}: {CROT}. \textsuperscript{l}: Gate between a single-spin and a singlet-triplet qubit. \textsuperscript{m}: Resonantly driven {CROT}. \textsuperscript{n}: {SWAP}-like gate. \textsuperscript{o}: Average of the given range 22-112 {MHz}. \textsuperscript{p}: Fidelity not measured; signal visibility was 50 \unit{\percent}. \textsuperscript{q}: Toffoli gate. \textsuperscript{r}: The value is for detecting an interdot charge transition with {SNR} 76. \textsuperscript{s}: Dot-donor transition; $\mathrm{{SNR}}\approx5$. \textsuperscript{t}: $\mathrm{{SNR}}=6.5$. \textsuperscript{u}: {EO} qubit. \textsuperscript{v}: 32 \unit{\micro\second}+140 \unit{\micro\second}. \textsuperscript{w}: Q1. \textsuperscript{x}: $\mathrm{{SNR}}=3.4$. \textsuperscript{y}: 15 {QND} measurements, each taking 3.263 ms. \textsuperscript{z}: $\mathrm{{SNR}}=3.3$ for an interdot charge transition `mimicking the singlet-triplet readout scheme'. \textsuperscript{$\alpha$}: $\mathrm{{SNR}}\sim$3. \textsuperscript{$\beta$}: $\mathrm{{SNR}}=4.1$.
 \label{operationTime3}
 }
 \end{table}

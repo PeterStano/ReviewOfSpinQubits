@@ -5,6 +5,11 @@
 \toprule
 {Dimensions} & {Functionality} & {Qubit} & {Material} & {Host} & {Date} & {Reference}\\
 \midrule
+$3$ & device & LD/e & Si/SiGe & 2D & 2019-07 & \onlinecite{jones_spin-blockade_2019}\\
+$3$ & device & LD/e & $\text{Si/}\text{SiO}_2$ & 2D & 2020-02 & \onlinecite{lawrie_quantum_2020}\\
+$3$ & device & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2021-01 & \onlinecite{chan_exchange_2021}\\
+$3$ & device & LD/e & GaAs/AlGaAs & 2D & 2021-05 & \onlinecite{kojima_probabilistic_2021}\\
+$3$ & device & LD/e & GaAs/AlGaAs & 2D & 2022-08 & \onlinecite{nurizzo_controlled_2022}\\
 $3$ & device & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-09 & \onlinecite{noiri_shuttling-based_2022}\\
 $3$ & device & ST/e & GaAs/AlGaAs & 2D & 2020-12 & \onlinecite{jang_individual_2020}\\
 $3$ & device & LD/h & Ge/Si & 1D & 2018-08 & \onlinecite{froning_single_2018}\\

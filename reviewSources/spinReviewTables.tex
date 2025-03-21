@@ -163,7 +163,7 @@ This Technical Review collects values of selected performance characteristics of
 \section{Scope, format, and aim of this review}
 Spin qubits are among platforms pursued to serve as quantum computing hardware. In this Technical Review we focus on spin qubits hosted in semiconducting nanostructures controlled and probed electrically. Their prospect for scalability stems from their compatibility with modern silicon industrial fabrication. Even restricted to gated nanostructures, the field of spin qubits is vast. There is a host of variants on the sample material and structure, device design, or qubit encoding. Although this versatility in the qubit types is beneficial for overcoming possible roadblocks, it also makes comparison of different spin qubits difficult. The main motivation for this Technical Review is to provide a basis for such a comparison and for an assessment of the progress of various spin-qubit types over time. We believe that for such tasks, a reliable database of figures of merit normalized to common definitions is of primary importance, and this is what we provide here.
 
-The restriction to gated nanostructures suggests what is not covered in this Technical Review. We do not include other than solid-state qubits; within the solid-state, we do not include superconducting qubits and qubits based on optically-accessed impurities and self-assembled dots. We also skip qubits based on the spin of atomic nuclei, that is, hyperfine-spin qubits. Even though spin-related, we sacrifice these possible extensions to keep the review manageable in length and in the time of preparation. However, we include some characteristics of charge qubits, that is qubits with states encoded into the charge degree of freedom of a confined particle. One reason is that often the experimental devices are identical for both spin and charge qubit experiments. Another reason is that there are configurations where the spin and charge degrees of freedom are hybridized and tunable. With the character continuously tunable from fully spin- to fully charge-like, it would be difficult to decide objectively which cases to include and which ones not. Finally, we point out that this Technical Review is not meant as an overview of the physics of spin qubits, such as the principles of their operation and measurements, the decoherence channels, and so on. The reader interested in these aspects can consult, for example, Refs.~\cite{oosterkamp_photon_1999, van_der_wiel_electron_2002, schliemann_electron_2003, hanson_spins_2007, kloeffel_prospects_2013, schreiber_quantum_2014, tahan_opinion_2021, chatterjee_semiconductor_2021, gonzalez-zalba_scaling_2021, scappucci_germanium_2021, oiwa_conversion_2017, vandersypen_quantum_2019, kuemmeth_roadmap_2020, chatterjee_semiconductor_2021}. In particular, we point out the recent extensive review in Ref.~\cite{burkard_semiconductor_2021} as an excellent complement, covering the aspects intentionally omitted here.
+The restriction to gated nanostructures suggests what is not covered in this Technical Review. We do not include other than solid-state qubits; within the solid-state, we do not include superconducting qubits and qubits based on optically-accessed impurities and self-assembled dots. We also skip qubits based on the spin of atomic nuclei, that is, hyperfine-spin qubits. Even though spin-related, we sacrifice these possible extensions to keep the review manageable in length and in the time of preparation. However, we include some characteristics of charge qubits, that is qubits with states encoded into the charge degree of freedom of a confined particle. One reason is that often the experimental devices are identical for both spin and charge qubit experiments. Another reason is that there are configurations where the spin and charge degrees of freedom are hybridized and tunable. With the character continuously tunable from fully spin- to fully charge-like, it would be difficult to decide objectively which cases to include and which ones not. Finally, we point out that this Technical Review is not meant as an overview of the physics of spin qubits, such as the principles of their operation and measurements, the decoherence channels, and so on. The reader interested in these aspects can consult, for example, Refs.~\cite{oosterkamp_photon_1999, van_der_wiel_electron_2002, schliemann_electron_2003, hanson_spins_2007, kloeffel_prospects_2013, schreiber_quantum_2014, tahan_opinion_2021, chatterjee_semiconductor_2021, gonzalez-zalba_scaling_2021, scappucci_germanium_2021, oiwa_conversion_2017, vandersypen_quantum_2019, kuemmeth_roadmap_2020, chatterjee_semiconductor_2021}. In particular, we point out the recent extensive review in Ref.~\cite{burkard_semiconductor_2023} as an excellent complement, covering the aspects intentionally omitted here.
 
 
 The core of this Technical Review are the plots and tables of selected qubit characteristics on the qubit coherence, operation speed, operation fidelity, quality factors, and the size of multi-qubit arrays. The related quantities are defined, and their values collected from the literature given, in Sections \ref{sec:coherence}-\ref{sec:size}, respectively.
@@ -182,7 +182,7 @@ This distinction is made only in this (first) section and Appendix~\ref{sec:voca
 
 Before we discuss specific characteristics, we comment on their common aspects. These stem from the fact that each \myKey{value} inherits a set of characteristics from the publication it was reported in and the experimental device it was measured with. We describe these common aspects below.
 
-Every value given in this Technical Review (such as a coherence time of 10 ns) is a result of a measurement with a specific device and qubit type, reported in a published reference.\footnote{\recheck{Note that whereas we count arXiv preprints as `published references', the majority of the entries are from peer-reviewed journal publications. The current bibliography for the database contains 10 arXiv preprints, only three of which were uploaded before the year 2023, Refs.~\cite{hayes_lifetime_2009,cerfontaine_feedback-tuned_2016,ruffino_integrated_2021}.}} This means, first of all, that we include only numbers explicitly stated and directly measured. We do not include extrapolations to other conditions or materials. Also, we do not usually derive the values ourselves even if it would be possible. For example, if the reference gives the operation time and the dephasing time, but does not state the quality factor, we do not evaluate the latter ourselves. However, if a quantity is discussed and presented as a figure (for example, the operation time implied from oscillations displayed by a resonantly driven qubit), we might include a value read-off from the figure. In such cases, the table entry contains a \myKey{Note} with keywords $\derived$\! or $\estimated$\!, which are explained in Appendix \ref{sec:vocabulary}. With this requirement, every value given in this Technical Review should be easy to find using the reference, given under the attribute \myKey{Reference}, and within the reference as described by the attribute \myKey{Source}. An example of the latter is say ``page 4 and Fig.~1b''. One possible difference between the value given here and in the original work is normalization. In that case, a \myKey{Note} explains how the value was converted. Any additional information, for example, alerting on an unusual configuration or a specific method used in the experiment, is also given as a \myKey{Note}. 
+Every value given in this Technical Review (such as a coherence time of 10 ns) is a result of a measurement with a specific device and qubit type, reported in a published reference.\footnote{\recheck{Note that whereas we count arXiv preprints as `published references', the majority of the entries are from peer-reviewed journal publications. The current bibliography for the database contains 14 arXiv preprints, only four of which were uploaded before the year 2024, Refs.~\cite{hayes_lifetime_2009,cerfontaine_feedback-tuned_2016,ruffino_integrated_2021,rooney_gate_2023}.}} This means, first of all, that we include only numbers explicitly stated and directly measured. We do not include extrapolations to other conditions or materials. Also, we do not usually derive the values ourselves even if it would be possible. For example, if the reference gives the operation time and the dephasing time, but does not state the quality factor, we do not evaluate the latter ourselves. However, if a quantity is discussed and presented as a figure (for example, the operation time implied from oscillations displayed by a resonantly driven qubit), we might include a value read-off from the figure. In such cases, the table entry contains a \myKey{Note} with keywords $\derived$\! or $\estimated$\!, which are explained in Appendix \ref{sec:vocabulary}. With this requirement, every value given in this Technical Review should be easy to find using the reference, given under the attribute \myKey{Reference}, and within the reference as described by the attribute \myKey{Source}. An example of the latter is say ``page 4 and Fig.~1b''. One possible difference between the value given here and in the original work is normalization. In that case, a \myKey{Note} explains how the value was converted. Any additional information, for example, alerting on an unusual configuration or a specific method used in the experiment, is also given as a \myKey{Note}. 
 
 
 The second group of common characteristics concerns the details of the qubit. We found it useful to categorize the following: the sample material, the geometry of the host, and the qubit type. They belong to the attributes \myKey{Material}, \myKey{Host}, and \myKey{Qubit}, respectively. Whereas the value for material, for example, \myKey{Si/SiGe}, is self-explanatory,\footnote{Qubits based on silicon-oxide structures is one case that needs a comment. A unique identification in this Technical Review for such structures is the value \myKey{Si/SiO$_2$} of the attribute \myKey{Material}. The attribute \myKey{Host} is typically also straightforward to assign, being either \myKey{2D}, for example for an epilayer, or \myKey{1D} for finFETs or structures denoted as nanowires by their authors. One can often find further specifications for such devices, such as [complementary-]metal-oxide-semiconductor([C]MOS), silicon-on-insulator(SOI), field-effect-transistor(FET), foundry-compatible, and similar, including their combinations. These specifications hint at the fabrication details and the degree of compatibility with the industrial silicon technology. However, they are sometimes used interchangeably, even within one laboratory. Since the fabrication details are not our focus, we do not include such additional specifications even if given in the original work.}
@@ -199,7 +199,7 @@ We would like to reiterate our goals, since this work is not a standard review. 
 
 
 \separate{
-After these preliminaries, we will present the spin-qubit figures of merit published until \recheck{the end of March 2024}.
+After these preliminaries, we will present the spin-qubit figures of merit published until \recheck{the end of September 2024}.
 }
 
 \section{Coherence times}
@@ -297,7 +297,7 @@ We additionally present it here in figures, discussing them shortly. We split th
   }
 \end{figure}
 
-The coherence times of spin qubits are given in Fig.~\ref{fig:spinPhaseCoherenceAll}. The values had started at around 10 ns inhomogeneous dephasing time in early experiments with qubits in GaAs. Echo techniques can extend the coherence by orders of magnitudes, as can a different material choice. \recheck{The coherence times published during the year 2023 span five orders of magnitude, depending on the qubit type, material, and protection measures.}
+The coherence times of spin qubits are given in Fig.~\ref{fig:spinPhaseCoherenceAll}. The values had started at around 10 ns inhomogeneous dephasing time in early experiments with qubits in GaAs. Echo techniques can extend the coherence by orders of magnitudes, as can a different material choice. \recheck{The coherence times published during the year 2024 span five orders of magnitude, depending on the qubit type, material, and protection measures.}
 
 \begin{figure}
   \includegraphics[width=0.95\linewidth]{plot-spinCoherence-Type-2.pdf}
@@ -312,7 +312,7 @@ The coherence times of spin qubits are given in Fig.~\ref{fig:spinPhaseCoherence
 
 
 
-To examine the influence of some of these factors, we plotted separately each type of coherence in Fig.~\ref{fig:spinPhaseCoherenceSubplots}. The separation allows us to group the values additionally according to the qubit type, being the discrete category on the horizontal axis. To reflect the publication date for an easier comparison, we displace the data within each category horizontally. \recheck{For example, Fig.~\ref{fig:spinPhaseCoherenceSubplots}(a) shows that the most recent electron spin-1/2 qubits implemented in purified silicon reach longer coherence times than singlet-triplet qubits. The coherences of holes have recently got on par with the best ones for singlet-triplet qubits in almost every category. Finally, impurity spins hold record $T_2^*$ and $\TEcho$ coherence times.} 
+To examine the influence of some of these factors, we plotted separately each type of coherence in Fig.~\ref{fig:spinPhaseCoherenceSubplots}. The separation allows us to group the values additionally according to the qubit type, being the discrete category on the horizontal axis. To reflect the publication date for an easier comparison, we displace the data within each category horizontally. \recheck{For example, Fig.~\ref{fig:spinPhaseCoherenceSubplots}(a) shows that the most recent electron spin-1/2 qubits implemented in purified silicon reach longer coherence times than singlet-triplet qubits. The coherences of holes have recently got on par with the best ones for singlet-triplet qubits in almost every category. Finally, impurity spins hold record $T_2^*$, $\TEcho$, and $\TRabi$ coherence times.} 
 
 
 
@@ -351,7 +351,7 @@ We end the overview of the coherence times by looking at charge qubits. As alrea
 All types of coherence times of charge qubits, including the relaxation time, are gathered in Fig.~\ref{fig:chargeCoherence}. In the three panels of the figure, the same data are shown according to the publication date, the device material, and the coherence type, respectively. One can see several differences compared to spin qubits. \recheck{
 First, the relaxation times are often comparable to coherence times, unlike for most spin-qubits where they can be pushed to be by far the longest scale.} 
 Therefore, the relaxation is a bigger issue for charge qubits even in single-qubit experiments. \recheck{Second, unlike for spin qubits, the echo techniques do not prolong coherence substantially.} \recheck{Third, there is much less variation among the data:} 
-\recheck{Despite an upward trend in $T_2^*$ over time, the increase is not dramatic. Since the charge-qubit dephasing time $T_2^*$ is related to charge noise directly, a clear trend would indicate} an overall improvement of the available samples and devices concerning the level of charge noise.
+\recheck{Despite some upward trend in $T_2^*$ over time, the increase is not dramatic. Since the charge-qubit dephasing time $T_2^*$ is related to charge noise directly, a clear trend would indicate} an overall improvement of the available samples and devices concerning the level of charge noise.
 \recheck{Finally, as one would expect based on the nuclear-spin noise being irrelevant for charge qubits, there is no apparent difference between devices made in Si and III-V materials concerning charge-qubit coherence.}
 
 \vspace{-0.3cm}
@@ -417,8 +417,10 @@ $8.2$ in Ref.~\cite{zajac_scalable_2016},
 $4.1$ in Ref.~\cite{zheng_rapid_2019},
 $3.3$ in Ref.~\cite{curry_single-shot_2019},
 $21$ in Ref.~\cite{chanrion_charge_2020},
-$0.60$ in Ref.~\cite{schupp_sensitive_2020};
+$0.60$ in Ref.~\cite{schupp_sensitive_2020},
+$31$ in Ref.~\cite{park_single-shot_2024};
 all in $10^{-4} \times e/\surd{\mathrm{Hz}}$.
+
 } 
 \begin{equation}
 s = \mathrm{a\,few}\, \times 10^{-4}\mathrm{e}\, / \sqrt{\mathrm{Hz}}.  
@@ -716,10 +718,10 @@ In this toy model, the gate infidelity and the gate quality-factor are in a simp
 \toprule
 Content & Table & Page\\
 \midrule
-Spin coherence & Table \ref{tab:spinCoherence} & \pageref{spinCoherence1}-\pageref{spinCoherence4}\\
-Charge coherence & Table \ref{tab:chargeCoherence} & \pageref{chargeCoherence}\\
-Operation times & Table \ref{tab:operationTimes} & \pageref{operationTime1}-\pageref{operationTime2}\\
-Operation fidelities & Table \ref{tab:operationFidelities} & \pageref{operationFidelity1}-\pageref{operationFidelity2}\\
+Spin coherence & Table \ref{tab:spinCoherence} & \pageref{spinCoherence1}-\pageref{spinCoherence8}\\
+Charge coherence & Table \ref{tab:chargeCoherence} & \pageref{chargeCoherence1}--\pageref{chargeCoherence2}\\
+Operation times & Table \ref{tab:operationTimes} & \pageref{operationTime1}-\pageref{operationTime4}\\
+Operation fidelities & Table \ref{tab:operationFidelities} & \pageref{operationFidelity1}-\pageref{operationFidelity5}\\
 Quality factors & Table \ref{tab:qualityFactors} & \pageref{qualityFactorMerged}\\
 Qubit arrays & Table \ref{tab:qubitArrays} & \pageref{qubitArray1}-\pageref{qubitArray2}\\
 \bottomrule
@@ -730,6 +732,7 @@ Qubit arrays & Table \ref{tab:qubitArrays} & \pageref{qubitArray1}-\pageref{qubi
 \vspace{1cm}
 
 
+\phantom{\ref{app:coherence}}
 
 
 \newcounter{subtable}
@@ -766,15 +769,27 @@ Qubit arrays & Table \ref{tab:qubitArrays} & \pageref{qubitArray1}-\pageref{qubi
 \input{table-spinCoherence-7.txt}
 \addtocounter{table}{-1}
 \addtocounter{subtable}{+1}
+
+\input{table-spinCoherence-8.txt}
+\addtocounter{table}{-1}
+\addtocounter{subtable}{+1}
 \fi
 
 \addtocounter{table}{+1}
 
-
-
-\renewcommand\thetable{\Roman{table}}
 \refstepcounter{table}\addtocounter{table}{-1}\label{tab:chargeCoherence}
+\renewcommand\thetable{\Roman{table}-\arabic{subtable}}
+\setcounter{subtable}{1}
+
 \input{table-chargeCoherence-1.txt}
+\addtocounter{table}{-1}
+\addtocounter{subtable}{+1}
+
+\ifFirstTableOnly \else
+\input{table-chargeCoherence-2.txt}
+\addtocounter{table}{-1}
+\addtocounter{subtable}{+1}
+\fi
 
 
 
@@ -824,6 +839,10 @@ Qubit arrays & Table \ref{tab:qubitArrays} & \pageref{qubitArray1}-\pageref{qubi
 \addtocounter{subtable}{+1}
 
 \input{table-operationFidelity-4.txt}
+\addtocounter{table}{-1}
+\addtocounter{subtable}{+1}
+
+\input{table-operationFidelity-5.txt}
 \addtocounter{table}{-1}
 \addtocounter{subtable}{+1}
 \fi

@@ -6,7 +6,10 @@
 {Dimensions} & {Functionality} & {Qubit} & {Material} & {Host} & {Date} & {Reference}\\
 \midrule
 $4 \times 4$ & device & LD/h & Ge/SiGe & 2D & 2023-08 & \onlinecite{borsoi_shared_2023}\\
+$12$ & device & LD/e & $\text{Si/}\text{SiO}_2$ & 2D & 2024-05 & \onlinecite{neyens_probing_2024}\\
+$12$ & device & LD/e & $\text{Si/}\text{SiO}_2$ & 2D & 2024-10 & \onlinecite{george_12-spin-qubit_2024}\\
 $10$ & device & charge & Si:P & imp & 2022-06 & \onlinecite{kiczynski_engineering_2022}\\
+$10$ & device & LD/h & Ge/SiGe & 2D & 2024-07 & \onlinecite{wang_operating_2024}\\
 $9$ & device & LD/e & Si/SiGe & 2D & 2016-11 & \onlinecite{zajac_scalable_2016}\\
 $9$ & device & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2019-03 & \onlinecite{mills_shuttling_2019}\\
 $3 \times 3$ & device & LD/e & GaAs/AlGaAs & 2D & 2020-12 & \onlinecite{mortemousque_coherent_2020}\\
@@ -17,6 +20,7 @@ $4 \times 2$ & device & LD/e & $\text{Si/}\text{SiO}_2$ & 1D & 2020-08 & \online
 $4 \times 2$ & device & LD/h & Ge/SiGe & 2D & 2024-03 & \onlinecite{hsiao_exciton_2024}\\
 $6$ & device & LD/e & GaAs/AlGaAs & 2D & 2022-07 & \onlinecite{knorzer_long-range_2022}\\
 $6$ & device & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2023-10 & \onlinecite{undseth_hotter_2023}\\
+$6$ & device & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2024-06 & \onlinecite{de_smet_high-fidelity_2024}\\
 $5$ & device & LD/e & GaAs/AlGaAs & 2D & 2016-12 & \onlinecite{ito_detection_2016}\\
 $5$ & device & LD/e & Si/SiGe & 2D & 2020-02 & \onlinecite{lawrie_quantum_2020}\\
 $4$ & device & LD/e & GaAs/AlGaAs & 2D & 2014-03 & \onlinecite{takakura_single_2014}\\
@@ -36,6 +40,7 @@ $2 \times 2$ & device & LD/e & $\text{Si/}\text{SiO}_2$ & 2D & 2022-12 & \online
 $2 \times 2$ & device & LD/e & $\text{Si/}\text{SiO}_2$ & 1D & 2023-03 & \onlinecite{ansaloni_gate_2023}\\
 $2 \times 2$ & device & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2023-08 & \onlinecite{unseld_2d_2023}\\
 $2 \times 2$ & device & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2023-12 & \onlinecite{meyer_single-electron_2023}\\
+$2 \times 2$ & device & LD/e & Si/SiGe & 2D & 2024-10 & \onlinecite{wang_highly_2024}\\
 $2 \times 2$ & device & ST/e & GaAs/AlGaAs & 2D & 2021-10 & \onlinecite{fedele_simultaneous_2021}\\
 $2 \times 2$ & device & LD/h & Ge/SiGe & 2D & 2020-02 & \onlinecite{lawrie_quantum_2020}\\
 $2 \times 2$ & device & LD/h & Ge/SiGe & 2D & 2020-07 & \onlinecite{hendrickx_single-hole_2020}\\
@@ -50,11 +55,6 @@ $3$ & device & LD/e & GaAs/AlGaAs & 2D & 2016-01 & \onlinecite{baart_single-spin
 $3$ & device & LD/e & GaAs/AlGaAs & 2D & 2017-06 & \onlinecite{flentje_linear_2017}\\
 $3$ & device & LD/e & GaAs/AlGaAs & 2D & 2017-09 & \onlinecite{flentje_coherent_2017}\\
 $3$ & device & LD/e & GaAs/AlGaAs & 2D & 2017-10 & \onlinecite{noiri_cotunneling_2017}\\
-$3$ & device & LD/e & Si/SiGe & 2D & 2019-07 & \onlinecite{jones_spin-blockade_2019}\\
-$3$ & device & LD/e & $\text{Si/}\text{SiO}_2$ & 2D & 2020-02 & \onlinecite{lawrie_quantum_2020}\\
-$3$ & device & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2021-01 & \onlinecite{chan_exchange_2021}\\
-$3$ & device & LD/e & GaAs/AlGaAs & 2D & 2021-05 & \onlinecite{kojima_probabilistic_2021}\\
-$3$ & device & LD/e & GaAs/AlGaAs & 2D & 2022-08 & \onlinecite{nurizzo_controlled_2022}\\
 \bottomrule
 \end{tabular}
 \caption{Qubit arrays (part 1).

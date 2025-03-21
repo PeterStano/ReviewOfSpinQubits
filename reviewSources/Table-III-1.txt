@@ -23,6 +23,7 @@
 14.86 & \unit{\nano\second} & gate & 1Q & LD/e & GaAs/AlGaAs & 2D & 2020-03 & \onlinecite{nakajima_coherence_2020} & Fig. 6\\
 17. & \unit{\nano\second}\textsuperscript{k} & gate & 1Q & LD/e & InAs & 1D & 2012-10 & \onlinecite{petersson_circuit_2012} & p3 and Fig. 4f\\
 20.3 & \unit{\nano\second} & gate & 1Q & LD/e & GaAs/AlGaAs & 2D & 2016-04 & \onlinecite{noiri_coherent_2016} & p4 and Fig. 3\\
+40.0 & \unit{\nano\second} & gate & 1Q & LD/e & $\text{Si/}\text{SiO}_2$ & 1D & 2024-07 & \onlinecite{eggli_all-electrical_2024} & p3\\
 42. & \unit{\nano\second} & gate & 1Q & LD/e & $\text{Si/}\text{SiO}_2$ & 1D & 2018-02 & \onlinecite{corna_electrically_2018} & Fig. 4b\\
 50. & \unit{\nano\second} & gate & 1Q & LD/e & Si/SiGe & 2D & 2016-08 & \onlinecite{takeda_fault-tolerant_2016} & p3\\
 54. & \unit{\nano\second} & gate & 1Q & LD/e & GaAs/AlGaAs & 2D & 2006-08 & \onlinecite{koppens_driven_2006} & p4\\
@@ -40,24 +41,23 @@
 0.11 & \unit{\micro\second} & gate & 1Q & LD/e & GaAs/AlGaAs & 2D & 2007-11 & \onlinecite{nowack_coherent_2007} & p3\\
 0.1 & \unit{\micro\second} & gate & 1Q & LD/e & Si/SiGe & 2D & 2022-08 & \onlinecite{takeda_quantum_2022} & {ED} Fig. 2 caption\\
 0.13 & \unit{\micro\second} & gate & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2017-12 & \onlinecite{yoneda_quantum-dot_2017} & p2\\
+0.145 & \unit{\micro\second} & gate & 1Q & LD/e & Si/SiGe & 2D & 2024-11 & \onlinecite{wang_pursuing_2024} & Fig. 2c\\
 0.150 & \unit{\micro\second}\textsuperscript{m} & gate & 1Q & LD/e & Si/SiGe & 2D & 2014-08 & \onlinecite{kawakami_electrical_2014} & Fig. 3b\\
 0.2 & \unit{\micro\second}\textsuperscript{n} & gate & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2023-04 & \onlinecite{undseth_nonlinear_2023} & Fig. 2 blue points\\
 0.2 & \unit{\micro\second} & gate & 1Q & LD/e & Si/SiGe & 2D & 2018-02 & \onlinecite{watson_programmable_2018} & p1\\
 0.2 & \unit{\micro\second}\textsuperscript{o} & gate & 1Q & LD/e & GaAs/AlGaAs & 2D & 2011-09 & \onlinecite{brunner_two-qubit_2011} & Fig 2b\\
+0.2571 & \unit{\micro\second} & gate & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2024-01 & \onlinecite{ma_single-spin-qubit_2024} & Fig. 2a\\
 0.28 & \unit{\micro\second}\textsuperscript{p} & gate & 1Q & LD/e & GaAs/AlGaAs & 2D & 2007-12 & \onlinecite{laird_hyperfine-mediated_2007} & p3 and Fig. 3b\\
 0.36 & \unit{\micro\second} & gate & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2022-03 & \onlinecite{zwerver_qubits_2022} & {ED} Fig. 7a\\
 0.3717 & \unit{\micro\second} & gate & 1Q & LD/e & Si/SiGe & 2D & 2016-10 & \onlinecite{kawakami_gate_2016} & p3\\
 0.3962 & \unit{\micro\second} & gate & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2023-03 & \onlinecite{hu_flopping-mode_2023} & Fig. 3c\\
 0.5 & \unit{\micro\second} & gate & 1Q & LD/e & Si/SiGe & 2D & 2017-04 & \onlinecite{scarlino_dressed_2017} & p2\\
 0.5 & \unit{\micro\second} & gate & 1Q & LD/e & $\text{Si/}\text{SiO}_2$ & 1D & 2023-10 & \onlinecite{klemt_electrical_2023} & p3 and Fig. 3c\\
+0.833 & \unit{\micro\second} & gate & 1Q & LD/e & $\text{Si/}\text{SiO}_2$ & 2D & 2024-10 & \onlinecite{george_12-spin-qubit_2024} & p5 and Fig. 5e\\
 1. & \unit{\micro\second}\textsuperscript{q} & gate & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2023-01 & \onlinecite{gilbert_-demand_2023} & Fig. 3d, red point\\
-1.5 & \unit{\micro\second} & gate & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2019-12 & \onlinecite{zhao_single-spin_2019} & Tab. 1\\
-1.6 & \unit{\micro\second}\textsuperscript{r} & gate & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2014-10 & \onlinecite{veldhorst_addressable_2014} & Fig. 4 and Fig. 2d\\
-2.4 & \unit{\micro\second} & gate & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2015-10 & \onlinecite{veldhorst_two-qubit_2015} & p5\\
-3. & \unit{\micro\second}\textsuperscript{s} & gate & 1Q & LD/e & GaAs/AlGaAs & 2D & 2013-03 & \onlinecite{shafiei_resolving_2013} & p3\\
 \bottomrule
 \end{tabular}
-\caption{Operation times (part 1). Superscripts stand for the following. \textsuperscript{a}: {EO} qubit. \textsuperscript{b}: \estimated 3 oscillations in 270 ps. \textsuperscript{c}: Hybrid qubit with three electrons in two dots. \textsuperscript{d}: At a partial sweet spot. \textsuperscript{e}: Resonant exchange qubit. \textsuperscript{f}: At a full sweet spot. \textsuperscript{g}: \estimated from the uppermost trace in Fig. 4. \textsuperscript{h}: {RX} qubit. \textsuperscript{i}: Tunable between spin- and charge- qubit. \textsuperscript{j}: \estimated from Fig. 3b the rightmost point. \textsuperscript{k}: Driving through the cavity. \textsuperscript{l}: Using $T_\mathrm{R} = 4 \pi \hbar / g \mu_B B_\mathrm{ac}$ with $B_\mathrm{ac} = 2.5$ {mT} and $g=0.44$. \textsuperscript{m}: 2 $\times$ 75 ns. \textsuperscript{n}: We take a representative value from data with strong cross-talk in Rabi frequencies when driving qubits simultaneously. \textsuperscript{o}: \estimated from Fig. 2b. \textsuperscript{p}: Nuclear-driven {EDSR}. \textsuperscript{q}: \estimated from Fig. 3d at $\Delta V_J=10$ {mV}. \textsuperscript{r}: \estimated from Fig. 2d: 9 oscillations in 30 \unit{\micro\second} at resonance. \textsuperscript{s}: {EDSR} without a micromagnet.
+\caption{Operation times (part 1). Superscripts stand for the following. \textsuperscript{a}: {EO} qubit. \textsuperscript{b}: \estimated 3 oscillations in 270 ps. \textsuperscript{c}: Hybrid qubit with three electrons in two dots. \textsuperscript{d}: At a partial sweet spot. \textsuperscript{e}: Resonant exchange qubit. \textsuperscript{f}: At a full sweet spot. \textsuperscript{g}: \estimated from the uppermost trace in Fig. 4. \textsuperscript{h}: {RX} qubit. \textsuperscript{i}: Tunable between spin- and charge- qubit. \textsuperscript{j}: \estimated from Fig. 3b the rightmost point. \textsuperscript{k}: Driving through the cavity. \textsuperscript{l}: Using $T_\mathrm{R} = 4 \pi \hbar / g \mu_B B_\mathrm{ac}$ with $B_\mathrm{ac} = 2.5$ {mT} and $g=0.44$. \textsuperscript{m}: 2 $\times$ 75 ns. \textsuperscript{n}: We take a representative value from data with strong cross-talk in Rabi frequencies when driving qubits simultaneously. \textsuperscript{o}: \estimated from Fig. 2b. \textsuperscript{p}: Nuclear-driven {EDSR}. \textsuperscript{q}: \estimated from Fig. 3d at $\Delta V_J=10$ {mV}.
 \label{operationTime1}
 }
 \end{table}
