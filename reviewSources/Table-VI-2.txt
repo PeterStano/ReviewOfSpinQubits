@@ -5,6 +5,9 @@
 \toprule
 {Dimensions} & {Functionality} & {Qubit} & {Material} & {Host} & {Date} & {Reference}\\
 \midrule
+$3$ & device & LD/e & GaAs/AlGaAs & 2D & 2017-06 & \onlinecite{flentje_linear_2017}\\
+$3$ & device & LD/e & GaAs/AlGaAs & 2D & 2017-09 & \onlinecite{flentje_coherent_2017}\\
+$3$ & device & LD/e & GaAs/AlGaAs & 2D & 2017-10 & \onlinecite{noiri_cotunneling_2017}\\
 $3$ & device & LD/e & Si/SiGe & 2D & 2019-07 & \onlinecite{jones_spin-blockade_2019}\\
 $3$ & device & LD/e & $\text{Si/}\text{SiO}_2$ & 2D & 2020-02 & \onlinecite{lawrie_quantum_2020}\\
 $3$ & device & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2021-01 & \onlinecite{chan_exchange_2021}\\
@@ -39,6 +42,7 @@ $2$ & simulator & LD/e & GaAs/AlGaAs & 2D & 2011-09 & \onlinecite{brunner_two-qu
 $2$ & simulator & ST/e & GaAs/AlGaAs & 2D & 2012-04 & \onlinecite{shulman_demonstration_2012}\\
 $2$ & simulator & ST/e & GaAs/AlGaAs & 2D & 2019-03 & \onlinecite{malinowski_fast_2019}\\
 $6$ & processor & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-09 & \onlinecite{philips_universal_2022}\\
+$2 \times 2$ & processor & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2025-07 & \onlinecite{unseld_baseband_2025}\\
 $2 \times 2$ & processor & LD/h & Ge/SiGe & 2D & 2021-03 & \onlinecite{hendrickx_four-qubit_2021}\\
 $3$ & processor & LD/e & Si/SiGe & 2D & 2021-06 & \onlinecite{takeda_quantum_2021}\\
 $3$ & processor & LD/e & Si/SiGe & 2D & 2022-08 & \onlinecite{takeda_quantum_2022}\\

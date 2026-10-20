@@ -5,59 +5,59 @@
 \toprule
 {Fidelity} & {Operation} & {\#Qubits} & {Qubit} & {Material} & {Host} & {Date} & {Reference} & {Source}\\
 \midrule
+95. \unit{\percent} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2021-02 & \onlinecite{jadot_distant_2021} & p1\\
+95. \unit{\percent} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2017-06 & \onlinecite{fujita_coherent_2017} & p2\\
+93. \unit{\percent} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2020-06 & \onlinecite{qiao_conditional_2020} & p5 and {SM} Fig. 11\\
+91. \unit{\percent} & measure & 1Q & ST/e & $\text{Si/}\text{SiO}_2$ & 2D & 2026-06 & \onlinecite{hamonic_single-shot_2026} & p5\\
+90. \unit{\percent} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2009-10 & \onlinecite{barthel_rapid_2009} & p3\\
+90. \unit{\percent} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2020-07 & \onlinecite{jang_robust_2020} & p4\\
+87. \unit{\percent} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2006-11 & \onlinecite{meunier_nondestructive_2006} & p2\\
+80. \unit{\percent} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2021-05 & \onlinecite{kojima_probabilistic_2021} & p2 and p3\\
+80. \unit{\percent} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2018-09 & \onlinecite{orona_readout_2018} & p4\\
+80. \unit{\percent} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2017-09 & \onlinecite{flentje_coherent_2017} & p2\\
+80. \unit{\percent} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2015-08 & \onlinecite{bertrand_quantum_2015} & p3\\
+76. \unit{\percent}\textsuperscript{a} & measure & 1Q & ST/e & GaAs/AlGaAs & 2D & 2016-11 & \onlinecite{kiyama_single-shot_2016} & p4\\
+75. \unit{\percent} & measure & 1Q & ST/e & $\text{Si/}\text{SiO}_2$ & 2D & 2019-03 & \onlinecite{west_gate-based_2019} & p3\\
+97. \unit{\percent}\textsuperscript{b} & measure & 1Q & LD/h & Ge/SiGe & 2D & 2026-09 & \onlinecite{kelly_identification_2026} & p6\\
+87. \unit{\percent}\textsuperscript{c} & measure & 1Q & LD/h & Ge/Si & 1D & 2018-10 & \onlinecite{vukusic_single-shot_2018} & p3\\
+78. \unit{\percent}\textsuperscript{d} & measure & 1Q & ST/h & Ge/SiGe & 2D & 2020-07 & \onlinecite{hendrickx_single-hole_2020} & p4\\
+99.8 \unit{\percent} & measure & 1Q & LD/i & Si:P & imp & 2017-03 & \onlinecite{watson_atomically_2017} & p3 and p4\\
 99.8 \unit{\percent} & measure & 1Q & LD/i & Si:P & imp & 2015-10 & \onlinecite{watson_high-fidelity_2015} & p3 and Fig. 4a\\
-99. \unit{\percent}\textsuperscript{a} & measure & 1Q & LD/i & Si:P & imp & 2022-09 & \onlinecite{keith_ramped_2022} & p2\\
+99.44 \unit{\percent} & measure & 1Q & LD/i & Si:P & imp & 2025-04 & \onlinecite{geng_high-fidelity_2025} & Fig. 4d\\
+99. \unit{\percent}\textsuperscript{e} & measure & 1Q & LD/i & Si:P & imp & 2022-09 & \onlinecite{keith_ramped_2022} & p2\\
 98.7 \unit{\percent} & measure & 1Q & LD/i & Si:P & imp & 2015-10 & \onlinecite{watson_high-fidelity_2015} & p3 and Fig. 4b\\
+97.87 \unit{\percent}\textsuperscript{f} & measure & 1Q & LD/i & Si:P & imp & 2025-04 & \onlinecite{geng_high-fidelity_2025} & Fig. 4f\\
 97.7 \unit{\percent} & measure & 1Q & LD/i & Si:P & imp & 2019-01 & \onlinecite{koch_spin_2019} & p3\\
 97.6 \unit{\percent} & measure & 1Q & LD/i & Si:P & imp & 2018-03 & \onlinecite{broome_two-electron_2018} & p2 and {STable} 1 line $F_\mathrm{M}$ qubit R\\
 97. \unit{\percent} & measure & 1Q & LD/i & $\, ^{28}\text{Si:P}$ & imp & 2014-10 & \onlinecite{muhonen_storing_2014} & p2\\
 97. \unit{\percent} & measure & 1Q & LD/i & Si:P & imp & 2019-10 & \onlinecite{keith_single-shot_2019} & p4\\
 96. \unit{\percent} & measure & 1Q & LD/i & Si:P & imp & 2010-09 & \onlinecite{morello_single-shot_2010} & p4 and Fig. 4c\\
-95. \unit{\percent}\textsuperscript{b} & measure & 1Q & LD/i & Si:P & imp & 2013-06 & \onlinecite{buch_spin_2013} & p3 and Fig. S2\\
-95. \unit{\percent}\textsuperscript{c} & measure & 1Q & LD/i & Si:P & imp & 2023-02 & \onlinecite{hogg_single-shot_2023} & Fig. 2d\\
+95. \unit{\percent}\textsuperscript{g} & measure & 1Q & LD/i & Si:P & imp & 2013-06 & \onlinecite{buch_spin_2013} & p3 and Fig. S2\\
+95. \unit{\percent}\textsuperscript{h} & measure & 1Q & LD/i & Si:P & imp & 2023-02 & \onlinecite{hogg_single-shot_2023} & Fig. 2d\\
 92.3 \unit{\percent} & measure & 1Q & LD/i & Si:P & imp & 2023-11 & \onlinecite{kranz_exploiting_2023} & Tab. I\\
 90. \unit{\percent} & measure & 1Q & LD/i & Si:P & imp & 2012-09 & \onlinecite{pla_single-atom_2012} & p3\\
 80. \unit{\percent} & measure & 1Q & LD/i & $\, ^{28}\text{Si:P}$ & imp & 2022-01 & \onlinecite{madzik_precision_2022} & p9\\
-99.864 \unit{\percent}\textsuperscript{d} & measure & 1Q & ST/i\textsuperscript{e} & Si:P & imp & 2018-05 & \onlinecite{harvey-collard_high-fidelity_2018} & Tab. {II}\\
-99.3 \unit{\percent} & measure & 1Q & ST/i\textsuperscript{e} & Si:P & imp & 2018-05 & \onlinecite{harvey-collard_high-fidelity_2018} & Tab. {II}\\
-98.4 \unit{\percent}\textsuperscript{d} & measure & 1Q & ST/i & Si:P & imp & 2017-07 & \onlinecite{broome_high-fidelity_2017} & p3 and abstract\\
+99.864 \unit{\percent}\textsuperscript{i} & measure & 1Q & ST/i\textsuperscript{j} & Si:P & imp & 2018-05 & \onlinecite{harvey-collard_high-fidelity_2018} & Tab. {II}\\
+99.3 \unit{\percent} & measure & 1Q & ST/i\textsuperscript{j} & Si:P & imp & 2018-05 & \onlinecite{harvey-collard_high-fidelity_2018} & Tab. {II}\\
+98.4 \unit{\percent}\textsuperscript{i} & measure & 1Q & ST/i & Si:P & imp & 2017-07 & \onlinecite{broome_high-fidelity_2017} & p3 and abstract\\
 95. \unit{\percent} & measure & 1Q & ST/i & Si:P & imp & 2014-06 & \onlinecite{dehollain_single-shot_2014} & p3\\
 82.9 \unit{\percent} & measure & 1Q & ST/i & Si:P & imp & 2018-11 & \onlinecite{pakkiam_single-shot_2018} & p4\\
-75. \unit{\percent} & measure & 2Q & ST/e & $\text{Si/}\text{SiO}_2$ & 2D & 2019-03 & \onlinecite{west_gate-based_2019} & p3\\
-84. \unit{\percent}\textsuperscript{f} & measure & 2Q & ST/i & GaAs/AlGaAs & 2D & 2023-03 & \onlinecite{nurizzo_complete_2023} & p6\\
-98. \unit{\percent} & initialize & 1Q & charge & Si/SiGe & 2D & 2024-08 & \onlinecite{park_single-shot_2024} & p3\\
-99.975 \unit{\percent}\textsuperscript{g,h} & initialize & 1Q & HY/e\textsuperscript{i} & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-03 & \onlinecite{blumoff_fast_2022} & p8 and Fig. 7\\
+84. \unit{\percent}\textsuperscript{k} & measure & 2Q & ST/i & GaAs/AlGaAs & 2D & 2023-03 & \onlinecite{nurizzo_complete_2023} & p6\\
+99.975 \unit{\percent}\textsuperscript{l,m} & initialize & 1Q & HY/e\textsuperscript{n} & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-03 & \onlinecite{blumoff_fast_2022} & p8 and Fig. 7\\
 99.76 \unit{\percent} & initialize & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-12 & \onlinecite{mills_high-fidelity_2022} & p5\\
-99.6 \unit{\percent}\textsuperscript{j} & initialize & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2024-03 & \onlinecite{huang_high-fidelity_2024} & p3\\
-99.27 \unit{\percent} & initialize & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2024-08 & \onlinecite{steinacker_violating_2024} & Fig. 2b\\
-99. \unit{\percent}\textsuperscript{k,l} & initialize & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-09 & \onlinecite{philips_universal_2022} & Fig. 2e\\
-99. \unit{\percent}\textsuperscript{m} & initialize & 1Q & LD/e & Si/SiGe & 2D & 2018-02 & \onlinecite{watson_programmable_2018} & p1\\
+99.6 \unit{\percent}\textsuperscript{o} & initialize & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2024-03 & \onlinecite{huang_high-fidelity_2024} & p3\\
+99.27 \unit{\percent} & initialize & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2025-04 & \onlinecite{steinacker_bell_2025} & Fig. 2b\\
+99. \unit{\percent}\textsuperscript{p,q} & initialize & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-09 & \onlinecite{philips_universal_2022} & Fig. 2e\\
+99. \unit{\percent}\textsuperscript{r} & initialize & 1Q & LD/e & Si/SiGe & 2D & 2018-02 & \onlinecite{watson_programmable_2018} & p1\\
 99. \unit{\percent} & initialize & 1Q & LD/e & Si/SiGe & 2D & 2020-03 & \onlinecite{yoneda_quantum_2020} & p5\\
 99. \unit{\percent} & initialize & 1Q & LD/e & Si/SiGe & 2D & 2021-06 & \onlinecite{takeda_quantum_2021} & p1\\
-98.4 \unit{\percent}\textsuperscript{n} & initialize & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-04 & \onlinecite{mills_two-qubit_2022} & p1\\
+98.4 \unit{\percent}\textsuperscript{s} & initialize & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-04 & \onlinecite{mills_two-qubit_2022} & p1\\
 98.33 \unit{\percent} & initialize & 1Q & LD/e & Si/SiGe & 2D & 2023-06 & \onlinecite{kobayashi_feedback-based_2023} & p5\\
 95. \unit{\percent} & initialize & 1Q & LD/e & Si/SiGe & 2D & 2014-08 & \onlinecite{kawakami_electrical_2014} & p1\\
 95. \unit{\percent} & initialize & 1Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2019-11 & \onlinecite{sigillito_coherent_2019} & p1\\
-92. \unit{\percent} & initialize & 1Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2014-10 & \onlinecite{veldhorst_addressable_2014} & p2\\
-99.7 \unit{\percent}\textsuperscript{o,p} & initialize & 1Q & ST/e & GaAs/AlGaAs & 2D & 2022-07 & \onlinecite{kim_approaching_2022} & p5\\
-99.6 \unit{\percent}\textsuperscript{q} & initialize & 1Q & ST/e & $\text{Si/}\text{SiO}_2$ & 2D & 2022-12 & \onlinecite{niegemann_parity_2022} & p4\\
-98.5 \unit{\percent}\textsuperscript{r} & initialize & 1Q & ST/e & $\text{Si/}\text{SiO}_2$ & 1D & 2019-05 & \onlinecite{urdampilleta_gate-based_2019} & p3\\
-95. \unit{\percent} & initialize & 1Q & ST/e & GaAs/AlGaAs & 2D & 2021-02 & \onlinecite{jadot_distant_2021} & p1\\
-89. \unit{\percent} & initialize & 1Q & ST/e & GaAs/AlGaAs & 2D & 2020-06 & \onlinecite{qiao_conditional_2020} & p5\\
-99.81 \unit{\percent}\textsuperscript{s} & initialize & 1Q & LD/i & Si:P & imp & 2022-09 & \onlinecite{keith_ramped_2022} & p5\\
-98.9 \unit{\percent} & initialize & 1Q & LD/i & $\, ^{28}\text{Si:P}$ & imp & 2022-10 & \onlinecite{johnson_beating_2022} & p6 and Fig. 4\\
-96.6 \unit{\percent}\textsuperscript{n,t} & initialize & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-04 & \onlinecite{mills_two-qubit_2022} & p2\\
-96. \unit{\percent}\textsuperscript{u} & initialize & 2Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2022-02 & \onlinecite{evans_fast_2022} & p6 and Fig. 3b\\
-94.1 \unit{\percent}\textsuperscript{v} & initialize & 2Q & LD/e & Si/SiGe & 2D & 2021-06 & \onlinecite{takeda_quantum_2021} & p2\\
-91.5 \unit{\percent}\textsuperscript{w,x} & initialize & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-09 & \onlinecite{philips_universal_2022} & Fig. 4h\\
-90. \unit{\percent}\textsuperscript{v} & initialize & 2Q & LD/e & $\text{Si/}\text{SiO}_2$ & 2D & 2021-05 & \onlinecite{leon_bell-state_2021} & Fig. 3 caption\\
-89. \unit{\percent}\textsuperscript{v} & initialize & 2Q & LD/e & Si/SiGe & 2D & 2018-02 & \onlinecite{watson_programmable_2018} & p3\\
-89. \unit{\percent}\textsuperscript{v} & initialize & 2Q & LD/e & $\, ^{28}\text{Si/}\text{SiO}_2$ & 2D & 2019-05 & \onlinecite{huang_fidelity_2019} & p3\\
-86.5 \unit{\percent}\textsuperscript{w,y} & initialize & 2Q & LD/e & $\, ^{28}\text{Si/SiGe}$ & 2D & 2022-09 & \onlinecite{philips_universal_2022} & Fig. 4h\\
-93. \unit{\percent}\textsuperscript{v} & initialize & 2Q & ST/e & GaAs/AlGaAs & 2D & 2017-01 & \onlinecite{nichol_high-fidelity_2017} & p4\\
 \bottomrule
 \end{tabular}
-\caption{Operation fidelities (part 4). Superscripts stand for the following. \textsuperscript{a}: The reference states `above 99\unit{\percent}  spin readout fidelity'. \textsuperscript{b}: \derived from visibility $V=93.4$ \unit{\percent}. \textsuperscript{c}: Dot D2. \textsuperscript{d}: Latched readout. \textsuperscript{e}: Hybrid {ST} qubit: impurity -- gated dot. \textsuperscript{f}: The four states $S$, $T_0$, $T_+$, and $T_-$ of a two-spin qubit are discriminated in three consecutive measurements. The value is the average of 99.57\unit{\percent}, 84.1\unit{\percent}, 68.2\unit{\percent} for the fidelities of $S$, $T_0$, and $T_+$, which could be quantified. \textsuperscript{g}: The corresponding infidelity includes both preparation and measurement errors. \textsuperscript{h}: Reference reports $F_{{BC}}$, standing for `benchmark contrast fidelity' and advocates using it instead of `assignment fidelity' $F_A$ which corresponds to our Eq.~\eqref{eq:fidelityMeasurement}. \textsuperscript{i}: {EO} qubit. \textsuperscript{j}: At 1 K. \textsuperscript{k}: Q3. \textsuperscript{l}: Lower limit \derived from visibility V=98\unit{\percent}. \textsuperscript{m}: Using spin hot-spot. \textsuperscript{n}: The average figure of merit for the two qubits measured. \textsuperscript{o}: We take the values obtained by {GST}. \textsuperscript{p}: With estimation and/or feedback. \textsuperscript{q}: Into singlet. \textsuperscript{r}: Into triplet. \textsuperscript{s}: Into spin down state. \textsuperscript{t}: The average fidelity of the four Bell-states; there was no correction for {SPAM}. \textsuperscript{u}: Fidelity of a Bell state; the article gives a range 94.6--98.3 \unit{\percent}. The value 96 \unit{\percent} was \estimated from Fig. 3b. \textsuperscript{v}: Into a Bell state using a two-qubit algorithm. \textsuperscript{w}: Average of five nearest-neighbors qubit pairs. \textsuperscript{x}: Corrected for {SPAM} errors. \textsuperscript{y}: Not corrected for {SPAM} errors.
+\caption{Operation fidelities (part 4). Superscripts stand for the following. \textsuperscript{a}: $S$/$T_0$/$T_+$ ternary result. \textsuperscript{b}: {SPAM} fidelity. \textsuperscript{c}: The average of 90.7 \unit{\percent} and 83.3 \unit{\percent}. \textsuperscript{d}: \derived from visibility, $1-\mathcal{F}=[1-v]/2$ with $v=0.56$. \textsuperscript{e}: The reference states `above 99\unit{\percent}  spin readout fidelity'. \textsuperscript{f}: At 3.7 K. \textsuperscript{g}: \derived from visibility $V=93.4$ \unit{\percent}. \textsuperscript{h}: Dot D2. \textsuperscript{i}: Latched readout. \textsuperscript{j}: Hybrid {ST} qubit: impurity -- gated dot. \textsuperscript{k}: The four states $S$, $T_0$, $T_+$, and $T_-$ of a two-spin qubit are discriminated in three consecutive measurements. The value is the average of 99.57\unit{\percent}, 84.1\unit{\percent}, 68.2\unit{\percent} for the fidelities of $S$, $T_0$, and $T_+$, which could be quantified. \textsuperscript{l}: The corresponding infidelity includes both preparation and measurement errors. \textsuperscript{m}: Reference reports $F_{{BC}}$, standing for `benchmark contrast fidelity' and advocates using it instead of `assignment fidelity' $F_A$ which corresponds to our Eq.~\eqref{eq:fidelityMeasurement}. \textsuperscript{n}: {EO} qubit. \textsuperscript{o}: At 1 K. \textsuperscript{p}: Q3. \textsuperscript{q}: Lower limit \derived from visibility V=98\unit{\percent}. \textsuperscript{r}: Using spin hot-spot. \textsuperscript{s}: The average figure of merit for the two qubits measured.
 \label{operationFidelity4}
 }
 \end{table}

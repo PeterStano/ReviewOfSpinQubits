@@ -1,0 +1,18 @@
+\rowcolors{2}{white}{gray!25}
+\setcounter{rowcount}{-1}
+\begin{table}
+\begin{tabular}{@{}S[table-format=2.2, round-mode=figures, round-pad=false, round-precision=2, table-alignment-mode = none, table-number-alignment = center, table-column-width = 3em ]@{}lcccccccc@{ \stepcounter{rowcount} \tiny \therowcount }}
+\toprule
+\multicolumn{2}{c}{Time} & {Operation} & {\#Qubits} & {Qubit} & {Material} & {Host} & {Date} & {Reference} & {Source}\\
+\midrule
+50. & \unit{\nano\second} & initialize & 1Q & ST/e & GaAs/AlGaAs & 2D & 2012-04 & \onlinecite{shulman_demonstration_2012} & p1\\
+2. & \unit{\milli\second} & initialize & 1Q & ST/e & Si/SiGe & 2D & 2025-09 & \onlinecite{park_single_2025} & p3\\
+20. & \unit{\milli\second}\textsuperscript{a} & initialize & 1Q & ST/e & $\text{Si/}\text{SiO}_2$ & 1D & 2019-05 & \onlinecite{urdampilleta_gate-based_2019} & Fig. 3\\
+10. & \unit{\milli\second} & initialize & 1Q & LD/i & $\, ^{28}\text{Si:P}$ & imp & 2022-10 & \onlinecite{johnson_beating_2022} & p6\\
+\bottomrule
+\end{tabular}
+\caption{Operation times (part 5). Superscripts stand for the following. \textsuperscript{a}: Into triplet.
+\label{operationTime5}
+}
+\end{table}
+

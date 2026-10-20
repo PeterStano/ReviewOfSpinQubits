@@ -34,7 +34,7 @@
 0.923 & \unit{\nano\second} & gate & 1Q & LD/h & Ge/Si & 1D & 2022-01 & \onlinecite{wang_ultrafast_2022} & p3\\
 1.15 & \unit{\nano\second} & gate & 1Q & LD/h & Ge/Si & 1D & 2021-01 & \onlinecite{froning_ultrafast_2021} & Fig. 4\\
 3.40 & \unit{\nano\second}\textsuperscript{j} & gate & 1Q & LD/h\textsuperscript{j} & $\text{Si/}\text{SiO}_2$ & 1D & 2022-03 & \onlinecite{camenzind_spin_2022} & p3 and Fig. S5\\
-3.85 & \unit{\nano\second} & gate & 1Q & LD/h & Ge/Si & 1D & 2024-05 & \onlinecite{carballido_compromise-free_2024} & Fig. 1 f\\
+3.85 & \unit{\nano\second} & gate & 1Q & LD/h & Ge/Si & 1D & 2025-08 & \onlinecite{carballido_compromise-free_2025} & Fig. 1 f\\
 5.9 & \unit{\nano\second} & gate & 1Q & LD/h & $\text{Si/}\text{SiO}_2$ & 1D & 2016-11 & \onlinecite{maurand_cmos_2016} & p4\\
 7.1 & \unit{\nano\second} & gate & 1Q & LD/h & Ge/Si & 1D & 2018-09 & \onlinecite{watzinger_germanium_2018} & Fig. 5d the point at 11 Db\\
 8.8 & \unit{\nano\second} & gate & 1Q & LD/h & Ge/SiGe & 2D & 2020-07 & \onlinecite{hendrickx_single-hole_2020} & p4 and Fig. 3b\\
@@ -47,17 +47,17 @@
 96. & \unit{\nano\second} & gate & 1Q & LD/h & Ge/SiGe & 2D & 2023-06 & \onlinecite{lawrie_simultaneous_2023} & p4\\
 98. & \unit{\nano\second}\textsuperscript{n} & gate & 1Q & LD/h & Ge/SiGe & 2D & 2024-07 & \onlinecite{wang_operating_2024} & p2\\
 0.1 & \unit{\micro\second}\textsuperscript{o} & gate & 1Q & LD/h & Ge/SiGe & 2D & 2024-02 & \onlinecite{john_bichromatic_2024} & {STab}. 2\\
+0.42 & \unit{\micro\second} & gate & 1Q & LD/h & Ge/SiGe & 2D & 2026-09 & \onlinecite{kelly_identification_2026} & p6\\
 3.33 & \unit{\nano\second} & gate & 1Q & ST/h & $\text{Si/}\text{SiO}_2$ & 2D & 2024-09 & \onlinecite{liles_singlet-triplet_2024} & p7\\
 5.00 & \unit{\nano\second} & gate & 1Q & ST/h & Ge/SiGe & 2D & 2021-06 & \onlinecite{jirovec_singlet-triplet_2021} & p2 and Fig. 3e\\
 7.1 & \unit{\nano\second} & gate & 1Q & ST/h & Ge/SiGe & 2D & 2021-06 & \onlinecite{jirovec_singlet-triplet_2021} & Fig. S15\\
+0.165 & \unit{\micro\second}\textsuperscript{p} & gate & 1Q & ST/h & Ge/SiGe & 2D & 2026-01 & \onlinecite{tsoukalas_dressed_2026} & p3\\
 0.15 & \unit{\micro\second} & gate & 1Q & LD/i & Si:P & imp & 2012-09 & \onlinecite{pla_single-atom_2012} & p2 and Fig. 2\\
 0.31 & \unit{\micro\second} & gate & 1Q & LD/i & Si:P & imp & 2023-11 & \onlinecite{kranz_exploiting_2023} & Fig. 4c and Tab. I\\
 0.829 & \unit{\micro\second} & gate & 1Q & LD/i & $\, ^{28}\text{Si:P}$ & imp & 2022-01 & \onlinecite{madzik_precision_2022} & {ED} Fig. 3 first column\\
-1.64 & \unit{\micro\second} & gate & 1Q & LD/i & $\, ^{28}\text{Si:P}$ & imp & 2024-02 & \onlinecite{reiner_high-fidelity_2024} & p5\\
-2.9143 & \unit{\micro\second} & gate & 1Q & LD/i & Si:P & imp & 2025-02 & \onlinecite{thorvaldson_grovers_2025} & Fig. S2\\
 \bottomrule
 \end{tabular}
-\caption{Operation times (part 2). Superscripts stand for the following. \textsuperscript{a}: \estimated from Fig. 2d: 9 oscillations in 30 \unit{\micro\second} at resonance. \textsuperscript{b}: {EDSR} without a micromagnet. \textsuperscript{c}: In a five-electron dot configuration. \textsuperscript{d}: Valley and spin flip. \textsuperscript{e}: \estimated from Fig. 4d the rightmost red point. \textsuperscript{f}: The reference calls the observed signal `Rabi oscillations' even though there is no ac field; these oscillations arise as a coherent precession upon pulsing the dot detuning. \textsuperscript{g}: $S$-$T_-$ qubit. \textsuperscript{h}: With estimation and/or feedback. \textsuperscript{i}: $Q_R$. \textsuperscript{j}: At 1.5 K. \textsuperscript{k}: \estimated Fig. 2g the leftmost point. \textsuperscript{l}: Z-gate. \textsuperscript{m}: \derived from Fig. 1d showing 11 oscillations in 400 ns. \textsuperscript{n}: $Q_A$. \textsuperscript{o}: Bichromatic driving. The value is the average of the three bichromatic Rabi frequencies given in {STab}. 2.
+\caption{Operation times (part 2). Superscripts stand for the following. \textsuperscript{a}: \estimated from Fig. 2d: 9 oscillations in 30 \unit{\micro\second} at resonance. \textsuperscript{b}: {EDSR} without a micromagnet. \textsuperscript{c}: In a five-electron dot configuration. \textsuperscript{d}: Valley and spin flip. \textsuperscript{e}: \estimated from Fig. 4d the rightmost red point. \textsuperscript{f}: The reference calls the observed signal `Rabi oscillations' even though there is no ac field; these oscillations arise as a coherent precession upon pulsing the dot detuning. \textsuperscript{g}: $S$-$T_-$ qubit. \textsuperscript{h}: With estimation and/or feedback. \textsuperscript{i}: $Q_R$. \textsuperscript{j}: At 1.5 K. \textsuperscript{k}: \estimated Fig. 2g the leftmost point. \textsuperscript{l}: Z-gate. \textsuperscript{m}: \derived from Fig. 1d showing 11 oscillations in 400 ns. \textsuperscript{n}: $Q_A$. \textsuperscript{o}: Bichromatic driving. The value is the average of the three bichromatic Rabi frequencies given in {STab}. 2. \textsuperscript{p}: $X_{\pi/2}$.
 \label{operationTime2}
 }
 \end{table}
